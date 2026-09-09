@@ -1,0 +1,15 @@
+C:\UNiversidad\Datos I\proyecto 1\Monopoly_Hardware\Monopoly_Distribuido\Monopoly\obj\Debug\net10.0\Proyecto1Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\UNiversidad\Datos I\proyecto 1\Monopoly_Hardware\Monopoly_Distribuido\Monopoly\obj\Debug\net10.0\Proyecto1Datos.AssemblyInfoInputs.cache
+C:\UNiversidad\Datos I\proyecto 1\Monopoly_Hardware\Monopoly_Distribuido\Monopoly\obj\Debug\net10.0\Proyecto1Datos.AssemblyInfo.cs
+C:\UNiversidad\Datos I\proyecto 1\Monopoly_Hardware\Monopoly_Distribuido\Monopoly\obj\Debug\net10.0\Proyecto1Datos.csproj.CoreCompileInputs.cache
+C:\UNiversidad\Datos I\proyecto 1\Monopoly_Hardware\Monopoly_Distribuido\Monopoly\obj\Debug\net10.0\Proyecto1Datos.sourcelink.json
+C:\UNiversidad\Datos I\proyecto 1\Monopoly_Hardware\Monopoly_Distribuido\Monopoly\bin\Debug\net10.0\Proyecto1Datos.exe
+C:\UNiversidad\Datos I\proyecto 1\Monopoly_Hardware\Monopoly_Distribuido\Monopoly\bin\Debug\net10.0\Proyecto1Datos.deps.json
+C:\UNiversidad\Datos I\proyecto 1\Monopoly_Hardware\Monopoly_Distribuido\Monopoly\bin\Debug\net10.0\Proyecto1Datos.runtimeconfig.json
+C:\UNiversidad\Datos I\proyecto 1\Monopoly_Hardware\Monopoly_Distribuido\Monopoly\bin\Debug\net10.0\Proyecto1Datos.dll
+C:\UNiversidad\Datos I\proyecto 1\Monopoly_Hardware\Monopoly_Distribuido\Monopoly\bin\Debug\net10.0\Proyecto1Datos.pdb
+C:\UNiversidad\Datos I\proyecto 1\Monopoly_Hardware\Monopoly_Distribuido\Monopoly\obj\Debug\net10.0\Proyecto1Datos.dll
+C:\UNiversidad\Datos I\proyecto 1\Monopoly_Hardware\Monopoly_Distribuido\Monopoly\obj\Debug\net10.0\refint\Proyecto1Datos.dll
+C:\UNiversidad\Datos I\proyecto 1\Monopoly_Hardware\Monopoly_Distribuido\Monopoly\obj\Debug\net10.0\Proyecto1Datos.pdb
+C:\UNiversidad\Datos I\proyecto 1\Monopoly_Hardware\Monopoly_Distribuido\Monopoly\obj\Debug\net10.0\Proyecto1Datos.genruntimeconfig.cache
+C:\UNiversidad\Datos I\proyecto 1\Monopoly_Hardware\Monopoly_Distribuido\Monopoly\obj\Debug\net10.0\ref\Proyecto1Datos.dll
