@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\UNIVERSIDAD\\Datos I\\proyecto 1\\Monopoly_Hardware\\Monopoly_Distribuido\\Monopoly\\Proyecto1Datos.csproj": {}
+    "C:\\UNiversidad\\Datos I\\proyecto 1\\Monopoly_Hardware\\Monopoly_Distribuido\\Monopoly\\Proyecto1Datos.csproj": {}
   },
   "projects": {
-    "C:\\UNIVERSIDAD\\Datos I\\proyecto 1\\Monopoly_Hardware\\Monopoly_Distribuido\\Monopoly\\Proyecto1Datos.csproj": {
+    "C:\\UNiversidad\\Datos I\\proyecto 1\\Monopoly_Hardware\\Monopoly_Distribuido\\Monopoly\\Proyecto1Datos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\UNIVERSIDAD\\Datos I\\proyecto 1\\Monopoly_Hardware\\Monopoly_Distribuido\\Monopoly\\Proyecto1Datos.csproj",
+        "projectUniqueName": "C:\\UNiversidad\\Datos I\\proyecto 1\\Monopoly_Hardware\\Monopoly_Distribuido\\Monopoly\\Proyecto1Datos.csproj",
         "projectName": "Proyecto1Datos",
-        "projectPath": "C:\\UNIVERSIDAD\\Datos I\\proyecto 1\\Monopoly_Hardware\\Monopoly_Distribuido\\Monopoly\\Proyecto1Datos.csproj",
+        "projectPath": "C:\\UNiversidad\\Datos I\\proyecto 1\\Monopoly_Hardware\\Monopoly_Distribuido\\Monopoly\\Proyecto1Datos.csproj",
         "packagesPath": "C:\\Users\\sacjo\\.nuget\\packages\\",
-        "outputPath": "C:\\UNIVERSIDAD\\Datos I\\proyecto 1\\Monopoly_Hardware\\Monopoly_Distribuido\\Monopoly\\obj\\",
+        "outputPath": "C:\\UNiversidad\\Datos I\\proyecto 1\\Monopoly_Hardware\\Monopoly_Distribuido\\Monopoly\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sacjo\\AppData\\Roaming\\NuGet\\NuGet.Config"
