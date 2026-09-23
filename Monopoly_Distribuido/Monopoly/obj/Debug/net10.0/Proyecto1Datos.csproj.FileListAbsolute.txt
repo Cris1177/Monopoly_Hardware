@@ -1,0 +1,15 @@
+/Users/fabriciocs/Documents/TEC/Algoritmos y Estructuras de Datos I/Monopoly_Hardware/Monopoly_Distribuido/Monopoly/bin/Debug/net10.0/Proyecto1Datos
+/Users/fabriciocs/Documents/TEC/Algoritmos y Estructuras de Datos I/Monopoly_Hardware/Monopoly_Distribuido/Monopoly/bin/Debug/net10.0/Proyecto1Datos.deps.json
+/Users/fabriciocs/Documents/TEC/Algoritmos y Estructuras de Datos I/Monopoly_Hardware/Monopoly_Distribuido/Monopoly/bin/Debug/net10.0/Proyecto1Datos.runtimeconfig.json
+/Users/fabriciocs/Documents/TEC/Algoritmos y Estructuras de Datos I/Monopoly_Hardware/Monopoly_Distribuido/Monopoly/bin/Debug/net10.0/Proyecto1Datos.dll
+/Users/fabriciocs/Documents/TEC/Algoritmos y Estructuras de Datos I/Monopoly_Hardware/Monopoly_Distribuido/Monopoly/bin/Debug/net10.0/Proyecto1Datos.pdb
+/Users/fabriciocs/Documents/TEC/Algoritmos y Estructuras de Datos I/Monopoly_Hardware/Monopoly_Distribuido/Monopoly/obj/Debug/net10.0/Proyecto1Datos.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fabriciocs/Documents/TEC/Algoritmos y Estructuras de Datos I/Monopoly_Hardware/Monopoly_Distribuido/Monopoly/obj/Debug/net10.0/Proyecto1Datos.AssemblyInfoInputs.cache
+/Users/fabriciocs/Documents/TEC/Algoritmos y Estructuras de Datos I/Monopoly_Hardware/Monopoly_Distribuido/Monopoly/obj/Debug/net10.0/Proyecto1Datos.AssemblyInfo.cs
+/Users/fabriciocs/Documents/TEC/Algoritmos y Estructuras de Datos I/Monopoly_Hardware/Monopoly_Distribuido/Monopoly/obj/Debug/net10.0/Proyecto1Datos.csproj.CoreCompileInputs.cache
+/Users/fabriciocs/Documents/TEC/Algoritmos y Estructuras de Datos I/Monopoly_Hardware/Monopoly_Distribuido/Monopoly/obj/Debug/net10.0/Proyecto1Datos.sourcelink.json
+/Users/fabriciocs/Documents/TEC/Algoritmos y Estructuras de Datos I/Monopoly_Hardware/Monopoly_Distribuido/Monopoly/obj/Debug/net10.0/Proyecto1Datos.dll
+/Users/fabriciocs/Documents/TEC/Algoritmos y Estructuras de Datos I/Monopoly_Hardware/Monopoly_Distribuido/Monopoly/obj/Debug/net10.0/refint/Proyecto1Datos.dll
+/Users/fabriciocs/Documents/TEC/Algoritmos y Estructuras de Datos I/Monopoly_Hardware/Monopoly_Distribuido/Monopoly/obj/Debug/net10.0/Proyecto1Datos.pdb
+/Users/fabriciocs/Documents/TEC/Algoritmos y Estructuras de Datos I/Monopoly_Hardware/Monopoly_Distribuido/Monopoly/obj/Debug/net10.0/Proyecto1Datos.genruntimeconfig.cache
+/Users/fabriciocs/Documents/TEC/Algoritmos y Estructuras de Datos I/Monopoly_Hardware/Monopoly_Distribuido/Monopoly/obj/Debug/net10.0/ref/Proyecto1Datos.dll
