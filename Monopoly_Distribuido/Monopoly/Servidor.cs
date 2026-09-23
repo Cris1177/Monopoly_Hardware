@@ -5,10 +5,13 @@ using Monopoly.Protocolo;
 
 namespace Monopoly.Comunicacion
 {
-    // Esta interfaz se relaciona con la lógica del juego.
-    // Quien programe Banco/Jugador/Tablero tiene que implementar esta interfaz
+    // Esta interfaz es el "gancho" hacia la lógica real del juego.
+    // El compañero que hace Banco/Jugador/Tablero implementa esta interfaz
     // (por ejemplo en una clase Juego), y el Servidor solo se encarga de
-    // recibir/mandar mensajes por la red, el servidor nada de reglas del juego.
+    // recibir/mandar mensajes por la red, sin saber nada de reglas del juego.
+    //
+    // Así, esta parte (cliente-servidor) se puede probar y avanzar ya,
+    // aunque las clases de juego todavía sean stubs.
     public interface IProcesadorAcciones
     {
         // Recibe la acción que pidió un jugador y devuelve el Mensaje de
@@ -32,13 +35,14 @@ namespace Monopoly.Comunicacion
             _procesador = procesador;
         }
 
-        // Inicia el servidor: queda buscando conexiones nuevas para siempre.
+        // Arranca el servidor: queda escuchando conexiones nuevas para siempre.
         // Cada cliente que se conecta se atiende en su propio hilo, así el
         // servidor puede hablar con los 4 jugadores al mismo tiempo.
         public void Iniciar()
         {
             _listener.Start();
             Console.WriteLine("Servidor escuchando...");
+            Console.WriteLine("(Presiona Ctrl+C para detener el servidor antes de cerrar la terminal)");
 
             while (true)
             {
@@ -72,25 +76,27 @@ namespace Monopoly.Comunicacion
                         _clientesConectados[idJugador] = manejador;
                     }
 
-                    // Aquí es donde se delega a la lógica del juego
-                    // (Banco, Jugador, Tablero, etc.), ES UN STUB HASTA QUE SE AVANCE EL PROYECTO.
+                    // Aquí es donde se delega a la lógica real del juego
+                    // (Banco, Jugador, Tablero, etc.), que todavía puede
+                    // ser un stub mientras el resto del equipo avanza.
                     Mensaje respuesta = _procesador.Procesar(solicitud);
 
                     manejador.Enviar(respuesta);
 
                     // Después de una acción que cambia el estado del juego,
-                    // hay que avisarle a TODOS los jugadores, no solo al que
-                    // la pidió (por ejemplo, todos deben ver que alguien
-                    // avanzó en el tablero).
+                    // hay que avisarle a los DEMÁS jugadores (no a quien ya
+                    // recibió la respuesta directa arriba, para no mandarle
+                    // el mismo mensaje dos veces) que algo pasó, por ejemplo
+                    // que alguien avanzó en el tablero.
                     if (respuesta.Exito == true && DebeDifundirse(solicitud.Accion))
                     {
-                        DifundirATodos(respuesta);
+                        DifundirATodosMenos(respuesta, idJugador);
                     }
                 }
             }
             catch (IOException)
             {
-                // La conexión se cayó de repente; lo tratamos igual que
+                // La conexión se cayó abruptamente; lo tratamos igual que
                 // una desconexión normal.
             }
             finally
@@ -105,7 +111,7 @@ namespace Monopoly.Comunicacion
 
         // Decide qué acciones deben notificarse a todos los jugadores y
         // cuáles son solo para quien las pidió (ej. CONSULTAR_ESTADO no
-        // se necesita avisarle a todos).
+        // necesita avisarle a nadie más).
         private bool DebeDifundirse(TipoAccion accion)
         {
             return accion is TipoAccion.TIRAR_DADOS
@@ -114,10 +120,17 @@ namespace Monopoly.Comunicacion
                 or TipoAccion.PAGAR;
         }
 
-        private void DifundirATodos(Mensaje mensaje)
+        // Manda el mensaje a todos los jugadores conectados EXCEPTO al que
+        // se pasa en idAExcluir (normalmente quien ya recibió la respuesta
+        // directa, para que no le llegue el mismo mensaje dos veces).
+        private void DifundirATodosMenos(Mensaje mensaje, int idAExcluir)
         {
-            foreach (var manejador in _clientesConectados.Values)
+            foreach (var (idJugador, manejador) in _clientesConectados)
             {
+                if (idJugador == idAExcluir)
+                {
+                    continue;
+                }
                 manejador.Enviar(mensaje);
             }
         }
