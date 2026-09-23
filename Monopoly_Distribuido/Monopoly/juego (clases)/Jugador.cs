@@ -2,20 +2,47 @@ namespace Monopoly.Juego;
 
 public class Jugador
 {
-    public string Nombre { get; set; }
-    public int identificacion { get; set; }
-    public int Dinero { get; set; }
-    public int Posicion { get; set; }
-    public bool Estado { get; set; }
+    public int Identificador { get; }
+    public string Nombre { get; }
+    public int Saldo { get; set; }
+    public int PosicionActual { get; set; }
+    public bool EstadoActivo { get; set; }
+    public List<Propiedad> PropiedadesAdquiridas { get; }
 
-    public Jugador(string nombre, int id)
+    public int Dinero
     {
-        identificacion = id;
-        Nombre = nombre;
-        Dinero = 1500;
-        Posicion = 0;
-        Estado = true;
+        get => Saldo;
+        set => Saldo = value;
     }
+
+    public int Posicion
+    {
+        get => PosicionActual;
+        set => PosicionActual = value;
+    }
+
+    public bool Estado
+    {
+        get => EstadoActivo;
+        set => EstadoActivo = value;
+    }
+
+    public int identificacion
+    {
+        get => Identificador;
+        set => throw new InvalidOperationException("El identificador del jugador no puede modificarse.");
+    }
+
+    public Jugador(string nombre, int identificador)
+    {
+        Nombre = nombre;
+        Identificador = identificador;
+        Saldo = 1500;
+        PosicionActual = 0;
+        EstadoActivo = true;
+        PropiedadesAdquiridas = new List<Propiedad>();
+    }
+
     public void Mover(int pasos, int totalCasillas)
     {
         if (totalCasillas <= 0)
@@ -23,20 +50,66 @@ public class Jugador
             throw new ArgumentOutOfRangeException(nameof(totalCasillas));
         }
 
-        Posicion = (Posicion + pasos) % totalCasillas;
-        if (Posicion < 0)
+        int nuevaPosicion = (PosicionActual + pasos) % totalCasillas;
+        if (nuevaPosicion < 0)
         {
-            Posicion += totalCasillas;
+            nuevaPosicion += totalCasillas;
         }
+
+        PosicionActual = nuevaPosicion;
+    }
+
+    public void AgregarPropiedad(Propiedad propiedad)
+    {
+        if (propiedad is null)
+        {
+            throw new ArgumentNullException(nameof(propiedad));
+        }
+
+        if (!PropiedadesAdquiridas.Contains(propiedad))
+        {
+            PropiedadesAdquiridas.Add(propiedad);
+        }
+    }
+
+    public bool PuedePagar(int monto)
+    {
+        return Saldo >= monto;
+    }
+
+    public void Pagar(int monto)
+    {
+        if (monto < 0)
+        {
+            throw new ArgumentOutOfRangeException(nameof(monto));
+        }
+
+        Saldo -= monto;
+    }
+
+    public void Recibir(int monto)
+    {
+        if (monto < 0)
+        {
+            throw new ArgumentOutOfRangeException(nameof(monto));
+        }
+
+        Saldo += monto;
     }
 
     public int Patrimonio()
     {
-        return Dinero;
+        int total = Saldo;
+        foreach (Propiedad propiedad in PropiedadesAdquiridas)
+        {
+            total += propiedad.PrecioCompra;
+        }
+
+        return total;
     }
 
     public bool EstaEnBancarrota()
     {
-        return Dinero < 0;
+        return Saldo < 0;
     }
 }

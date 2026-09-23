@@ -9,6 +9,12 @@ public class Banco
 
     public void Registrar(Transaccion transaccion)
     {
+        if (transaccion is null)
+        {
+            throw new ArgumentNullException(nameof(transaccion));
+        }
+
+        historial.Agregar(transaccion);
     }
 
     public Transaccion CrearTransaccion(
