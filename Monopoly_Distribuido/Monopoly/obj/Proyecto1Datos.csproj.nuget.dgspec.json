@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ulf's laptop\\Documents\\GitHub\\Monopoly_Hardware\\Monopoly_Distribuido\\Monopoly\\Proyecto1Datos.csproj": {}
+    "C:\\Users\\Usuario II 2026\\Desktop\\Proyecto1Datos\\Monopoly_Hardware\\Monopoly_Distribuido\\Monopoly\\Proyecto1Datos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ulf's laptop\\Documents\\GitHub\\Monopoly_Hardware\\Monopoly_Distribuido\\Monopoly\\Proyecto1Datos.csproj": {
+    "C:\\Users\\Usuario II 2026\\Desktop\\Proyecto1Datos\\Monopoly_Hardware\\Monopoly_Distribuido\\Monopoly\\Proyecto1Datos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ulf's laptop\\Documents\\GitHub\\Monopoly_Hardware\\Monopoly_Distribuido\\Monopoly\\Proyecto1Datos.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario II 2026\\Desktop\\Proyecto1Datos\\Monopoly_Hardware\\Monopoly_Distribuido\\Monopoly\\Proyecto1Datos.csproj",
         "projectName": "Proyecto1Datos",
-        "projectPath": "C:\\Users\\Ulf's laptop\\Documents\\GitHub\\Monopoly_Hardware\\Monopoly_Distribuido\\Monopoly\\Proyecto1Datos.csproj",
-        "packagesPath": "C:\\Users\\Ulf's laptop\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ulf's laptop\\Documents\\GitHub\\Monopoly_Hardware\\Monopoly_Distribuido\\Monopoly\\obj\\",
+        "projectPath": "C:\\Users\\Usuario II 2026\\Desktop\\Proyecto1Datos\\Monopoly_Hardware\\Monopoly_Distribuido\\Monopoly\\Proyecto1Datos.csproj",
+        "packagesPath": "C:\\Users\\Usuario II 2026\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario II 2026\\Desktop\\Proyecto1Datos\\Monopoly_Hardware\\Monopoly_Distribuido\\Monopoly\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ulf's laptop\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Usuario II 2026\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -39,7 +39,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net10.0": {
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
