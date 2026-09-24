@@ -6,7 +6,7 @@ public class Juego
     public Banco Banco { get; }
     public Dado Dado { get; }
     public List<Jugador> Jugadores { get; }
-    public Queue<Jugador> Turnos { get; }
+    public ColaCircular<Jugador> Turnos { get; }
     public int Turno { get; private set; }
 
     public Juego()
@@ -15,7 +15,7 @@ public class Juego
         Banco = new Banco();
         Dado = new Dado();
         Jugadores = new List<Jugador>();
-        Turnos = new Queue<Jugador>();
+        Turnos = new ColaCircular<Jugador>();
         Turno = 1;
     }
 
@@ -27,20 +27,19 @@ public class Juego
         }
 
         Jugadores.Add(jugador);
-        Turnos.Enqueue(jugador);
+        Turnos.Agregar(jugador);
     }
 
-    public Jugador? JugadorActual => Turnos.Count > 0 ? Turnos.Peek() : null;
+    public Jugador? JugadorActual => Turnos.Cantidad > 0 ? Turnos.Actual : null;
 
     public void AvanzarTurno()
     {
-        if (Turnos.Count == 0)
+        if (Turnos.Cantidad == 0)
         {
             return;
         }
 
-        Jugador jugadorActual = Turnos.Dequeue();
-        Turnos.Enqueue(jugadorActual);
+        Turnos.AvanzarTurno();
         Turno++;
     }
 
