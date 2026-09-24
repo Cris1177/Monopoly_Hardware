@@ -8,19 +8,19 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\sacjo\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario II 2026\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\UNiversidad\\Datos I\\proyecto 1\\Monopoly_Hardware\\Monopoly_Distribuido\\Monopoly\\Proyecto1Datos.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario II 2026\\Desktop\\Proyecto1Datos\\Monopoly_Hardware\\Monopoly_Distribuido\\Monopoly\\Proyecto1Datos.csproj",
       "projectName": "Proyecto1Datos",
-      "projectPath": "C:\\UNiversidad\\Datos I\\proyecto 1\\Monopoly_Hardware\\Monopoly_Distribuido\\Monopoly\\Proyecto1Datos.csproj",
-      "packagesPath": "C:\\Users\\sacjo\\.nuget\\packages\\",
-      "outputPath": "C:\\UNiversidad\\Datos I\\proyecto 1\\Monopoly_Hardware\\Monopoly_Distribuido\\Monopoly\\obj\\",
+      "projectPath": "C:\\Users\\Usuario II 2026\\Desktop\\Proyecto1Datos\\Monopoly_Hardware\\Monopoly_Distribuido\\Monopoly\\Proyecto1Datos.csproj",
+      "packagesPath": "C:\\Users\\Usuario II 2026\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario II 2026\\Desktop\\Proyecto1Datos\\Monopoly_Hardware\\Monopoly_Distribuido\\Monopoly\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\sacjo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Usuario II 2026\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
