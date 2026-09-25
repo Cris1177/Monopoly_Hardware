@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 using Monopoly.Comunicacion;
 using Monopoly.Protocolo;
 
@@ -78,3 +79,106 @@ class Program
         }
     }
 }
+=======
+﻿using Monopoly.Juego;
+using Monopoly.Modelos;
+
+Juego juego = new Juego();
+
+
+Console.WriteLine("PRUEBA LOCAL MONOPOLY");
+
+
+while (!juego.JuegoTerminado())
+{
+    Jugador? jugador = juego.ObtenerJugadorActual();
+
+    if (jugador == null)
+    {
+        Console.WriteLine("No hay jugador actual.");
+        break;
+    }
+
+    Console.WriteLine();
+
+    Console.WriteLine("Turno: " + juego.NumeroTurno);
+    Console.WriteLine("Jugador: " + jugador.Nombre);
+    Console.WriteLine("Saldo: " + jugador.Saldo);
+    Console.WriteLine(
+        "Posición: " +
+        jugador.Posicion?.Dato.Nombre
+    );
+  
+
+    Console.WriteLine();
+    Console.WriteLine("Presiona ENTER para lanzar los dados...");
+    Console.ReadLine();
+
+    juego.TirarDados();
+
+    Console.WriteLine();
+    Console.WriteLine(
+        "Posición actual: " +
+        jugador.Posicion?.Dato.Nombre
+    );
+
+    Console.WriteLine(
+        "Saldo actual: " +
+        jugador.Saldo
+    );
+
+    // Preguntar si cayó en propiedad disponible
+    if (
+        jugador.Posicion != null &&
+        jugador.Posicion.Dato is Propiedad propiedad &&
+        propiedad.EstaDisponible()
+    )
+    {
+        Console.WriteLine();
+        Console.WriteLine(
+            "¿Deseas comprar " +
+            propiedad.Nombre +
+            " por " +
+            propiedad.PrecioCompra +
+            "?"
+        );
+
+        Console.WriteLine("1. Sí");
+        Console.WriteLine("2. No");
+
+        string? opcion = Console.ReadLine();
+
+        if (opcion == "1")
+        {
+            juego.ComprarPropiedad();
+        }
+        else
+        {
+            Console.WriteLine(
+                "No se compró la propiedad."
+            );
+        }
+    }
+
+    Console.WriteLine();
+    Console.WriteLine(
+        "Presiona ENTER para terminar el turno..."
+    );
+
+    Console.ReadLine();
+
+    juego.TerminarTurno();
+}
+
+Console.WriteLine();
+Console.WriteLine("        PARTIDA TERMINADA");
+
+juego.MostrarResultadoFinal();
+
+Console.WriteLine();
+Console.WriteLine("Exportando transacciones...");
+
+juego.Banco.ExportarHistorial(
+    "transacciones.txt"
+);
+>>>>>>> Stashed changes
