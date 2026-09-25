@@ -36,12 +36,19 @@ namespace Monopoly.Comunicacion
         // Devuelve null si la conexión se cerró.
         public Mensaje? Recibir()
         {
-            string? linea = _lector.ReadLine();
-            if (linea == null)
+            try
             {
-                return null; // el otro lado cerró la conexión
+                string? linea = _lector.ReadLine();
+                if (linea == null)
+                {
+                    return null; // el otro lado cerró la conexión
+                }
+                return Mensaje.DesdeJson(linea);
             }
-            return Mensaje.DesdeJson(linea);
+            catch (Exception)
+            {
+                return null; // Si la conexion falla abrubtamente
+            }
         }
 
         public void Cerrar()

@@ -5,12 +5,12 @@ namespace Monopoly.Modelos
 {
     public class Banco
     {
-        public ListaSimple<Transaccion> Historial { get; private set; }
+        public ListaDoble<Transaccion> Historial { get; private set; }
         private int siguienteId;
 
         public Banco()
         {
-            Historial = new ListaSimple<Transaccion>();
+            Historial = new ListaDoble<Transaccion>();
             siguienteId = 1;
         }
 
@@ -39,7 +39,7 @@ namespace Monopoly.Modelos
         public void MostrarHistorial()
         {
             Nodo<Transaccion>? actual =
-                Historial.ObtenerCabeza();
+                Historial.Cabeza();
 
             Console.WriteLine();
             Console.WriteLine(
@@ -92,7 +92,7 @@ namespace Monopoly.Modelos
         public void BuscarPorJugador(Jugador jugador)
         {
             Nodo<Transaccion>? actual =
-                Historial.ObtenerCabeza();
+                Historial.Cabeza();
 
             Console.WriteLine();
             Console.WriteLine(
@@ -182,10 +182,10 @@ namespace Monopoly.Modelos
                 "=== HISTORIAL MÁS RECIENTE → MÁS ANTIGUO ==="
             );
 
-            Nodo<Transaccion>? cabeza =
-                Historial.ObtenerCabeza();
+            Nodo<Transaccion>? actual =
+                Historial.Cola();
 
-            if (cabeza == null)
+            if (actual == null)
             {
                 Console.WriteLine(
                     "No hay transacciones registradas."
@@ -194,25 +194,13 @@ namespace Monopoly.Modelos
                 return;
             }
 
-            MostrarInverso(cabeza);
-        }
-
-        // ESTE ES EL MÉTODO QUE TE ESTABA FALTANDO
-        private void MostrarInverso(
-            Nodo<Transaccion>? nodo)
-        {
-            if (nodo == null)
+            while (actual != null)
             {
-                return;
+                MostrarTransaccion(actual.Dato);
+                actual = actual.Anterior;
             }
 
-            MostrarInverso(
-                nodo.Siguiente
-            );
-
-            MostrarTransaccion(
-                nodo.Dato
-            );
+            MostrarInverso(cabeza);
         }
 
         public void ExportarHistorial(
@@ -222,7 +210,7 @@ namespace Monopoly.Modelos
                 new StreamWriter(nombreArchivo);
 
             Nodo<Transaccion>? actual =
-                Historial.ObtenerCabeza();
+                Historial.Cabeza();
 
             archivo.WriteLine(
                 "=== HISTORIAL DE TRANSACCIONES ==="
