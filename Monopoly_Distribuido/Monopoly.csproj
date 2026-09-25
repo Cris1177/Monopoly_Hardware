@@ -14,4 +14,7 @@
          editor de Godot; no se deben compilar manualmente. -->
     <Compile Remove=".godot/**/*.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.IO.Ports" Version="10.0.12" />
+  </ItemGroup>
 </Project>
