@@ -10,13 +10,11 @@ namespace Monopoly
         private readonly Cliente? _clienteTcp;
         private readonly IProcesadorAcciones? _procesador;
 
-        // Constructor para modo Hardware local
         public LectorRfidService(IProcesadorAcciones procesador)
         {
             _procesador = procesador;
         }
 
-        // Constructor para modo Red / Cliente TCP
         public LectorRfidService(Cliente clienteTcp)
         {
             _clienteTcp = clienteTcp;
@@ -34,41 +32,62 @@ namespace Monopoly
 
         public void ProcesarLecturaReal(string uid)
         {
-            Console.WriteLine($"\n[RFID RECIBIDO] Tarjeta detectada: ({uid})");
+            Console.WriteLine($"\n[RFID RECIBIDO] Tarjeta detectada con UID: ({uid})");
 
-            if (_procesador == null)
+            if (_procesador != null)
             {
-                Console.WriteLine("[ERROR RFID] El procesador de acciones está NULL en LectorRfidService.");
-                return;
-            }
+                // Cast a ProcesadorJuego para obtener el jugador activo mediante el nuevo método
+                if (_procesador is ProcesadorJuego procesadorConcreto)
+                {
+                    var jugadorActual = procesadorConcreto.ObtenerJugadorActual();
 
-            // 1. Obtener al jugador en turno desde el procesador
-            var jugadorActual = _procesador.ObtenerJugadorActual();
+                    if (jugadorActual == null)
+                    {
+                        Console.WriteLine("[ERROR RFID] No hay un jugador activo en este momento.");
+                        return;
+                    }
 
-            if (jugadorActual == null)
-            {
-                Console.WriteLine("[ERROR RFID] No hay un jugador activo en este momento.");
-                return;
-            }
+                    var mensajeAccion = new Mensaje
+                    {
+                        Accion = TipoAccion.COMPRAR_PROPIEDAD,
+                        IdJugador = jugadorActual.Id
+                    };
 
-            // 2. Crear el mensaje asignando el ID del jugador en turno
-            var mensajeAccion = new Mensaje
-            {
-                Accion = TipoAccion.COMPRAR_PROPIEDAD,
-                IdJugador = jugadorActual.Id // Asignamos el ID del jugador activo (Christian, etc.)
-            };
+                    Console.WriteLine($"[RFID] Procesando compra para {jugadorActual.Nombre} (ID: {jugadorActual.Id})...");
+                    var respuesta = _procesador.Procesar(mensajeAccion);
 
-            Console.WriteLine($"[RFID] Intentando ejecutar COMPRAR_PROPIEDAD para {jugadorActual.Nombre} (ID: {jugadorActual.Id})...");
-            var respuesta = _procesador.Procesar(mensajeAccion);
+                    if (respuesta != null && respuesta.Exito == true)
+                    {
+                        Console.WriteLine($"[ÉXITO] ¡Propiedad comprada correctamente por {jugadorActual.Nombre}!");
 
-            if (respuesta != null && respuesta.Exito == true)
-            {
-                Console.WriteLine($"[ÉXITO] ¡Compra realizada correctamente por {jugadorActual.Nombre}!");
-            }
-            else
-            {
-                string detalle = respuesta?.Descripcion ?? "El motor de juego rechazó la compra.";
-                Console.WriteLine($"[AVISO] {detalle}");
+                        //Cambio de turno despues de comprar
+                        var mensajeFin = new Mensaje
+                        {
+                            Accion = TipoAccion.TERMINAR_TURNO,
+                            IdJugador = jugadorActual.Id
+                        };
+
+                        var respFin = _procesador.Procesar(mensajeFin);
+                        Console.WriteLine($"[TURNO] {respFin?.Descripcion}\n");
+                    }
+                    else
+                    {
+                        string detalle = respuesta?.Descripcion ?? "El banco rechazó la compra.";
+                        Console.WriteLine($"[AVISO] {detalle}");
+                    }
+                }
+                else
+                {
+                    var respuesta = _procesador.Procesar(new Mensaje { Accion = TipoAccion.COMPRAR_PROPIEDAD });
+                    if (respuesta != null && respuesta.Exito == true)
+                    {
+                        Console.WriteLine("[ÉXITO] ¡Compra realizada correctamente!");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"[AVISO] {respuesta?.Descripcion}");
+                    }
+                }
             }
         }
     }

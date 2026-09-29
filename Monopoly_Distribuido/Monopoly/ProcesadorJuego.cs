@@ -10,6 +10,11 @@ namespace Monopoly.Comunicacion
     {
         private readonly Juego.Juego _juego;
 
+        public Jugador? ObtenerJugadorActual()
+        {
+            return _juego.ObtenerJugadorActual();
+        }
+
         public ProcesadorJuego(Juego.Juego juego)
         {
             _juego = juego;
