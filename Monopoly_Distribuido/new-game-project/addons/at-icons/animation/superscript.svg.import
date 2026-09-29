@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgnx1tglc2bq8"
-path="res://.godot/imported/superscript.svg-ee22d70b673aa199deff269904310d6a.ctex"
+path="res://.godot/imported/superscript.svg-85145346ff1bf73117a3155acbb6dee4.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/superscript.svg"
-dest_files=["res://.godot/imported/superscript.svg-ee22d70b673aa199deff269904310d6a.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/superscript.svg"
+dest_files=["res://.godot/imported/superscript.svg-85145346ff1bf73117a3155acbb6dee4.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dbmpjjfnv8a01"
-path="res://.godot/imported/boots.svg-be1c0555c89c9586b5747b8cf6d62e7d.ctex"
+path="res://.godot/imported/boots.svg-631f92ca785b10efe0c37351c4cd2cb0.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/boots.svg"
-dest_files=["res://.godot/imported/boots.svg-be1c0555c89c9586b5747b8cf6d62e7d.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/boots.svg"
+dest_files=["res://.godot/imported/boots.svg-631f92ca785b10efe0c37351c4cd2cb0.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://sl6olwkclw0l"
-path="res://.godot/imported/battle_axe.svg-3cf61715324040a9b46e33c7c8dda813.ctex"
+path="res://.godot/imported/battle_axe.svg-54b1e29ba749291c179f3865c16dabd8.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/battle_axe.svg"
-dest_files=["res://.godot/imported/battle_axe.svg-3cf61715324040a9b46e33c7c8dda813.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/battle_axe.svg"
+dest_files=["res://.godot/imported/battle_axe.svg-54b1e29ba749291c179f3865c16dabd8.ctex"]
 
 [params]
 

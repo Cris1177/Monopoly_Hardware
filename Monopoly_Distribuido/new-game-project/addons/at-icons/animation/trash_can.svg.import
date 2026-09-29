@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://3sxrpxwenjcp"
-path="res://.godot/imported/trash_can.svg-fd007588759346060dc776eef5c3eb26.ctex"
+path="res://.godot/imported/trash_can.svg-641935f52a3ba4259af6152077e224bd.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/trash_can.svg"
-dest_files=["res://.godot/imported/trash_can.svg-fd007588759346060dc776eef5c3eb26.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/trash_can.svg"
+dest_files=["res://.godot/imported/trash_can.svg-641935f52a3ba4259af6152077e224bd.ctex"]
 
 [params]
 

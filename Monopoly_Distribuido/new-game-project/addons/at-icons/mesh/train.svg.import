@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bk3pufpyrtjuq"
-path="res://.godot/imported/train.svg-012970aaf7a47d651e693f9f4945c27b.ctex"
+path="res://.godot/imported/train.svg-4b2a557ccea36926ea85704ea939639e.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/train.svg"
-dest_files=["res://.godot/imported/train.svg-012970aaf7a47d651e693f9f4945c27b.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/train.svg"
+dest_files=["res://.godot/imported/train.svg-4b2a557ccea36926ea85704ea939639e.ctex"]
 
 [params]
 

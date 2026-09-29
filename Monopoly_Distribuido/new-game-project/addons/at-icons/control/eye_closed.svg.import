@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://308jq57cakhh"
-path="res://.godot/imported/eye_closed.svg-d24d017a43354fc311ae5cedddd921c1.ctex"
+path="res://.godot/imported/eye_closed.svg-92d5e8d33006722c0b16ec5e6336c232.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/eye_closed.svg"
-dest_files=["res://.godot/imported/eye_closed.svg-d24d017a43354fc311ae5cedddd921c1.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/eye_closed.svg"
+dest_files=["res://.godot/imported/eye_closed.svg-92d5e8d33006722c0b16ec5e6336c232.ctex"]
 
 [params]
 

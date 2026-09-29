@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bvkyh76ivjsau"
-path="res://.godot/imported/cage.svg-cbb5296cb60727de24a878e4035a7484.ctex"
+path="res://.godot/imported/cage.svg-7f6865827587cf63dd11d6db419f67e1.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/cage.svg"
-dest_files=["res://.godot/imported/cage.svg-cbb5296cb60727de24a878e4035a7484.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/cage.svg"
+dest_files=["res://.godot/imported/cage.svg-7f6865827587cf63dd11d6db419f67e1.ctex"]
 
 [params]
 

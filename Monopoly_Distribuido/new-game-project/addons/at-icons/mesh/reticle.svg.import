@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://togti4tlilot"
-path="res://.godot/imported/reticle.svg-4fc2a495a7e2f698c2386719fb9fc447.ctex"
+path="res://.godot/imported/reticle.svg-0a42a921400c047996f738db20e2d9e9.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/reticle.svg"
-dest_files=["res://.godot/imported/reticle.svg-4fc2a495a7e2f698c2386719fb9fc447.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/reticle.svg"
+dest_files=["res://.godot/imported/reticle.svg-0a42a921400c047996f738db20e2d9e9.ctex"]
 
 [params]
 

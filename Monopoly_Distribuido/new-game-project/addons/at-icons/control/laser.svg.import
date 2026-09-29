@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d3i2qmgaxlb4l"
-path="res://.godot/imported/laser.svg-8cad4610fb351eac95804e6d8e43e8e4.ctex"
+path="res://.godot/imported/laser.svg-cb91b20a395328a3d04f7a159a538f91.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/laser.svg"
-dest_files=["res://.godot/imported/laser.svg-8cad4610fb351eac95804e6d8e43e8e4.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/laser.svg"
+dest_files=["res://.godot/imported/laser.svg-cb91b20a395328a3d04f7a159a538f91.ctex"]
 
 [params]
 

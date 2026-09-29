@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bcnbytp6k6jha"
-path="res://.godot/imported/stepper.svg-a205732ca676df2ea455c3fd2c69a153.ctex"
+path="res://.godot/imported/stepper.svg-1c4a0c740e48a0e836a167a755c486d7.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/stepper.svg"
-dest_files=["res://.godot/imported/stepper.svg-a205732ca676df2ea455c3fd2c69a153.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/stepper.svg"
+dest_files=["res://.godot/imported/stepper.svg-1c4a0c740e48a0e836a167a755c486d7.ctex"]
 
 [params]
 

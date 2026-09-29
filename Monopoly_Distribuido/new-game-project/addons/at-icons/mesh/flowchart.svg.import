@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://r35ojdjdm33a"
-path="res://.godot/imported/flowchart.svg-4df87f7e7d940f19549122548d1d5daf.ctex"
+path="res://.godot/imported/flowchart.svg-ddad91c6d91731ff4f8ad4b09129dc69.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/flowchart.svg"
-dest_files=["res://.godot/imported/flowchart.svg-4df87f7e7d940f19549122548d1d5daf.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/flowchart.svg"
+dest_files=["res://.godot/imported/flowchart.svg-ddad91c6d91731ff4f8ad4b09129dc69.ctex"]
 
 [params]
 

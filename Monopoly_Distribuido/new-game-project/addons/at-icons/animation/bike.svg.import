@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6xr3va170ly"
-path="res://.godot/imported/bike.svg-7fc785079cf7a948c3a1733791ca839a.ctex"
+path="res://.godot/imported/bike.svg-59a82c6d7aee17c4f2c27e949db47523.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/bike.svg"
-dest_files=["res://.godot/imported/bike.svg-7fc785079cf7a948c3a1733791ca839a.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/bike.svg"
+dest_files=["res://.godot/imported/bike.svg-59a82c6d7aee17c4f2c27e949db47523.ctex"]
 
 [params]
 

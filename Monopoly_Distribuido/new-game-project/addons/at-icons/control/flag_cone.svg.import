@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c1p0ao2ehvmwv"
-path="res://.godot/imported/flag_cone.svg-203cb389ebb6adfd3f0aba5bb2b602b7.ctex"
+path="res://.godot/imported/flag_cone.svg-93836defab9d70ef6942633f8ad8ebb4.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/flag_cone.svg"
-dest_files=["res://.godot/imported/flag_cone.svg-203cb389ebb6adfd3f0aba5bb2b602b7.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/flag_cone.svg"
+dest_files=["res://.godot/imported/flag_cone.svg-93836defab9d70ef6942633f8ad8ebb4.ctex"]
 
 [params]
 

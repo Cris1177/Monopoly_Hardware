@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dsy2qxigcvnkn"
-path="res://.godot/imported/node_graph.svg-ca76c0cf40f147f0567e9a5be0bcf9d1.ctex"
+path="res://.godot/imported/node_graph.svg-a3c846f4097545479af461fc2be5fa32.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/node_graph.svg"
-dest_files=["res://.godot/imported/node_graph.svg-ca76c0cf40f147f0567e9a5be0bcf9d1.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/node_graph.svg"
+dest_files=["res://.godot/imported/node_graph.svg-a3c846f4097545479af461fc2be5fa32.ctex"]
 
 [params]
 

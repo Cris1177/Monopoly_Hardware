@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cxaeafh2amb6k"
-path="res://.godot/imported/sky.svg-7d21c7f82ba626c5835e0057b096562e.ctex"
+path="res://.godot/imported/sky.svg-e7e6a528d1f6d52d1e383d31d6a732ba.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/sky.svg"
-dest_files=["res://.godot/imported/sky.svg-7d21c7f82ba626c5835e0057b096562e.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/sky.svg"
+dest_files=["res://.godot/imported/sky.svg-e7e6a528d1f6d52d1e383d31d6a732ba.ctex"]
 
 [params]
 

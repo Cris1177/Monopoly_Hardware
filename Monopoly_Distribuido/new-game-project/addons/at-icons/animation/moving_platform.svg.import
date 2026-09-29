@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cifws7e0s0mj2"
-path="res://.godot/imported/moving_platform.svg-f6a6cd8cddeee3b719546641d256b05a.ctex"
+path="res://.godot/imported/moving_platform.svg-ebe1198243282670ab9e6a20f9163121.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/moving_platform.svg"
-dest_files=["res://.godot/imported/moving_platform.svg-f6a6cd8cddeee3b719546641d256b05a.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/moving_platform.svg"
+dest_files=["res://.godot/imported/moving_platform.svg-ebe1198243282670ab9e6a20f9163121.ctex"]
 
 [params]
 

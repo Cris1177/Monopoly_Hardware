@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cei1elfgrb55v"
-path="res://.godot/imported/arrow_left_to_line.svg-2124e5f7868f731aa01a13798b3c0b91.ctex"
+path="res://.godot/imported/arrow_left_to_line.svg-9614d52b960734230da3dd75cc1c7210.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/arrow_left_to_line.svg"
-dest_files=["res://.godot/imported/arrow_left_to_line.svg-2124e5f7868f731aa01a13798b3c0b91.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/arrow_left_to_line.svg"
+dest_files=["res://.godot/imported/arrow_left_to_line.svg-9614d52b960734230da3dd75cc1c7210.ctex"]
 
 [params]
 

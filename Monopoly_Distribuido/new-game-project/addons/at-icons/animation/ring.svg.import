@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://donw0xy6lqgb7"
-path="res://.godot/imported/ring.svg-248e35a65dea266820aece1b5dee6c90.ctex"
+path="res://.godot/imported/ring.svg-40d96b25f7e98e2efd4a2916e3baadf0.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/ring.svg"
-dest_files=["res://.godot/imported/ring.svg-248e35a65dea266820aece1b5dee6c90.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/ring.svg"
+dest_files=["res://.godot/imported/ring.svg-40d96b25f7e98e2efd4a2916e3baadf0.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6qfbc8tm0rfu"
-path="res://.godot/imported/edge.svg-9aedeafc449cadfa6057f81c942f507c.ctex"
+path="res://.godot/imported/edge.svg-6e686a3f116b00d3c7ee05ece62c1cf0.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/edge.svg"
-dest_files=["res://.godot/imported/edge.svg-9aedeafc449cadfa6057f81c942f507c.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/edge.svg"
+dest_files=["res://.godot/imported/edge.svg-6e686a3f116b00d3c7ee05ece62c1cf0.ctex"]
 
 [params]
 

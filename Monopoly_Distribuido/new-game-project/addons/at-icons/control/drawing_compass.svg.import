@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c7y7o1qe2nfs1"
-path="res://.godot/imported/drawing_compass.svg-5acc91c6757c1c810df9ff8b6640a7ca.ctex"
+path="res://.godot/imported/drawing_compass.svg-926fd9b4af18fec5d56eb459be8c3dd5.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/drawing_compass.svg"
-dest_files=["res://.godot/imported/drawing_compass.svg-5acc91c6757c1c810df9ff8b6640a7ca.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/drawing_compass.svg"
+dest_files=["res://.godot/imported/drawing_compass.svg-926fd9b4af18fec5d56eb459be8c3dd5.ctex"]
 
 [params]
 

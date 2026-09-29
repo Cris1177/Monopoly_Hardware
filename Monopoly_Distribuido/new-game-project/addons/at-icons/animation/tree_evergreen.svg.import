@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dwdbd23y824lq"
-path="res://.godot/imported/tree_evergreen.svg-9305df2584ca5307444a6760966f4bf2.ctex"
+path="res://.godot/imported/tree_evergreen.svg-ea4699bc9ffc295e4900211dde91be7e.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/tree_evergreen.svg"
-dest_files=["res://.godot/imported/tree_evergreen.svg-9305df2584ca5307444a6760966f4bf2.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/tree_evergreen.svg"
+dest_files=["res://.godot/imported/tree_evergreen.svg-ea4699bc9ffc295e4900211dde91be7e.ctex"]
 
 [params]
 

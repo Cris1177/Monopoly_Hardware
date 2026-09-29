@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c5k26edajlmxi"
-path="res://.godot/imported/ellipsis_vertical.svg-3065d62308c1d85a76529013ba530a7c.ctex"
+path="res://.godot/imported/ellipsis_vertical.svg-62c78354c1fc9b5dfe641d445c5ae1e6.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/ellipsis_vertical.svg"
-dest_files=["res://.godot/imported/ellipsis_vertical.svg-3065d62308c1d85a76529013ba530a7c.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/ellipsis_vertical.svg"
+dest_files=["res://.godot/imported/ellipsis_vertical.svg-62c78354c1fc9b5dfe641d445c5ae1e6.ctex"]
 
 [params]
 

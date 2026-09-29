@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b768dldf6320l"
-path="res://.godot/imported/arrow_clockwise.svg-10dd1d36bc725ccd994dd74f5e229e18.ctex"
+path="res://.godot/imported/arrow_clockwise.svg-d81d014360eee5e120a5bc2df9b9fe70.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/arrow_clockwise.svg"
-dest_files=["res://.godot/imported/arrow_clockwise.svg-10dd1d36bc725ccd994dd74f5e229e18.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/arrow_clockwise.svg"
+dest_files=["res://.godot/imported/arrow_clockwise.svg-d81d014360eee5e120a5bc2df9b9fe70.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://5ukb2bh1cok1"
-path="res://.godot/imported/arrow_shuffle.svg-7277fdf15f9b29a79548d1fa11a4de5a.ctex"
+path="res://.godot/imported/arrow_shuffle.svg-e3a2de1b98e6bcaa6c098e8508c7cf8c.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/arrow_shuffle.svg"
-dest_files=["res://.godot/imported/arrow_shuffle.svg-7277fdf15f9b29a79548d1fa11a4de5a.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/arrow_shuffle.svg"
+dest_files=["res://.godot/imported/arrow_shuffle.svg-e3a2de1b98e6bcaa6c098e8508c7cf8c.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d3nr2fpyrpth0"
-path="res://.godot/imported/bot.svg-d9d08f5240aedc0a6d4243447e60ce72.ctex"
+path="res://.godot/imported/bot.svg-57991bac3e67cc9db306f15e6f4c91cf.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/bot.svg"
-dest_files=["res://.godot/imported/bot.svg-d9d08f5240aedc0a6d4243447e60ce72.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/bot.svg"
+dest_files=["res://.godot/imported/bot.svg-57991bac3e67cc9db306f15e6f4c91cf.ctex"]
 
 [params]
 

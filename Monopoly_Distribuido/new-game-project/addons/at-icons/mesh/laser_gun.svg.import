@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bmmfbfcdosxsh"
-path="res://.godot/imported/laser_gun.svg-5eb800e9a329100597e42a23a702e347.ctex"
+path="res://.godot/imported/laser_gun.svg-ecf44fc7beeee08825bb1a1016b11989.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/laser_gun.svg"
-dest_files=["res://.godot/imported/laser_gun.svg-5eb800e9a329100597e42a23a702e347.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/laser_gun.svg"
+dest_files=["res://.godot/imported/laser_gun.svg-ecf44fc7beeee08825bb1a1016b11989.ctex"]
 
 [params]
 

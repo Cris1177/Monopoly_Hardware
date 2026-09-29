@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://mkgcfy3f1od2"
-path="res://.godot/imported/delivery_box.svg-cf46e078db0409b1a17768f5037cc46d.ctex"
+path="res://.godot/imported/delivery_box.svg-e09b17bf9415b059b56e2c2e4597114e.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/delivery_box.svg"
-dest_files=["res://.godot/imported/delivery_box.svg-cf46e078db0409b1a17768f5037cc46d.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/delivery_box.svg"
+dest_files=["res://.godot/imported/delivery_box.svg-e09b17bf9415b059b56e2c2e4597114e.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4x1cbpo0ft3"
-path="res://.godot/imported/box_wireframe.svg-9c9e37a0ca0af30f37e03086007ca215.ctex"
+path="res://.godot/imported/box_wireframe.svg-5725f193cefbae76e33845ce8e8c816f.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/box_wireframe.svg"
-dest_files=["res://.godot/imported/box_wireframe.svg-9c9e37a0ca0af30f37e03086007ca215.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/box_wireframe.svg"
+dest_files=["res://.godot/imported/box_wireframe.svg-5725f193cefbae76e33845ce8e8c816f.ctex"]
 
 [params]
 

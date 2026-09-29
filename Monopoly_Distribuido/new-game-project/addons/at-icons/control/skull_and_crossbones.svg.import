@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://o85w1tifaimw"
-path="res://.godot/imported/skull_and_crossbones.svg-a3dcc0cc9599a0dbe149ab61362181f8.ctex"
+path="res://.godot/imported/skull_and_crossbones.svg-91a8bbeca0cd6a7bdd34b0bbd8b11b0c.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/skull_and_crossbones.svg"
-dest_files=["res://.godot/imported/skull_and_crossbones.svg-a3dcc0cc9599a0dbe149ab61362181f8.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/skull_and_crossbones.svg"
+dest_files=["res://.godot/imported/skull_and_crossbones.svg-91a8bbeca0cd6a7bdd34b0bbd8b11b0c.ctex"]
 
 [params]
 

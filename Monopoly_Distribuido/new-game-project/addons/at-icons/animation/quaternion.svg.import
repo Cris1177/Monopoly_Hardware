@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b8s12bpw70ilb"
-path="res://.godot/imported/quaternion.svg-ea93248cdeb4ae012d134d59a8615260.ctex"
+path="res://.godot/imported/quaternion.svg-dbd947891fe5df63bb33a9cfecae0633.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/quaternion.svg"
-dest_files=["res://.godot/imported/quaternion.svg-ea93248cdeb4ae012d134d59a8615260.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/quaternion.svg"
+dest_files=["res://.godot/imported/quaternion.svg-dbd947891fe5df63bb33a9cfecae0633.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cl273exh8mknk"
-path="res://.godot/imported/scales.svg-8ac464b6105667d2f0b7e0eac88f44a4.ctex"
+path="res://.godot/imported/scales.svg-f56e1dde0e8dd1937db69f4c10d687fa.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/scales.svg"
-dest_files=["res://.godot/imported/scales.svg-8ac464b6105667d2f0b7e0eac88f44a4.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/scales.svg"
+dest_files=["res://.godot/imported/scales.svg-f56e1dde0e8dd1937db69f4c10d687fa.ctex"]
 
 [params]
 

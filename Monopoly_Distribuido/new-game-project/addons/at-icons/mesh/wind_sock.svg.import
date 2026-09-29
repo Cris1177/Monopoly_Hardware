@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://sua57x2k2qh4"
-path="res://.godot/imported/wind_sock.svg-6098903e548d95cc8136d8631b8a4671.ctex"
+path="res://.godot/imported/wind_sock.svg-764af4ebbf9194d0f3d2d74a7f1afd16.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/wind_sock.svg"
-dest_files=["res://.godot/imported/wind_sock.svg-6098903e548d95cc8136d8631b8a4671.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/wind_sock.svg"
+dest_files=["res://.godot/imported/wind_sock.svg-764af4ebbf9194d0f3d2d74a7f1afd16.ctex"]
 
 [params]
 

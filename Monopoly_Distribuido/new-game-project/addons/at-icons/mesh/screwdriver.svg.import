@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bj70jv56wypjd"
-path="res://.godot/imported/screwdriver.svg-c28e5726bf448363427a9c02a6fe109a.ctex"
+path="res://.godot/imported/screwdriver.svg-1638acb94f15c04b590986c61c8c6f8a.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/screwdriver.svg"
-dest_files=["res://.godot/imported/screwdriver.svg-c28e5726bf448363427a9c02a6fe109a.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/screwdriver.svg"
+dest_files=["res://.godot/imported/screwdriver.svg-1638acb94f15c04b590986c61c8c6f8a.ctex"]
 
 [params]
 

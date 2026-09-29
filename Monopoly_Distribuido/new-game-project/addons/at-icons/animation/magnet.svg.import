@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bf0kutpn014n6"
-path="res://.godot/imported/magnet.svg-4428eaee0f3caed41dd1df5de337c011.ctex"
+path="res://.godot/imported/magnet.svg-4b91b22291cd35ab19b91811f787faa1.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/magnet.svg"
-dest_files=["res://.godot/imported/magnet.svg-4428eaee0f3caed41dd1df5de337c011.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/magnet.svg"
+dest_files=["res://.godot/imported/magnet.svg-4b91b22291cd35ab19b91811f787faa1.ctex"]
 
 [params]
 

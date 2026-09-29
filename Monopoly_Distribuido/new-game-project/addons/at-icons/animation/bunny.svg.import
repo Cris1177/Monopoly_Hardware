@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://brdqf2xea535d"
-path="res://.godot/imported/bunny.svg-e3a775076681167da28373b8b2d59be1.ctex"
+path="res://.godot/imported/bunny.svg-337b928c7e116af914c66493de415899.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/bunny.svg"
-dest_files=["res://.godot/imported/bunny.svg-e3a775076681167da28373b8b2d59be1.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/bunny.svg"
+dest_files=["res://.godot/imported/bunny.svg-337b928c7e116af914c66493de415899.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkp1lte51hcp7"
-path="res://.godot/imported/file_arrow_down.svg-52e40d41a2df4f5efece3d5373f5f977.ctex"
+path="res://.godot/imported/file_arrow_down.svg-895c9e51c2fe7976f212f467d0b646c2.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/file_arrow_down.svg"
-dest_files=["res://.godot/imported/file_arrow_down.svg-52e40d41a2df4f5efece3d5373f5f977.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/file_arrow_down.svg"
+dest_files=["res://.godot/imported/file_arrow_down.svg-895c9e51c2fe7976f212f467d0b646c2.ctex"]
 
 [params]
 

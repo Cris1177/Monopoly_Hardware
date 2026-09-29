@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://xg3sajjdjo2g"
-path="res://.godot/imported/droplet.svg-9edea9709f6775d3d24c0aa6bd67cf05.ctex"
+path="res://.godot/imported/droplet.svg-9fd15950d1dbb8336a6d2fc3086d7bc6.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/droplet.svg"
-dest_files=["res://.godot/imported/droplet.svg-9edea9709f6775d3d24c0aa6bd67cf05.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/droplet.svg"
+dest_files=["res://.godot/imported/droplet.svg-9fd15950d1dbb8336a6d2fc3086d7bc6.ctex"]
 
 [params]
 

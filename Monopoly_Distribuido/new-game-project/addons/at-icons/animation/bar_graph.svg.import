@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cqkkctw2ch8xg"
-path="res://.godot/imported/bar_graph.svg-c4c1c8710429d433326e5f326320fea9.ctex"
+path="res://.godot/imported/bar_graph.svg-f9e16a13e4eb568a7d6339e9e5bb8e85.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/bar_graph.svg"
-dest_files=["res://.godot/imported/bar_graph.svg-c4c1c8710429d433326e5f326320fea9.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/bar_graph.svg"
+dest_files=["res://.godot/imported/bar_graph.svg-f9e16a13e4eb568a7d6339e9e5bb8e85.ctex"]
 
 [params]
 

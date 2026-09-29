@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cmn8etoast7i1"
-path="res://.godot/imported/bow_and_arrow.svg-c6923e91e09c8900cd26c7640b2c4a9f.ctex"
+path="res://.godot/imported/bow_and_arrow.svg-8a5376de4dc749256647a5fbaceb8672.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/bow_and_arrow.svg"
-dest_files=["res://.godot/imported/bow_and_arrow.svg-c6923e91e09c8900cd26c7640b2c4a9f.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/bow_and_arrow.svg"
+dest_files=["res://.godot/imported/bow_and_arrow.svg-8a5376de4dc749256647a5fbaceb8672.ctex"]
 
 [params]
 

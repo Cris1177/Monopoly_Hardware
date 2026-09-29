@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d3ktqywah46mr"
-path="res://.godot/imported/tungsten_light.svg-465ab15bd01990609a8b5cc4692c8c00.ctex"
+path="res://.godot/imported/tungsten_light.svg-9fd28467970607a29a8f78e913d5fb14.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/tungsten_light.svg"
-dest_files=["res://.godot/imported/tungsten_light.svg-465ab15bd01990609a8b5cc4692c8c00.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/tungsten_light.svg"
+dest_files=["res://.godot/imported/tungsten_light.svg-9fd28467970607a29a8f78e913d5fb14.ctex"]
 
 [params]
 

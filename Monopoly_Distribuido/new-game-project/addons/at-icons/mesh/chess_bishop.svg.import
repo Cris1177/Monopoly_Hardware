@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://da81bvhqqpqyd"
-path="res://.godot/imported/chess_bishop.svg-a2bbdbdd70c3b304be6e6694953ff767.ctex"
+path="res://.godot/imported/chess_bishop.svg-f00a5df4e33994fc9e635d5a62945d2b.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/chess_bishop.svg"
-dest_files=["res://.godot/imported/chess_bishop.svg-a2bbdbdd70c3b304be6e6694953ff767.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/chess_bishop.svg"
+dest_files=["res://.godot/imported/chess_bishop.svg-f00a5df4e33994fc9e635d5a62945d2b.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cu3sykdi5kmm2"
-path="res://.godot/imported/wheel.svg-4c39da2c060784b1a7823d307650ccb5.ctex"
+path="res://.godot/imported/wheel.svg-6d3ae292b1f42a48a5c6b7aae95b81cd.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/wheel.svg"
-dest_files=["res://.godot/imported/wheel.svg-4c39da2c060784b1a7823d307650ccb5.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/wheel.svg"
+dest_files=["res://.godot/imported/wheel.svg-6d3ae292b1f42a48a5c6b7aae95b81cd.ctex"]
 
 [params]
 

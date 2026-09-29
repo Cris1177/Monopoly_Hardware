@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://xslkqulfinr4"
-path="res://.godot/imported/magnifying_glass.svg-550b37114f02c4ba100717c599a2445b.ctex"
+path="res://.godot/imported/magnifying_glass.svg-28de8d56c70d498ccfce195d209b25e4.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/magnifying_glass.svg"
-dest_files=["res://.godot/imported/magnifying_glass.svg-550b37114f02c4ba100717c599a2445b.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/magnifying_glass.svg"
+dest_files=["res://.godot/imported/magnifying_glass.svg-28de8d56c70d498ccfce195d209b25e4.ctex"]
 
 [params]
 

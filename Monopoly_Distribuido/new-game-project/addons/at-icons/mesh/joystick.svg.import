@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dnirs7eerek3a"
-path="res://.godot/imported/joystick.svg-a5d9fcd66bd7dae880da605007b6c9e0.ctex"
+path="res://.godot/imported/joystick.svg-b751fcfc4af4127074d64317ee1f8657.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/joystick.svg"
-dest_files=["res://.godot/imported/joystick.svg-a5d9fcd66bd7dae880da605007b6c9e0.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/joystick.svg"
+dest_files=["res://.godot/imported/joystick.svg-b751fcfc4af4127074d64317ee1f8657.ctex"]
 
 [params]
 

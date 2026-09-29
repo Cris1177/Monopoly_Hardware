@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bvgx4ochw3mqy"
-path="res://.godot/imported/arrow_down.svg-1b71bd6ec83f08f29d887390b105a2a7.ctex"
+path="res://.godot/imported/arrow_down.svg-6f7f60546a79591db1fb24ce068a53f8.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/arrow_down.svg"
-dest_files=["res://.godot/imported/arrow_down.svg-1b71bd6ec83f08f29d887390b105a2a7.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/arrow_down.svg"
+dest_files=["res://.godot/imported/arrow_down.svg-6f7f60546a79591db1fb24ce068a53f8.ctex"]
 
 [params]
 

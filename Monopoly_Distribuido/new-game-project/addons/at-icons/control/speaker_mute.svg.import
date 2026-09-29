@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ipxo675bw0qf"
-path="res://.godot/imported/speaker_mute.svg-fecab665f089e917c1c90a4908ab5dc9.ctex"
+path="res://.godot/imported/speaker_mute.svg-363f1451f2c0cc76e6df26fa1efa9f0f.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/speaker_mute.svg"
-dest_files=["res://.godot/imported/speaker_mute.svg-fecab665f089e917c1c90a4908ab5dc9.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/speaker_mute.svg"
+dest_files=["res://.godot/imported/speaker_mute.svg-363f1451f2c0cc76e6df26fa1efa9f0f.ctex"]
 
 [params]
 

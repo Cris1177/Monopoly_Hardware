@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://djhd4r5lk1b7s"
-path="res://.godot/imported/itinerary.svg-9c69a2d52c258c831ea96ff6ce43459e.ctex"
+path="res://.godot/imported/itinerary.svg-fa18b0f6fd83cbfacd25b079f68f2994.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/itinerary.svg"
-dest_files=["res://.godot/imported/itinerary.svg-9c69a2d52c258c831ea96ff6ce43459e.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/itinerary.svg"
+dest_files=["res://.godot/imported/itinerary.svg-fa18b0f6fd83cbfacd25b079f68f2994.ctex"]
 
 [params]
 

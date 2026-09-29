@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://14khxqe4iifo"
-path="res://.godot/imported/stamp.svg-012a9fd829fdc9a7d57f8c0bd5ae33ff.ctex"
+path="res://.godot/imported/stamp.svg-d82d953ca4768b12740aef0c10393141.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/stamp.svg"
-dest_files=["res://.godot/imported/stamp.svg-012a9fd829fdc9a7d57f8c0bd5ae33ff.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/stamp.svg"
+dest_files=["res://.godot/imported/stamp.svg-d82d953ca4768b12740aef0c10393141.ctex"]
 
 [params]
 

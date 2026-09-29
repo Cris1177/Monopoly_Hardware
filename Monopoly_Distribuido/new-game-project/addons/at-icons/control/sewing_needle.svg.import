@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bsifmr2cqc53w"
-path="res://.godot/imported/sewing_needle.svg-14192ada117cebe7cf273ebe8dc0425b.ctex"
+path="res://.godot/imported/sewing_needle.svg-250508221724ac9df7919b7de1960ff2.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/sewing_needle.svg"
-dest_files=["res://.godot/imported/sewing_needle.svg-14192ada117cebe7cf273ebe8dc0425b.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/sewing_needle.svg"
+dest_files=["res://.godot/imported/sewing_needle.svg-250508221724ac9df7919b7de1960ff2.ctex"]
 
 [params]
 

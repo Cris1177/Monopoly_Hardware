@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b8k8u5xxsoxjx"
-path="res://.godot/imported/field_of_view.svg-4567b6ca2aea177eb45f668b02972d12.ctex"
+path="res://.godot/imported/field_of_view.svg-20e05f6e1a19f60e5b69104aa0cc868c.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/field_of_view.svg"
-dest_files=["res://.godot/imported/field_of_view.svg-4567b6ca2aea177eb45f668b02972d12.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/field_of_view.svg"
+dest_files=["res://.godot/imported/field_of_view.svg-20e05f6e1a19f60e5b69104aa0cc868c.ctex"]
 
 [params]
 

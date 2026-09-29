@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bgd1c0xf68few"
-path="res://.godot/imported/voxels.svg-7ec98139cdfb478ed30ee9e02e65652d.ctex"
+path="res://.godot/imported/voxels.svg-0e48984e97ee6099fa9267a887a50de6.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/voxels.svg"
-dest_files=["res://.godot/imported/voxels.svg-7ec98139cdfb478ed30ee9e02e65652d.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/voxels.svg"
+dest_files=["res://.godot/imported/voxels.svg-0e48984e97ee6099fa9267a887a50de6.ctex"]
 
 [params]
 

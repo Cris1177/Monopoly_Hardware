@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://141s8b4rac2"
-path="res://.godot/imported/heart_broken.svg-eb4a68e0380f1258b486a29f8ef4f6d0.ctex"
+path="res://.godot/imported/heart_broken.svg-682d567f8fc496d2ff31070735110993.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/heart_broken.svg"
-dest_files=["res://.godot/imported/heart_broken.svg-eb4a68e0380f1258b486a29f8ef4f6d0.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/heart_broken.svg"
+dest_files=["res://.godot/imported/heart_broken.svg-682d567f8fc496d2ff31070735110993.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkv0qcob4krxw"
-path="res://.godot/imported/circuit_board.svg-627253d7e31cbcea79036a12fe877acd.ctex"
+path="res://.godot/imported/circuit_board.svg-25c12378ce5bd2d34aafb04608494eab.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/circuit_board.svg"
-dest_files=["res://.godot/imported/circuit_board.svg-627253d7e31cbcea79036a12fe877acd.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/circuit_board.svg"
+dest_files=["res://.godot/imported/circuit_board.svg-25c12378ce5bd2d34aafb04608494eab.ctex"]
 
 [params]
 

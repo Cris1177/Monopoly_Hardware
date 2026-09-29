@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://fn42kaps3ubw"
-path="res://.godot/imported/handset.svg-1cbdf2ef9badc6d8b7205e7215c917cf.ctex"
+path="res://.godot/imported/handset.svg-f2de81287e8f1770c341021345f0081c.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/handset.svg"
-dest_files=["res://.godot/imported/handset.svg-1cbdf2ef9badc6d8b7205e7215c917cf.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/handset.svg"
+dest_files=["res://.godot/imported/handset.svg-f2de81287e8f1770c341021345f0081c.ctex"]
 
 [params]
 

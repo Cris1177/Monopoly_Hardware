@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://gf53om52bl51"
-path="res://.godot/imported/clipboard.svg-950fd994dee546b76909dd4dcd8bd7e6.ctex"
+path="res://.godot/imported/clipboard.svg-a0d67a9e8c040322b4c332eebade5196.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/clipboard.svg"
-dest_files=["res://.godot/imported/clipboard.svg-950fd994dee546b76909dd4dcd8bd7e6.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/clipboard.svg"
+dest_files=["res://.godot/imported/clipboard.svg-a0d67a9e8c040322b4c332eebade5196.ctex"]
 
 [params]
 

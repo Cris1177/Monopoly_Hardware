@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkqko7gyc1vqn"
-path="res://.godot/imported/pendant.svg-2e8ea52467b06632896ad504f97e07cb.ctex"
+path="res://.godot/imported/pendant.svg-07202573d7e5a0b7cfae74983da3211a.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/pendant.svg"
-dest_files=["res://.godot/imported/pendant.svg-2e8ea52467b06632896ad504f97e07cb.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/pendant.svg"
+dest_files=["res://.godot/imported/pendant.svg-07202573d7e5a0b7cfae74983da3211a.ctex"]
 
 [params]
 

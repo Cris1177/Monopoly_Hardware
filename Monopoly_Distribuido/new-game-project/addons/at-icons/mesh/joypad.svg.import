@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cd413tpj7h2ad"
-path="res://.godot/imported/joypad.svg-feb91e98da07f8d2d546bdb1066058d3.ctex"
+path="res://.godot/imported/joypad.svg-ec843fd64242548990a8b48a08136b4e.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/joypad.svg"
-dest_files=["res://.godot/imported/joypad.svg-feb91e98da07f8d2d546bdb1066058d3.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/joypad.svg"
+dest_files=["res://.godot/imported/joypad.svg-ec843fd64242548990a8b48a08136b4e.ctex"]
 
 [params]
 

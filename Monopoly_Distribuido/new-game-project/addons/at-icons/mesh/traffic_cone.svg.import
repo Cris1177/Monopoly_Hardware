@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c1fov4jbvpse3"
-path="res://.godot/imported/traffic_cone.svg-20b3e9e1f0f8232f24fb7f789e4222d8.ctex"
+path="res://.godot/imported/traffic_cone.svg-619506628c5eca1e5609f8a13d63da7f.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/traffic_cone.svg"
-dest_files=["res://.godot/imported/traffic_cone.svg-20b3e9e1f0f8232f24fb7f789e4222d8.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/traffic_cone.svg"
+dest_files=["res://.godot/imported/traffic_cone.svg-619506628c5eca1e5609f8a13d63da7f.ctex"]
 
 [params]
 

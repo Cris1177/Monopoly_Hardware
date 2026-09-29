@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://nj4jqr7br06a"
-path="res://.godot/imported/wind.svg-d630ac3f3de46a775965e1b503a78c2a.ctex"
+path="res://.godot/imported/wind.svg-15e6c6aa59b454ce6642d62a76060c5e.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/wind.svg"
-dest_files=["res://.godot/imported/wind.svg-d630ac3f3de46a775965e1b503a78c2a.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/wind.svg"
+dest_files=["res://.godot/imported/wind.svg-15e6c6aa59b454ce6642d62a76060c5e.ctex"]
 
 [params]
 

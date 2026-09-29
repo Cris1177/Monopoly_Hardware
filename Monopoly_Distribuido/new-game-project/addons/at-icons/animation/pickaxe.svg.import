@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dwclfkrha420v"
-path="res://.godot/imported/pickaxe.svg-2fcfa29b22998d9bcf8a5133e029a926.ctex"
+path="res://.godot/imported/pickaxe.svg-7204f360816fbb0d9a0fa74ccbfe80b5.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/pickaxe.svg"
-dest_files=["res://.godot/imported/pickaxe.svg-2fcfa29b22998d9bcf8a5133e029a926.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/pickaxe.svg"
+dest_files=["res://.godot/imported/pickaxe.svg-7204f360816fbb0d9a0fa74ccbfe80b5.ctex"]
 
 [params]
 

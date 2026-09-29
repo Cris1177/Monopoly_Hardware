@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dpp3h8x6t7lgw"
-path="res://.godot/imported/medal_3rd.svg-58853b805fb2a4228e235ea17491063e.ctex"
+path="res://.godot/imported/medal_3rd.svg-4d65dec6684bc11693cc2727bf6b1938.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/medal_3rd.svg"
-dest_files=["res://.godot/imported/medal_3rd.svg-58853b805fb2a4228e235ea17491063e.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/medal_3rd.svg"
+dest_files=["res://.godot/imported/medal_3rd.svg-4d65dec6684bc11693cc2727bf6b1938.ctex"]
 
 [params]
 

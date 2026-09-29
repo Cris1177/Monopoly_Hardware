@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cx2f0stw3dxny"
-path="res://.godot/imported/sky_dome.svg-11008b8837abe20e666fbbaa224b50a8.ctex"
+path="res://.godot/imported/sky_dome.svg-412c131e87bbe07d1d751e6ac1611c00.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/sky_dome.svg"
-dest_files=["res://.godot/imported/sky_dome.svg-11008b8837abe20e666fbbaa224b50a8.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/sky_dome.svg"
+dest_files=["res://.godot/imported/sky_dome.svg-412c131e87bbe07d1d751e6ac1611c00.ctex"]
 
 [params]
 

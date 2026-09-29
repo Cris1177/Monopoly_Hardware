@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bpc4epv1vqvi4"
-path="res://.godot/imported/distance.svg-3f622d564901d8353ed546d21862f4d5.ctex"
+path="res://.godot/imported/distance.svg-a0ab8144f9a9ae113486adf96621f42c.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/distance.svg"
-dest_files=["res://.godot/imported/distance.svg-3f622d564901d8353ed546d21862f4d5.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/distance.svg"
+dest_files=["res://.godot/imported/distance.svg-a0ab8144f9a9ae113486adf96621f42c.ctex"]
 
 [params]
 

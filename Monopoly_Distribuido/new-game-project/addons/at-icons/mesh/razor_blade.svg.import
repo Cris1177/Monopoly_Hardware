@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ctbsoexl4i3bn"
-path="res://.godot/imported/razor_blade.svg-b0e6f0a0a027013be07a5d491df3719e.ctex"
+path="res://.godot/imported/razor_blade.svg-7fe10e30af0edbfe79eb547d97f2c22d.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/razor_blade.svg"
-dest_files=["res://.godot/imported/razor_blade.svg-b0e6f0a0a027013be07a5d491df3719e.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/razor_blade.svg"
+dest_files=["res://.godot/imported/razor_blade.svg-7fe10e30af0edbfe79eb547d97f2c22d.ctex"]
 
 [params]
 

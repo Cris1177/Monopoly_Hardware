@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c6g40j0lhoew0"
-path="res://.godot/imported/hand.svg-af78284aa298d309766d1a4f27fe6c18.ctex"
+path="res://.godot/imported/hand.svg-1c52a95adb8e55b9ae3b4839a97cc464.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/hand.svg"
-dest_files=["res://.godot/imported/hand.svg-af78284aa298d309766d1a4f27fe6c18.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/hand.svg"
+dest_files=["res://.godot/imported/hand.svg-1c52a95adb8e55b9ae3b4839a97cc464.ctex"]
 
 [params]
 

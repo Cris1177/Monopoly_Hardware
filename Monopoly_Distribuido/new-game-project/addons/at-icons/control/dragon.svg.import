@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dqa6sx7ei2of2"
-path="res://.godot/imported/dragon.svg-bbdccfd24001d9311d9a93d9ea7bf9e3.ctex"
+path="res://.godot/imported/dragon.svg-73179106e74669983d16c1424ec5952b.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/dragon.svg"
-dest_files=["res://.godot/imported/dragon.svg-bbdccfd24001d9311d9a93d9ea7bf9e3.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/dragon.svg"
+dest_files=["res://.godot/imported/dragon.svg-73179106e74669983d16c1424ec5952b.ctex"]
 
 [params]
 

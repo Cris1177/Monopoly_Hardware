@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://4gj4d3sdym01"
-path="res://.godot/imported/screw.svg-cc7efae2328cf05c39e65eb6c61cd4ed.ctex"
+path="res://.godot/imported/screw.svg-4c83ef9d14257f6d4e1315b9dc5033a8.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/screw.svg"
-dest_files=["res://.godot/imported/screw.svg-cc7efae2328cf05c39e65eb6c61cd4ed.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/screw.svg"
+dest_files=["res://.godot/imported/screw.svg-4c83ef9d14257f6d4e1315b9dc5033a8.ctex"]
 
 [params]
 

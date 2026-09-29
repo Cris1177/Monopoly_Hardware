@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bta2oujgclefk"
-path="res://.godot/imported/grabber_dots.svg-2a5a13123e85e168ed8b5e8cb07529c5.ctex"
+path="res://.godot/imported/grabber_dots.svg-9632d88eac97c01ec1935933c9672a35.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/grabber_dots.svg"
-dest_files=["res://.godot/imported/grabber_dots.svg-2a5a13123e85e168ed8b5e8cb07529c5.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/grabber_dots.svg"
+dest_files=["res://.godot/imported/grabber_dots.svg-9632d88eac97c01ec1935933c9672a35.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://81506o4aun4h"
-path="res://.godot/imported/club.svg-33587cf32e38a55a495d981261c36590.ctex"
+path="res://.godot/imported/club.svg-07db9eefe5ee518b34d3a8787e1fe3d4.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/club.svg"
-dest_files=["res://.godot/imported/club.svg-33587cf32e38a55a495d981261c36590.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/club.svg"
+dest_files=["res://.godot/imported/club.svg-07db9eefe5ee518b34d3a8787e1fe3d4.ctex"]
 
 [params]
 

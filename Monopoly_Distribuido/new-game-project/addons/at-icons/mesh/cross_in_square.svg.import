@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bw28ucmaavdtg"
-path="res://.godot/imported/cross_in_square.svg-2ba2cb7fb8788c5e2723e5ab88c7dd48.ctex"
+path="res://.godot/imported/cross_in_square.svg-a130a517223bc2c6dc3dee9c0d58f00f.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/cross_in_square.svg"
-dest_files=["res://.godot/imported/cross_in_square.svg-2ba2cb7fb8788c5e2723e5ab88c7dd48.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/cross_in_square.svg"
+dest_files=["res://.godot/imported/cross_in_square.svg-a130a517223bc2c6dc3dee9c0d58f00f.ctex"]
 
 [params]
 

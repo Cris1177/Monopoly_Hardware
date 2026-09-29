@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ch1otsn7h1bas"
-path="res://.godot/imported/pill.svg-7171e82f31324525f12c161017f2031a.ctex"
+path="res://.godot/imported/pill.svg-6ecfb94aee6390bbb35db449125b5235.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/pill.svg"
-dest_files=["res://.godot/imported/pill.svg-7171e82f31324525f12c161017f2031a.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/pill.svg"
+dest_files=["res://.godot/imported/pill.svg-6ecfb94aee6390bbb35db449125b5235.ctex"]
 
 [params]
 

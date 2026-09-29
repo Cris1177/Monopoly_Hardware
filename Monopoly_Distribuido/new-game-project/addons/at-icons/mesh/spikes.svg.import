@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dk7t1756gcwm5"
-path="res://.godot/imported/spikes.svg-4ad98887e7a9efe1193fe4a24ebebcaa.ctex"
+path="res://.godot/imported/spikes.svg-13aec183ba9460e979212cdfc5804a1b.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/spikes.svg"
-dest_files=["res://.godot/imported/spikes.svg-4ad98887e7a9efe1193fe4a24ebebcaa.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/spikes.svg"
+dest_files=["res://.godot/imported/spikes.svg-13aec183ba9460e979212cdfc5804a1b.ctex"]
 
 [params]
 

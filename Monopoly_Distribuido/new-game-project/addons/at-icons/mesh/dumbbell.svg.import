@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c6om70mo2at8"
-path="res://.godot/imported/dumbbell.svg-756c829f8bddab9fc887679ab288f13b.ctex"
+path="res://.godot/imported/dumbbell.svg-aeae99940ad8e42b3d0e2bedc9c3b2cd.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/dumbbell.svg"
-dest_files=["res://.godot/imported/dumbbell.svg-756c829f8bddab9fc887679ab288f13b.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/dumbbell.svg"
+dest_files=["res://.godot/imported/dumbbell.svg-aeae99940ad8e42b3d0e2bedc9c3b2cd.ctex"]
 
 [params]
 

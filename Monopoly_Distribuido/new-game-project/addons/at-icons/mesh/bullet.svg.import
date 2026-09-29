@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8gkn73j1bkaq"
-path="res://.godot/imported/bullet.svg-88aa366d58490d6f3976fd2989c5ff83.ctex"
+path="res://.godot/imported/bullet.svg-b5a479ba4cf2167d8228974947628b1f.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/bullet.svg"
-dest_files=["res://.godot/imported/bullet.svg-88aa366d58490d6f3976fd2989c5ff83.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/bullet.svg"
+dest_files=["res://.godot/imported/bullet.svg-b5a479ba4cf2167d8228974947628b1f.ctex"]
 
 [params]
 

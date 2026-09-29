@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b30cim601rel8"
-path="res://.godot/imported/mouse.svg-6cb958774f2ce35d87baaed764fab817.ctex"
+path="res://.godot/imported/mouse.svg-f67909d32c191d1fd90fa4cb7ecf5e0b.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/mouse.svg"
-dest_files=["res://.godot/imported/mouse.svg-6cb958774f2ce35d87baaed764fab817.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/mouse.svg"
+dest_files=["res://.godot/imported/mouse.svg-f67909d32c191d1fd90fa4cb7ecf5e0b.ctex"]
 
 [params]
 

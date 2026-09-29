@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c0yv0dbkeht42"
-path="res://.godot/imported/arrow_uturn_right_down.svg-f0fef281374a51126888eb7be52aaf82.ctex"
+path="res://.godot/imported/arrow_uturn_right_down.svg-a678ea5f84d9a58a234bae5f3893cbcf.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/arrow_uturn_right_down.svg"
-dest_files=["res://.godot/imported/arrow_uturn_right_down.svg-f0fef281374a51126888eb7be52aaf82.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/arrow_uturn_right_down.svg"
+dest_files=["res://.godot/imported/arrow_uturn_right_down.svg-a678ea5f84d9a58a234bae5f3893cbcf.ctex"]
 
 [params]
 

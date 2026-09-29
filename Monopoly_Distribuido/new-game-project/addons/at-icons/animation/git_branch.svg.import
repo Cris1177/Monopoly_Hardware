@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dyryipgskgi5m"
-path="res://.godot/imported/git_branch.svg-3c73d283649a912ea6cc1ca204d52feb.ctex"
+path="res://.godot/imported/git_branch.svg-96962b93333305b81ac1a386429d4c0a.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/git_branch.svg"
-dest_files=["res://.godot/imported/git_branch.svg-3c73d283649a912ea6cc1ca204d52feb.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/git_branch.svg"
+dest_files=["res://.godot/imported/git_branch.svg-96962b93333305b81ac1a386429d4c0a.ctex"]
 
 [params]
 

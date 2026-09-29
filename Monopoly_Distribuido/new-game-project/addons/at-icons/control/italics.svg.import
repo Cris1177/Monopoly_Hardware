@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bi0rdwh7fr0sk"
-path="res://.godot/imported/italics.svg-8317d1ca7f5423c8c81dad4cd605375f.ctex"
+path="res://.godot/imported/italics.svg-c4970b67ff6b0a831f8fb316fec883a0.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/italics.svg"
-dest_files=["res://.godot/imported/italics.svg-8317d1ca7f5423c8c81dad4cd605375f.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/italics.svg"
+dest_files=["res://.godot/imported/italics.svg-c4970b67ff6b0a831f8fb316fec883a0.ctex"]
 
 [params]
 

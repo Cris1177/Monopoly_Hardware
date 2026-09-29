@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dmtrdevvxu8q6"
-path="res://.godot/imported/dog.svg-0ce3ddb1ac51432e2b2bf80c38efac6e.ctex"
+path="res://.godot/imported/dog.svg-f4616787272c920ee5a2f7dd610ec0b3.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/dog.svg"
-dest_files=["res://.godot/imported/dog.svg-0ce3ddb1ac51432e2b2bf80c38efac6e.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/dog.svg"
+dest_files=["res://.godot/imported/dog.svg-f4616787272c920ee5a2f7dd610ec0b3.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://djevtm61305gu"
-path="res://.godot/imported/grabber_dots.svg-b242e31c71d77cf8f7cd1525be423ab2.ctex"
+path="res://.godot/imported/grabber_dots.svg-5adf46f782e57f048b2d03cfd368909f.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/grabber_dots.svg"
-dest_files=["res://.godot/imported/grabber_dots.svg-b242e31c71d77cf8f7cd1525be423ab2.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/grabber_dots.svg"
+dest_files=["res://.godot/imported/grabber_dots.svg-5adf46f782e57f048b2d03cfd368909f.ctex"]
 
 [params]
 

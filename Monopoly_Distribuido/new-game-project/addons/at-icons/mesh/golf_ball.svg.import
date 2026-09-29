@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dssgjs371ccg4"
-path="res://.godot/imported/golf_ball.svg-ac65f84f6b0659e0cb5229482e2628e7.ctex"
+path="res://.godot/imported/golf_ball.svg-037aff7e837e4aa780dd4c2cf667a6fe.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/golf_ball.svg"
-dest_files=["res://.godot/imported/golf_ball.svg-ac65f84f6b0659e0cb5229482e2628e7.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/golf_ball.svg"
+dest_files=["res://.godot/imported/golf_ball.svg-037aff7e837e4aa780dd4c2cf667a6fe.ctex"]
 
 [params]
 

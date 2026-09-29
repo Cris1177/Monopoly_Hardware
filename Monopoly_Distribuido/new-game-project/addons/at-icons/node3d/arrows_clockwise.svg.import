@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bgn2bbyrphvno"
-path="res://.godot/imported/arrows_clockwise.svg-b0c1a755f18adb2f0efdffb22ff04d9a.ctex"
+path="res://.godot/imported/arrows_clockwise.svg-7d80b73678c8e764a6a1c5234c3fa640.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/node3d/arrows_clockwise.svg"
-dest_files=["res://.godot/imported/arrows_clockwise.svg-b0c1a755f18adb2f0efdffb22ff04d9a.ctex"]
+source_file="res://new-game-project/addons/at-icons/node3d/arrows_clockwise.svg"
+dest_files=["res://.godot/imported/arrows_clockwise.svg-7d80b73678c8e764a6a1c5234c3fa640.ctex"]
 
 [params]
 

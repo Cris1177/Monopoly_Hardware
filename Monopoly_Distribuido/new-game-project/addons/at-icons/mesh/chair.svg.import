@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dtgt0217j31l1"
-path="res://.godot/imported/chair.svg-8f04c68e345130532d7af896f0f4376b.ctex"
+path="res://.godot/imported/chair.svg-bfea17f0ddde9450dbb93f1da03b8b80.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/chair.svg"
-dest_files=["res://.godot/imported/chair.svg-8f04c68e345130532d7af896f0f4376b.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/chair.svg"
+dest_files=["res://.godot/imported/chair.svg-bfea17f0ddde9450dbb93f1da03b8b80.ctex"]
 
 [params]
 

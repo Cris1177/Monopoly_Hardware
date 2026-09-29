@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b11x131db5vic"
-path="res://.godot/imported/institutional_building.svg-aa5e792eca8b3d6a37f7782b07532622.ctex"
+path="res://.godot/imported/institutional_building.svg-e608c96e76c1807a67f587db6a9122e4.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/institutional_building.svg"
-dest_files=["res://.godot/imported/institutional_building.svg-aa5e792eca8b3d6a37f7782b07532622.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/institutional_building.svg"
+dest_files=["res://.godot/imported/institutional_building.svg-e608c96e76c1807a67f587db6a9122e4.ctex"]
 
 [params]
 

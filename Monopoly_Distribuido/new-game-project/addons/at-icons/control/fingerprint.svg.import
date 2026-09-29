@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dnpr3d484qmw2"
-path="res://.godot/imported/fingerprint.svg-a8e79446ad21cc8f294ed78e03c92a42.ctex"
+path="res://.godot/imported/fingerprint.svg-624ca850384122ef17c4de447d02d740.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/fingerprint.svg"
-dest_files=["res://.godot/imported/fingerprint.svg-a8e79446ad21cc8f294ed78e03c92a42.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/fingerprint.svg"
+dest_files=["res://.godot/imported/fingerprint.svg-624ca850384122ef17c4de447d02d740.ctex"]
 
 [params]
 

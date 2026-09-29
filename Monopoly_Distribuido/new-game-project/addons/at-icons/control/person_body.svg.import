@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dugpp30128q65"
-path="res://.godot/imported/person_body.svg-36281e7311280573d2825edcfce5f009.ctex"
+path="res://.godot/imported/person_body.svg-339dfdfa1eec810d672def80df12205d.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/person_body.svg"
-dest_files=["res://.godot/imported/person_body.svg-36281e7311280573d2825edcfce5f009.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/person_body.svg"
+dest_files=["res://.godot/imported/person_body.svg-339dfdfa1eec810d672def80df12205d.ctex"]
 
 [params]
 

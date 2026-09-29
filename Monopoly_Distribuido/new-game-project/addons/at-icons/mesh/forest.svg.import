@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkiwa6lxahrfb"
-path="res://.godot/imported/forest.svg-9362ad7c9860e17b356a1eba8ca45031.ctex"
+path="res://.godot/imported/forest.svg-d2e325f861822346ea9b94dcc2bf4964.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/forest.svg"
-dest_files=["res://.godot/imported/forest.svg-9362ad7c9860e17b356a1eba8ca45031.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/forest.svg"
+dest_files=["res://.godot/imported/forest.svg-d2e325f861822346ea9b94dcc2bf4964.ctex"]
 
 [params]
 

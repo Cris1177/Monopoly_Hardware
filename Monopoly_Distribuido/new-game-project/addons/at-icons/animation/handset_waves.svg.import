@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://thp2kmwwkrha"
-path="res://.godot/imported/handset_waves.svg-9c75140692d56d5df4085714de01cb9a.ctex"
+path="res://.godot/imported/handset_waves.svg-0176b60930cc459b5ce44ddfb09ba24a.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/handset_waves.svg"
-dest_files=["res://.godot/imported/handset_waves.svg-9c75140692d56d5df4085714de01cb9a.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/handset_waves.svg"
+dest_files=["res://.godot/imported/handset_waves.svg-0176b60930cc459b5ce44ddfb09ba24a.ctex"]
 
 [params]
 

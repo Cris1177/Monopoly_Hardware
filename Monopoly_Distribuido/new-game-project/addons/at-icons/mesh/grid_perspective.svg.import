@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ckvm4y3u8btbx"
-path="res://.godot/imported/grid_perspective.svg-6d503c8daa4dbbe24a6561cdf5311867.ctex"
+path="res://.godot/imported/grid_perspective.svg-5ea655c55bb469088dca5eda4977ab9f.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/grid_perspective.svg"
-dest_files=["res://.godot/imported/grid_perspective.svg-6d503c8daa4dbbe24a6561cdf5311867.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/grid_perspective.svg"
+dest_files=["res://.godot/imported/grid_perspective.svg-5ea655c55bb469088dca5eda4977ab9f.ctex"]
 
 [params]
 

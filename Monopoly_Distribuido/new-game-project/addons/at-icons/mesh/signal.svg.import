@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bpg0pu0cs3mid"
-path="res://.godot/imported/signal.svg-39e082c10b81caf91044a227319ee5f4.ctex"
+path="res://.godot/imported/signal.svg-940b126746e3af450bdda126356a66a3.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/signal.svg"
-dest_files=["res://.godot/imported/signal.svg-39e082c10b81caf91044a227319ee5f4.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/signal.svg"
+dest_files=["res://.godot/imported/signal.svg-940b126746e3af450bdda126356a66a3.ctex"]
 
 [params]
 

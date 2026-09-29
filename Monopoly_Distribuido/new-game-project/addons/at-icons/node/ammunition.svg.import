@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cjahlnle3bs07"
-path="res://.godot/imported/ammunition.svg-fa7ad19f69bb9399e261ef3a33f34360.ctex"
+path="res://.godot/imported/ammunition.svg-981e87eb0111f2de0e369fd57261f285.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/node/ammunition.svg"
-dest_files=["res://.godot/imported/ammunition.svg-fa7ad19f69bb9399e261ef3a33f34360.ctex"]
+source_file="res://new-game-project/addons/at-icons/node/ammunition.svg"
+dest_files=["res://.godot/imported/ammunition.svg-981e87eb0111f2de0e369fd57261f285.ctex"]
 
 [params]
 

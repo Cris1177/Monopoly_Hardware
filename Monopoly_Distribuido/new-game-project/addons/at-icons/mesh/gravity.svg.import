@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cocfhm6es83ss"
-path="res://.godot/imported/gravity.svg-6fddacdc73d6148a501562101b145707.ctex"
+path="res://.godot/imported/gravity.svg-0cb1698fd9feec392198bb4f43cc8714.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/gravity.svg"
-dest_files=["res://.godot/imported/gravity.svg-6fddacdc73d6148a501562101b145707.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/gravity.svg"
+dest_files=["res://.godot/imported/gravity.svg-0cb1698fd9feec392198bb4f43cc8714.ctex"]
 
 [params]
 

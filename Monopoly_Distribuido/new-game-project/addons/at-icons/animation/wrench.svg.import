@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://byef6o6bblv4c"
-path="res://.godot/imported/wrench.svg-8806e18487b26c4ae5a2f36abe162c4b.ctex"
+path="res://.godot/imported/wrench.svg-a1f85168d731e5f6faa2d9b666375ead.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/wrench.svg"
-dest_files=["res://.godot/imported/wrench.svg-8806e18487b26c4ae5a2f36abe162c4b.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/wrench.svg"
+dest_files=["res://.godot/imported/wrench.svg-a1f85168d731e5f6faa2d9b666375ead.ctex"]
 
 [params]
 

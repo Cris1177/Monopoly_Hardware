@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c37ueon6h4r1r"
-path="res://.godot/imported/text_input.svg-ca13230ed2036dc86ce1186fdc221e85.ctex"
+path="res://.godot/imported/text_input.svg-6eab8c3606f8e48a3b26b54e25ce4717.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/text_input.svg"
-dest_files=["res://.godot/imported/text_input.svg-ca13230ed2036dc86ce1186fdc221e85.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/text_input.svg"
+dest_files=["res://.godot/imported/text_input.svg-6eab8c3606f8e48a3b26b54e25ce4717.ctex"]
 
 [params]
 

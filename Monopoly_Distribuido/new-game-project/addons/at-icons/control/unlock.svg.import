@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6ya1ywklb5wk"
-path="res://.godot/imported/unlock.svg-e30b55e4c2a31d72cb647b9d6ce4987b.ctex"
+path="res://.godot/imported/unlock.svg-bbd7710866917deca2c50eee40a15e56.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/unlock.svg"
-dest_files=["res://.godot/imported/unlock.svg-e30b55e4c2a31d72cb647b9d6ce4987b.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/unlock.svg"
+dest_files=["res://.godot/imported/unlock.svg-bbd7710866917deca2c50eee40a15e56.ctex"]
 
 [params]
 

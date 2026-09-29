@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://hujxdww0k2ri"
-path="res://.godot/imported/bowling_pin.svg-35c59e20f96dd9b81faecdb997ab9f73.ctex"
+path="res://.godot/imported/bowling_pin.svg-ec0c34cc348a66e2956cdcfd3700f48c.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/bowling_pin.svg"
-dest_files=["res://.godot/imported/bowling_pin.svg-35c59e20f96dd9b81faecdb997ab9f73.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/bowling_pin.svg"
+dest_files=["res://.godot/imported/bowling_pin.svg-ec0c34cc348a66e2956cdcfd3700f48c.ctex"]
 
 [params]
 

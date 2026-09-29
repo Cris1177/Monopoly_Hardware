@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwdu3vvjjhtio"
-path="res://.godot/imported/hourglass.svg-7c31de25db11a24869f7db93bf0cc4ce.ctex"
+path="res://.godot/imported/hourglass.svg-aaad0fb9cbdf574d9c068f02a0e56416.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/hourglass.svg"
-dest_files=["res://.godot/imported/hourglass.svg-7c31de25db11a24869f7db93bf0cc4ce.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/hourglass.svg"
+dest_files=["res://.godot/imported/hourglass.svg-aaad0fb9cbdf574d9c068f02a0e56416.ctex"]
 
 [params]
 

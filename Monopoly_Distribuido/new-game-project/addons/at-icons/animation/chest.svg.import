@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://chkmhmr21pgj4"
-path="res://.godot/imported/chest.svg-4caa6853acc201736749f0e9672b7878.ctex"
+path="res://.godot/imported/chest.svg-f5d81e1eabfd6d3884b8792773eea0dc.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/chest.svg"
-dest_files=["res://.godot/imported/chest.svg-4caa6853acc201736749f0e9672b7878.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/chest.svg"
+dest_files=["res://.godot/imported/chest.svg-f5d81e1eabfd6d3884b8792773eea0dc.ctex"]
 
 [params]
 

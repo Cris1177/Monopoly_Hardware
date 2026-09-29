@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bjbnxu4qbpecm"
-path="res://.godot/imported/fluorescent_light.svg-1ddfd45b2ce7fd27c9a8e146760edb57.ctex"
+path="res://.godot/imported/fluorescent_light.svg-6f5ee60a25272f7dbc39abea9f090a99.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/fluorescent_light.svg"
-dest_files=["res://.godot/imported/fluorescent_light.svg-1ddfd45b2ce7fd27c9a8e146760edb57.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/fluorescent_light.svg"
+dest_files=["res://.godot/imported/fluorescent_light.svg-6f5ee60a25272f7dbc39abea9f090a99.ctex"]
 
 [params]
 

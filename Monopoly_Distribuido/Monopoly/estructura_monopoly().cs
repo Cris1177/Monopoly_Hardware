@@ -59,22 +59,6 @@ class MonopolyProgramEstructura
         tablero.Add(new CasillaMonopoly("Avenida Cartago City", "Propiedad", 220));
         tablero.Add(new CasillaMonopoly("Suerte", "Suerte", 0));
         tablero.Add(new CasillaMonopoly("Avenida Desamparados", "Propiedad", 220));
-        tablero.Add(new CasillaMonopoly("Avenida Grecia", "Propiedad", 240));
-        tablero.Add(new CasillaMonopoly("Ferrocarril del Atlantico", "Ferrocarril", 200));
-        tablero.Add(new CasillaMonopoly("Avenida Nicoya Centro", "Propiedad", 260));
-        tablero.Add(new CasillaMonopoly("Avenida Tobosi", "Propiedad", 260));
-        tablero.Add(new CasillaMonopoly("Compañía ICE", "Servicio", 150));
-        tablero.Add(new CasillaMonopoly("Jardines Marvin", "Propiedad", 280));
-        tablero.Add(new CasillaMonopoly("Ir a la TABO", "IrCarcel", 0));
-        tablero.Add(new CasillaMonopoly("Calle de la Amargaura", "Propiedad", 300));
-        tablero.Add(new CasillaMonopoly("Avenida Jaco", "Propiedad", 300));
-        tablero.Add(new CasillaMonopoly("Caja de Comunidad", "Comunidad", 0));
-        tablero.Add(new CasillaMonopoly("Avenida Fuente de la Hispanidad", "Propiedad", 320));
-        tablero.Add(new CasillaMonopoly("Ferrocarril De Costa Rica", "Ferrocarril", 200));
-        tablero.Add(new CasillaMonopoly("Suerte", "Suerte", 0));
-        tablero.Add(new CasillaMonopoly("Parque la Francia", "Propiedad", 350));
-        tablero.Add(new CasillaMonopoly("Impuesto de Lujo", "Impuesto", 100));
-        tablero.Add(new CasillaMonopoly("Paseo Metropoli", "Propiedad", 400));
 
         return tablero;
     }

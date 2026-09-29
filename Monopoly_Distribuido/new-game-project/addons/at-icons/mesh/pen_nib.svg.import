@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bblrk16p76c21"
-path="res://.godot/imported/pen_nib.svg-e744461db2a32583d6b43ef049827186.ctex"
+path="res://.godot/imported/pen_nib.svg-aa69c429f29a797dbaf45827e31ee6a4.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/pen_nib.svg"
-dest_files=["res://.godot/imported/pen_nib.svg-e744461db2a32583d6b43ef049827186.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/pen_nib.svg"
+dest_files=["res://.godot/imported/pen_nib.svg-aa69c429f29a797dbaf45827e31ee6a4.ctex"]
 
 [params]
 

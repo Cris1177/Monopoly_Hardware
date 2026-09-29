@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bbq6b4npkmuf7"
-path="res://.godot/imported/mobile_phone.svg-27161c1b4677aea5c9325f8fb57163dc.ctex"
+path="res://.godot/imported/mobile_phone.svg-71240c0dd7d0a61292794277375c1c13.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/mobile_phone.svg"
-dest_files=["res://.godot/imported/mobile_phone.svg-27161c1b4677aea5c9325f8fb57163dc.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/mobile_phone.svg"
+dest_files=["res://.godot/imported/mobile_phone.svg-71240c0dd7d0a61292794277375c1c13.ctex"]
 
 [params]
 

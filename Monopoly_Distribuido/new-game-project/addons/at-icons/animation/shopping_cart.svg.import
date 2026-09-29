@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://boucbuis7i3rd"
-path="res://.godot/imported/shopping_cart.svg-37e5319ee9a38c41289393ed8fa98d28.ctex"
+path="res://.godot/imported/shopping_cart.svg-b6bee9a6407fa63a1a6f8c7a4aaa2b54.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/shopping_cart.svg"
-dest_files=["res://.godot/imported/shopping_cart.svg-37e5319ee9a38c41289393ed8fa98d28.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/shopping_cart.svg"
+dest_files=["res://.godot/imported/shopping_cart.svg-b6bee9a6407fa63a1a6f8c7a4aaa2b54.ctex"]
 
 [params]
 

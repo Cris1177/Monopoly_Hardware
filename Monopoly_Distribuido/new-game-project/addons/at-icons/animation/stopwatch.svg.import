@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c6x7oaig0pn1l"
-path="res://.godot/imported/stopwatch.svg-a5407914e5b9932d7ad8f2f4c5999042.ctex"
+path="res://.godot/imported/stopwatch.svg-5364b8c92484318994c014b62df0e278.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/stopwatch.svg"
-dest_files=["res://.godot/imported/stopwatch.svg-a5407914e5b9932d7ad8f2f4c5999042.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/stopwatch.svg"
+dest_files=["res://.godot/imported/stopwatch.svg-5364b8c92484318994c014b62df0e278.ctex"]
 
 [params]
 

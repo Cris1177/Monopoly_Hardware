@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://1xhiv0j0qoes"
-path="res://.godot/imported/head_with_gear.svg-b52f153c4607e30daafadfb02ed8624d.ctex"
+path="res://.godot/imported/head_with_gear.svg-c1e1e9c8304aaa53689d8faff9d5bb09.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/head_with_gear.svg"
-dest_files=["res://.godot/imported/head_with_gear.svg-b52f153c4607e30daafadfb02ed8624d.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/head_with_gear.svg"
+dest_files=["res://.godot/imported/head_with_gear.svg-c1e1e9c8304aaa53689d8faff9d5bb09.ctex"]
 
 [params]
 

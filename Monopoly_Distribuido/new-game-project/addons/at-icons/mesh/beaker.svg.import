@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dsskft03k8e3h"
-path="res://.godot/imported/beaker.svg-096f01328533eacef757839a9d7711ad.ctex"
+path="res://.godot/imported/beaker.svg-9934fcefd214ad7e214bd12e7c011ee3.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/beaker.svg"
-dest_files=["res://.godot/imported/beaker.svg-096f01328533eacef757839a9d7711ad.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/beaker.svg"
+dest_files=["res://.godot/imported/beaker.svg-9934fcefd214ad7e214bd12e7c011ee3.ctex"]
 
 [params]
 

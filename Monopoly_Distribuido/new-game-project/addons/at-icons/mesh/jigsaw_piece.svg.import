@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://co1xhxv2y2he6"
-path="res://.godot/imported/jigsaw_piece.svg-1c20720c5a05ef0f8cf35cf40b25708c.ctex"
+path="res://.godot/imported/jigsaw_piece.svg-43902a514696959021388180502090e6.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/jigsaw_piece.svg"
-dest_files=["res://.godot/imported/jigsaw_piece.svg-1c20720c5a05ef0f8cf35cf40b25708c.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/jigsaw_piece.svg"
+dest_files=["res://.godot/imported/jigsaw_piece.svg-43902a514696959021388180502090e6.ctex"]
 
 [params]
 

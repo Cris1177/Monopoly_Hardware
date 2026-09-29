@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bl87kc6btjqxe"
-path="res://.godot/imported/telescope.svg-41505913b5b9789731d5e809ff631d33.ctex"
+path="res://.godot/imported/telescope.svg-0db38a51594a8e2a36c7efdab08b963d.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/telescope.svg"
-dest_files=["res://.godot/imported/telescope.svg-41505913b5b9789731d5e809ff631d33.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/telescope.svg"
+dest_files=["res://.godot/imported/telescope.svg-0db38a51594a8e2a36c7efdab08b963d.ctex"]
 
 [params]
 

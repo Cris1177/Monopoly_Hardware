@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://di2fk12n7h7yo"
-path="res://.godot/imported/planet.svg-9971a6124c4e47d14369c18bcd18d763.ctex"
+path="res://.godot/imported/planet.svg-749072b4c75f61d4964a8b8aeb244547.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/planet.svg"
-dest_files=["res://.godot/imported/planet.svg-9971a6124c4e47d14369c18bcd18d763.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/planet.svg"
+dest_files=["res://.godot/imported/planet.svg-749072b4c75f61d4964a8b8aeb244547.ctex"]
 
 [params]
 

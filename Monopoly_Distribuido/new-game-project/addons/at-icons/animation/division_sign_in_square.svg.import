@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgagkanmbhvb2"
-path="res://.godot/imported/division_sign_in_square.svg-0535eea6f04020960da9040cb714490f.ctex"
+path="res://.godot/imported/division_sign_in_square.svg-ec471c8a22f807cb300ee724db8c13ff.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/division_sign_in_square.svg"
-dest_files=["res://.godot/imported/division_sign_in_square.svg-0535eea6f04020960da9040cb714490f.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/division_sign_in_square.svg"
+dest_files=["res://.godot/imported/division_sign_in_square.svg-ec471c8a22f807cb300ee724db8c13ff.ctex"]
 
 [params]
 

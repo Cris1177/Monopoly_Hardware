@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bu5gs2g6rbajc"
-path="res://.godot/imported/hexagon.svg-43cd006a9f0e6ba76bf948daad85a9f7.ctex"
+path="res://.godot/imported/hexagon.svg-1c2df1ae19e68c701766bcf55372dd1d.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/hexagon.svg"
-dest_files=["res://.godot/imported/hexagon.svg-43cd006a9f0e6ba76bf948daad85a9f7.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/hexagon.svg"
+dest_files=["res://.godot/imported/hexagon.svg-1c2df1ae19e68c701766bcf55372dd1d.ctex"]
 
 [params]
 

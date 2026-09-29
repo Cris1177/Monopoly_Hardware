@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bg0ymxfeg1o02"
-path="res://.godot/imported/checkmark_in_square.svg-b67bd4ff77e822ff89e498de0d093ebd.ctex"
+path="res://.godot/imported/checkmark_in_square.svg-9bba523d29671495067bdc835ce2e8df.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/checkmark_in_square.svg"
-dest_files=["res://.godot/imported/checkmark_in_square.svg-b67bd4ff77e822ff89e498de0d093ebd.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/checkmark_in_square.svg"
+dest_files=["res://.godot/imported/checkmark_in_square.svg-9bba523d29671495067bdc835ce2e8df.ctex"]
 
 [params]
 

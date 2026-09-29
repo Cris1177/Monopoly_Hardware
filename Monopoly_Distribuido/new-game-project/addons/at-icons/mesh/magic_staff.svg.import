@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://blinf8l5g1p1h"
-path="res://.godot/imported/magic_staff.svg-f9cbde4a55ebe6c6428c54e0c80ab55c.ctex"
+path="res://.godot/imported/magic_staff.svg-332d4c94238c01cab812754f067eca82.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/magic_staff.svg"
-dest_files=["res://.godot/imported/magic_staff.svg-f9cbde4a55ebe6c6428c54e0c80ab55c.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/magic_staff.svg"
+dest_files=["res://.godot/imported/magic_staff.svg-332d4c94238c01cab812754f067eca82.ctex"]
 
 [params]
 

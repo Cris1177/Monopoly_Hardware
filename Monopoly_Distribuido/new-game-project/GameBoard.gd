@@ -3,7 +3,7 @@ extends Control
 const SPACES: Array[Dictionary] = [
 	{"name": "Salida", "kind": "start"},
 	{"name": "Avenida Coto Brus", "kind": "property", "price": 60, "rent": 10, "group": 0},
-	{"name": "CCSS", "kind": "event"},
+	{"name": "CCSS", "kind": "ccss", "price": 50},
 	{"name": "Avenida Belén Heredia", "kind": "property", "price": 60, "rent": 10, "group": 0},
 	{"name": "Impuesto sobre la Renta", "kind": "tax", "price": 200},
 	{"name": "Ferrocarril de Reading", "kind": "property", "price": 200, "rent": 25, "group": 7},
@@ -18,7 +18,7 @@ const SPACES: Array[Dictionary] = [
 	{"name": "Avenida Purral", "kind": "property", "price": 160, "rent": 30, "group": 2},
 	{"name": "Ferrocarril del Pacífico", "kind": "property", "price": 200, "rent": 35, "group": 7},
 	{"name": "Plaza Guápiles de Limón", "kind": "property", "price": 180, "rent": 35, "group": 3},
-	{"name": "CCSS", "kind": "event"},
+	{"name": "CCSS", "kind": "ccss", "price": 50},
 	{"name": "Avenida Alajuelita", "kind": "property", "price": 180, "rent": 35, "group": 3},
 	{"name": "Avenida San Pedro", "kind": "property", "price": 200, "rent": 40, "group": 3},
 	{"name": "Parque del TEC", "kind": "parking"},
@@ -32,6 +32,7 @@ const PLAYER_COLORS := [Color("#e36b51"), Color("#55a6d8"), Color("#e5bd55"), Co
 const GROUP_COLORS := [
 	Color("#9c755f"), Color("#75c8d4"), Color("#d785a4"), Color("#ef9558"),
 	Color("#d6514a"), Color("#f0d15c"), Color("#70b878"), Color("#8e9199"),
+	Color("#4d91b5"),
 ]
 
 var players: Array[Dictionary] = []
@@ -106,8 +107,10 @@ func _build_interface() -> void:
 
 
 func _build_board(parent: Control) -> void:
+	# Se indexan por número de casilla, aunque se creen en orden visual.
+	tile_labels.resize(SPACES.size())
 	var board := Control.new()
-	board.custom_minimum_size = Vector2(680, 680)
+	board.custom_minimum_size = Vector2(620, 620)
 	board.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
 	board.size_flags_vertical = Control.SIZE_SHRINK_CENTER
 	parent.add_child(board)
@@ -133,7 +136,7 @@ func _build_board(parent: Control) -> void:
 			var space_index := _space_for_cell(row, column)
 			if space_index < 0:
 				var empty_cell := Control.new()
-				empty_cell.custom_minimum_size = Vector2(88, 88)
+				empty_cell.custom_minimum_size = Vector2(72, 72)
 				grid.add_child(empty_cell)
 			else:
 				grid.add_child(_make_tile(space_index))
@@ -148,6 +151,7 @@ func _build_board(parent: Control) -> void:
 	center_panel.offset_right = -5
 	center_panel.offset_bottom = -5
 	center_panel.add_theme_stylebox_override("panel", _panel_style(Color("#1b352d"), Color("#557563"), 12))
+	center_panel.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	board.add_child(center_panel)
 
 	var center_content := VBoxContainer.new()
@@ -217,7 +221,7 @@ func _build_sidebar(parent: Control) -> void:
 func _make_tile(space_index: int) -> Control:
 	var space: Dictionary = SPACES[space_index]
 	var tile := PanelContainer.new()
-	tile.custom_minimum_size = Vector2(82, 82)
+	tile.custom_minimum_size = Vector2(72, 72)
 	var tile_style := _panel_style(Color("#f0eadb"), Color("#d5cdbb"), 5)
 	tile_style.content_margin_left = 3
 	tile_style.content_margin_top = 3
@@ -253,11 +257,13 @@ func _make_tile(space_index: int) -> Control:
 	tokens.alignment = BoxContainer.ALIGNMENT_CENTER
 	tokens.custom_minimum_size.y = 10
 	content.add_child(tokens)
-	tile_labels.append({"name": name_label, "price": price_label, "owner": owner_label, "tokens": tokens})
+	tile_labels[space_index] = {"name": name_label, "price": price_label, "owner": owner_label, "tokens": tokens}
 	return tile
 
 
 func _space_for_cell(row: int, column: int) -> int:
+	# La casilla 0 está en la esquina inferior derecha; el recorrido avanza
+	# hacia la izquierda por el borde inferior y continúa alrededor del tablero.
 	if row == 6:
 		return 6 - column
 	if column == 0:
@@ -276,6 +282,7 @@ func _space_color(space_index: int) -> Color:
 			"start": return Color("#d1aa4d")
 			"event": return Color("#7c6aad")
 			"tax": return Color("#c96c52")
+			"ccss": return Color("#4f9b9b")
 			"jail": return Color("#687984")
 			_: return Color("#6b9c71")
 	return GROUP_COLORS[space["group"]]
@@ -284,7 +291,7 @@ func _space_color(space_index: int) -> Color:
 func _space_subtitle(space: Dictionary) -> String:
 	if space["kind"] == "property":
 		return "$%d  ·  renta $%d" % [space["price"], space["rent"]]
-	if space["kind"] == "tax":
+	if space["kind"] == "tax" or space["kind"] == "ccss":
 		return "Paga $%d" % space["price"]
 	return ""
 
@@ -338,6 +345,14 @@ func _resolve_space(player: Dictionary) -> void:
 			else:
 				_eliminate_player(current_player)
 				log_label.text = "%s no pudo pagar los impuestos y queda fuera." % player["name"]
+		"ccss":
+			var contribution: int = space["price"]
+			if player["balance"] >= contribution:
+				player["balance"] -= contribution
+				log_label.text = "%s aportó $%d a la CCSS." % [player["name"], contribution]
+			else:
+				_eliminate_player(current_player)
+				log_label.text = "%s no pudo aportar a la CCSS y queda fuera." % player["name"]
 		"event":
 			_apply_event(player)
 		"start":

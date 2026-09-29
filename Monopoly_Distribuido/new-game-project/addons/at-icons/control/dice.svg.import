@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgicuqnxixymx"
-path="res://.godot/imported/dice.svg-05d001c305bbf9353e46f0285622f771.ctex"
+path="res://.godot/imported/dice.svg-a53eede726681968a4f27ec3a529553f.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/dice.svg"
-dest_files=["res://.godot/imported/dice.svg-05d001c305bbf9353e46f0285622f771.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/dice.svg"
+dest_files=["res://.godot/imported/dice.svg-a53eede726681968a4f27ec3a529553f.ctex"]
 
 [params]
 

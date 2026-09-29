@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://chdygm4b5n76n"
-path="res://.godot/imported/cursor_text.svg-2be733b8be0de5e4b9c983c85cbbb04f.ctex"
+path="res://.godot/imported/cursor_text.svg-2de11842028e00d136ef5795d343d8dd.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/cursor_text.svg"
-dest_files=["res://.godot/imported/cursor_text.svg-2be733b8be0de5e4b9c983c85cbbb04f.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/cursor_text.svg"
+dest_files=["res://.godot/imported/cursor_text.svg-2de11842028e00d136ef5795d343d8dd.ctex"]
 
 [params]
 

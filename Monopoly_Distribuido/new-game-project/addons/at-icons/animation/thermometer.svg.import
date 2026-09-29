@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bc2xohutniin4"
-path="res://.godot/imported/thermometer.svg-4490a358fd1c51ba8c4a3ba65ac96100.ctex"
+path="res://.godot/imported/thermometer.svg-b05049ab8484189ee72db94281ace4b1.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/thermometer.svg"
-dest_files=["res://.godot/imported/thermometer.svg-4490a358fd1c51ba8c4a3ba65ac96100.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/thermometer.svg"
+dest_files=["res://.godot/imported/thermometer.svg-b05049ab8484189ee72db94281ace4b1.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dked6gdbcum1m"
-path="res://.godot/imported/backpack.svg-7fd4c268ae2c303968ef6156c955e1c6.ctex"
+path="res://.godot/imported/backpack.svg-eb8a9e7689cdf70f23d665adf388fd99.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/backpack.svg"
-dest_files=["res://.godot/imported/backpack.svg-7fd4c268ae2c303968ef6156c955e1c6.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/backpack.svg"
+dest_files=["res://.godot/imported/backpack.svg-eb8a9e7689cdf70f23d665adf388fd99.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d33hsl24yqmxu"
-path="res://.godot/imported/bulldozer.svg-1a527c20d00e0ad2975ff45af9eb66ff.ctex"
+path="res://.godot/imported/bulldozer.svg-f9f32e7f03006ee466329c754b2d31db.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/bulldozer.svg"
-dest_files=["res://.godot/imported/bulldozer.svg-1a527c20d00e0ad2975ff45af9eb66ff.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/bulldozer.svg"
+dest_files=["res://.godot/imported/bulldozer.svg-f9f32e7f03006ee466329c754b2d31db.ctex"]
 
 [params]
 

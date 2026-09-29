@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cjvtmviqidxio"
-path="res://.godot/imported/window_terminal.svg-9a68f98b86f1d8fd06b896ef34f3559e.ctex"
+path="res://.godot/imported/window_terminal.svg-3fa07dae906c76217d5cbdacc704776e.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/window_terminal.svg"
-dest_files=["res://.godot/imported/window_terminal.svg-9a68f98b86f1d8fd06b896ef34f3559e.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/window_terminal.svg"
+dest_files=["res://.godot/imported/window_terminal.svg-3fa07dae906c76217d5cbdacc704776e.ctex"]
 
 [params]
 

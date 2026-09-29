@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dfpoy48pu2eqd"
-path="res://.godot/imported/microphone_mute.svg-ce7734a9cfd0113570846f61aa1ee507.ctex"
+path="res://.godot/imported/microphone_mute.svg-0443522802277b373e731ec890d9eb96.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/microphone_mute.svg"
-dest_files=["res://.godot/imported/microphone_mute.svg-ce7734a9cfd0113570846f61aa1ee507.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/microphone_mute.svg"
+dest_files=["res://.godot/imported/microphone_mute.svg-0443522802277b373e731ec890d9eb96.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bcfpjshs7algk"
-path="res://.godot/imported/ruler.svg-80795919bed98b68fcc708a0dc6ae12b.ctex"
+path="res://.godot/imported/ruler.svg-c841c03cf5fb82f334622f70987d768a.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/ruler.svg"
-dest_files=["res://.godot/imported/ruler.svg-80795919bed98b68fcc708a0dc6ae12b.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/ruler.svg"
+dest_files=["res://.godot/imported/ruler.svg-c841c03cf5fb82f334622f70987d768a.ctex"]
 
 [params]
 

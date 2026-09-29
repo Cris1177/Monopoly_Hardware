@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bgs2maqdo5ecb"
-path="res://.godot/imported/square_brackets.svg-5464a92f9af2e6abb8c2d817d066bc62.ctex"
+path="res://.godot/imported/square_brackets.svg-ff45d5a2ccd0edac5faf433012e76f36.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/square_brackets.svg"
-dest_files=["res://.godot/imported/square_brackets.svg-5464a92f9af2e6abb8c2d817d066bc62.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/square_brackets.svg"
+dest_files=["res://.godot/imported/square_brackets.svg-ff45d5a2ccd0edac5faf433012e76f36.ctex"]
 
 [params]
 

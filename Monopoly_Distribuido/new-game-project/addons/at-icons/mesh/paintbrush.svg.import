@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://be3u1i8ghanim"
-path="res://.godot/imported/paintbrush.svg-805bb22307b173aa658f3d075440472a.ctex"
+path="res://.godot/imported/paintbrush.svg-b940a6e2e8adf1ddefadf207ac9014d5.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/paintbrush.svg"
-dest_files=["res://.godot/imported/paintbrush.svg-805bb22307b173aa658f3d075440472a.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/paintbrush.svg"
+dest_files=["res://.godot/imported/paintbrush.svg-b940a6e2e8adf1ddefadf207ac9014d5.ctex"]
 
 [params]
 

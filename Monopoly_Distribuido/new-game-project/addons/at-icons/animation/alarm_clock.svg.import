@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dqaia5rxd8dni"
-path="res://.godot/imported/alarm_clock.svg-144baf6121e3b525d86c28eec8bbbbf5.ctex"
+path="res://.godot/imported/alarm_clock.svg-881aeff9b9da4ad26638ecc7e4478a89.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/alarm_clock.svg"
-dest_files=["res://.godot/imported/alarm_clock.svg-144baf6121e3b525d86c28eec8bbbbf5.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/alarm_clock.svg"
+dest_files=["res://.godot/imported/alarm_clock.svg-881aeff9b9da4ad26638ecc7e4478a89.ctex"]
 
 [params]
 

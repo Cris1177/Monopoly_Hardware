@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://65sl811ebb5o"
-path="res://.godot/imported/sea.svg-d9d9df5f808f5209d0e657b2a0ba3fc8.ctex"
+path="res://.godot/imported/sea.svg-ca2a80dde50954a0ac6df3942250fcf1.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/sea.svg"
-dest_files=["res://.godot/imported/sea.svg-d9d9df5f808f5209d0e657b2a0ba3fc8.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/sea.svg"
+dest_files=["res://.godot/imported/sea.svg-ca2a80dde50954a0ac6df3942250fcf1.ctex"]
 
 [params]
 

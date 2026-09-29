@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bmg5d41xmom0a"
-path="res://.godot/imported/carnival_mask.svg-8a4d6fd643fe90cd5713fda93f634c30.ctex"
+path="res://.godot/imported/carnival_mask.svg-eb4106dfd42b120d018a2824ae376b9e.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/carnival_mask.svg"
-dest_files=["res://.godot/imported/carnival_mask.svg-8a4d6fd643fe90cd5713fda93f634c30.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/carnival_mask.svg"
+dest_files=["res://.godot/imported/carnival_mask.svg-eb4106dfd42b120d018a2824ae376b9e.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dviyi7727tgpm"
-path="res://.godot/imported/cloud_arrow_up.svg-498a284b91d47c66bc0ee14c8d6e9427.ctex"
+path="res://.godot/imported/cloud_arrow_up.svg-cea6eb05f9fbacfb3bb31a4eae1e0e64.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/cloud_arrow_up.svg"
-dest_files=["res://.godot/imported/cloud_arrow_up.svg-498a284b91d47c66bc0ee14c8d6e9427.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/cloud_arrow_up.svg"
+dest_files=["res://.godot/imported/cloud_arrow_up.svg-cea6eb05f9fbacfb3bb31a4eae1e0e64.ctex"]
 
 [params]
 

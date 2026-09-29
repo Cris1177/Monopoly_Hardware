@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgnllyyyd0wfc"
-path="res://.godot/imported/conveyor_belt.svg-2859cc4a645b848053da349ae9fd6d08.ctex"
+path="res://.godot/imported/conveyor_belt.svg-a6e7d72d5d5dd7fc7171f4f156a9f41a.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/conveyor_belt.svg"
-dest_files=["res://.godot/imported/conveyor_belt.svg-2859cc4a645b848053da349ae9fd6d08.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/conveyor_belt.svg"
+dest_files=["res://.godot/imported/conveyor_belt.svg-a6e7d72d5d5dd7fc7171f4f156a9f41a.ctex"]
 
 [params]
 

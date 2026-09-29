@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://yp4iops10n50"
-path="res://.godot/imported/dot_grid.svg-9e0742cc98edcd13090c5176b414c383.ctex"
+path="res://.godot/imported/dot_grid.svg-47b755b91046335ac77e433d0a2e5216.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/dot_grid.svg"
-dest_files=["res://.godot/imported/dot_grid.svg-9e0742cc98edcd13090c5176b414c383.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/dot_grid.svg"
+dest_files=["res://.godot/imported/dot_grid.svg-47b755b91046335ac77e433d0a2e5216.ctex"]
 
 [params]
 

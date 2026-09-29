@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://f0n5v303bmb7"
-path="res://.godot/imported/security_camera.svg-3a527fe1d7ea12b5a31b0dc353988191.ctex"
+path="res://.godot/imported/security_camera.svg-8e2f8310dd03355ca588fa0727bb0a2a.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/security_camera.svg"
-dest_files=["res://.godot/imported/security_camera.svg-3a527fe1d7ea12b5a31b0dc353988191.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/security_camera.svg"
+dest_files=["res://.godot/imported/security_camera.svg-8e2f8310dd03355ca588fa0727bb0a2a.ctex"]
 
 [params]
 

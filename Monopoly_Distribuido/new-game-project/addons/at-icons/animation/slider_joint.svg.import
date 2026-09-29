@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://byr8pqcktsvnq"
-path="res://.godot/imported/slider_joint.svg-956b4e9ea093f83cd8f08610dd7f13bc.ctex"
+path="res://.godot/imported/slider_joint.svg-141e4933dfe1e19978d3597df1eb001b.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/slider_joint.svg"
-dest_files=["res://.godot/imported/slider_joint.svg-956b4e9ea093f83cd8f08610dd7f13bc.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/slider_joint.svg"
+dest_files=["res://.godot/imported/slider_joint.svg-141e4933dfe1e19978d3597df1eb001b.ctex"]
 
 [params]
 

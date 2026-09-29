@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwfbpnlkilses"
-path="res://.godot/imported/rotate.svg-676536d3076f3d9696ff2e682ac65042.ctex"
+path="res://.godot/imported/rotate.svg-317f3bca979d85b66002cde1ef04811f.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/rotate.svg"
-dest_files=["res://.godot/imported/rotate.svg-676536d3076f3d9696ff2e682ac65042.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/rotate.svg"
+dest_files=["res://.godot/imported/rotate.svg-317f3bca979d85b66002cde1ef04811f.ctex"]
 
 [params]
 

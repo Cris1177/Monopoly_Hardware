@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cj40ro4gcv87s"
-path="res://.godot/imported/rocketship.svg-351b626a03bc282e12059822299030a4.ctex"
+path="res://.godot/imported/rocketship.svg-c14fe346f39fd09a4cb48a1995a8a12b.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/rocketship.svg"
-dest_files=["res://.godot/imported/rocketship.svg-351b626a03bc282e12059822299030a4.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/rocketship.svg"
+dest_files=["res://.godot/imported/rocketship.svg-c14fe346f39fd09a4cb48a1995a8a12b.ctex"]
 
 [params]
 

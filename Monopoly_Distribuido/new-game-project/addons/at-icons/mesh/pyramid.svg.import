@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bsgonby8iyqpt"
-path="res://.godot/imported/pyramid.svg-bd27570c764d5f7bb705da9f428b60b0.ctex"
+path="res://.godot/imported/pyramid.svg-c6ebc9e6754397ebce5b859a6cfbf827.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/pyramid.svg"
-dest_files=["res://.godot/imported/pyramid.svg-bd27570c764d5f7bb705da9f428b60b0.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/pyramid.svg"
+dest_files=["res://.godot/imported/pyramid.svg-c6ebc9e6754397ebce5b859a6cfbf827.ctex"]
 
 [params]
 

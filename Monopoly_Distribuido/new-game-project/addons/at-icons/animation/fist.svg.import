@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://fyl461bbpihp"
-path="res://.godot/imported/fist.svg-cd07d44545046d2591627226f8a29b8c.ctex"
+path="res://.godot/imported/fist.svg-5cc4c0a5244c0a466871e22064c91bb1.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/fist.svg"
-dest_files=["res://.godot/imported/fist.svg-cd07d44545046d2591627226f8a29b8c.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/fist.svg"
+dest_files=["res://.godot/imported/fist.svg-5cc4c0a5244c0a466871e22064c91bb1.ctex"]
 
 [params]
 

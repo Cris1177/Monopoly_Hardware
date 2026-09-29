@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dpciojs5dlfh4"
-path="res://.godot/imported/lightning_in_circle.svg-0c20c814af6fa609a9e9726d3a1bb74c.ctex"
+path="res://.godot/imported/lightning_in_circle.svg-a25aae0b8ecd20332e59494aa0fa3aa7.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/lightning_in_circle.svg"
-dest_files=["res://.godot/imported/lightning_in_circle.svg-0c20c814af6fa609a9e9726d3a1bb74c.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/lightning_in_circle.svg"
+dest_files=["res://.godot/imported/lightning_in_circle.svg-a25aae0b8ecd20332e59494aa0fa3aa7.ctex"]
 
 [params]
 

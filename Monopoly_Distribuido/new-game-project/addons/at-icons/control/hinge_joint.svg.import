@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dsf7txvxybw5f"
-path="res://.godot/imported/hinge_joint.svg-0ededbd2672237eccb3d019a4f86ce6c.ctex"
+path="res://.godot/imported/hinge_joint.svg-4114958d0a2d1d347cea53bdfb09edb0.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/hinge_joint.svg"
-dest_files=["res://.godot/imported/hinge_joint.svg-0ededbd2672237eccb3d019a4f86ce6c.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/hinge_joint.svg"
+dest_files=["res://.godot/imported/hinge_joint.svg-4114958d0a2d1d347cea53bdfb09edb0.ctex"]
 
 [params]
 

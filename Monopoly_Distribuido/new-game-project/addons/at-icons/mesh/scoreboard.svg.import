@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://rfx6h8v0bg8q"
-path="res://.godot/imported/scoreboard.svg-d058f5177761e75afea8df657dc9593f.ctex"
+path="res://.godot/imported/scoreboard.svg-de2dd4f9ed9bdee34c8978a45785013c.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/scoreboard.svg"
-dest_files=["res://.godot/imported/scoreboard.svg-d058f5177761e75afea8df657dc9593f.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/scoreboard.svg"
+dest_files=["res://.godot/imported/scoreboard.svg-de2dd4f9ed9bdee34c8978a45785013c.ctex"]
 
 [params]
 

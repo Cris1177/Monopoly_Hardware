@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bjjnov1sgdqcl"
-path="res://.godot/imported/armor_chestplate.svg-862b9054025c600fd4b95cbc254e1c1d.ctex"
+path="res://.godot/imported/armor_chestplate.svg-af353ada963baf1998b4b2f6b430d19b.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/armor_chestplate.svg"
-dest_files=["res://.godot/imported/armor_chestplate.svg-862b9054025c600fd4b95cbc254e1c1d.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/armor_chestplate.svg"
+dest_files=["res://.godot/imported/armor_chestplate.svg-af353ada963baf1998b4b2f6b430d19b.ctex"]
 
 [params]
 

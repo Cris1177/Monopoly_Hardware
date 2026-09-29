@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bk3tymej6xjba"
-path="res://.godot/imported/checkmark.svg-7761b3ce543ad5cb42ecb2bb2b256ed4.ctex"
+path="res://.godot/imported/checkmark.svg-2b38345b74cd4c3df1d4140623d2eca1.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/checkmark.svg"
-dest_files=["res://.godot/imported/checkmark.svg-7761b3ce543ad5cb42ecb2bb2b256ed4.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/checkmark.svg"
+dest_files=["res://.godot/imported/checkmark.svg-2b38345b74cd4c3df1d4140623d2eca1.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://db83pmlw3cmob"
-path="res://.godot/imported/bandages.svg-cb81f6078fbf698379516039eecf1372.ctex"
+path="res://.godot/imported/bandages.svg-80621ff6902f0c9ec06e3260c5266b94.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/bandages.svg"
-dest_files=["res://.godot/imported/bandages.svg-cb81f6078fbf698379516039eecf1372.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/bandages.svg"
+dest_files=["res://.godot/imported/bandages.svg-80621ff6902f0c9ec06e3260c5266b94.ctex"]
 
 [params]
 

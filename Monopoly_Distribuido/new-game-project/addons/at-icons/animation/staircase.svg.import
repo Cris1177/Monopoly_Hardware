@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bmi0yf17kv7kx"
-path="res://.godot/imported/staircase.svg-5d3beea37fffd59d54818667e44c42a8.ctex"
+path="res://.godot/imported/staircase.svg-0c504171cfd6ee91f1f677e882fb39ff.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/staircase.svg"
-dest_files=["res://.godot/imported/staircase.svg-5d3beea37fffd59d54818667e44c42a8.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/staircase.svg"
+dest_files=["res://.godot/imported/staircase.svg-0c504171cfd6ee91f1f677e882fb39ff.ctex"]
 
 [params]
 

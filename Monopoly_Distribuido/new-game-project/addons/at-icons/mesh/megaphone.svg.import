@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://blt1kej56j6gb"
-path="res://.godot/imported/megaphone.svg-9f1a2ba7f3cf388ea6133c1532ae5130.ctex"
+path="res://.godot/imported/megaphone.svg-7b48dd8f5e5fe2915c942d3682fd5946.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/megaphone.svg"
-dest_files=["res://.godot/imported/megaphone.svg-9f1a2ba7f3cf388ea6133c1532ae5130.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/megaphone.svg"
+dest_files=["res://.godot/imported/megaphone.svg-7b48dd8f5e5fe2915c942d3682fd5946.ctex"]
 
 [params]
 

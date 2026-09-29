@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bp5da24el1fxo"
-path="res://.godot/imported/roadblock.svg-e1a93b641464ce846427730f6df3e0fb.ctex"
+path="res://.godot/imported/roadblock.svg-4c4eb7459dc013b13f01209b39734c8c.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/roadblock.svg"
-dest_files=["res://.godot/imported/roadblock.svg-e1a93b641464ce846427730f6df3e0fb.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/roadblock.svg"
+dest_files=["res://.godot/imported/roadblock.svg-4c4eb7459dc013b13f01209b39734c8c.ctex"]
 
 [params]
 

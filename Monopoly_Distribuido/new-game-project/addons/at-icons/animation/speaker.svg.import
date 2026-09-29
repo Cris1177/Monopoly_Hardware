@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ddq2wgdt6rb6i"
-path="res://.godot/imported/speaker.svg-c7d70b03f5fba6d6d457f8c6680b9be0.ctex"
+path="res://.godot/imported/speaker.svg-b88c7c766eecb47e3c748f44763058b1.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/speaker.svg"
-dest_files=["res://.godot/imported/speaker.svg-c7d70b03f5fba6d6d457f8c6680b9be0.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/speaker.svg"
+dest_files=["res://.godot/imported/speaker.svg-b88c7c766eecb47e3c748f44763058b1.ctex"]
 
 [params]
 

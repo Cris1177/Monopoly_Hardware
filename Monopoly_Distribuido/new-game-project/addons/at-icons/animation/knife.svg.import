@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c724rbt6onktq"
-path="res://.godot/imported/knife.svg-8304ce8ba1dd911ab50617eb7fea5fad.ctex"
+path="res://.godot/imported/knife.svg-ea1c9d7ca3780bea700daf2e7bf277af.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/knife.svg"
-dest_files=["res://.godot/imported/knife.svg-8304ce8ba1dd911ab50617eb7fea5fad.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/knife.svg"
+dest_files=["res://.godot/imported/knife.svg-ea1c9d7ca3780bea700daf2e7bf277af.ctex"]
 
 [params]
 

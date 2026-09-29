@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://drp7obykrqsgf"
-path="res://.godot/imported/couch.svg-dad15bf8fe20d37be299b17f8eb956c4.ctex"
+path="res://.godot/imported/couch.svg-63457492c61bd1638e01ef56f28bd9ef.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/couch.svg"
-dest_files=["res://.godot/imported/couch.svg-dad15bf8fe20d37be299b17f8eb956c4.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/couch.svg"
+dest_files=["res://.godot/imported/couch.svg-63457492c61bd1638e01ef56f28bd9ef.ctex"]
 
 [params]
 

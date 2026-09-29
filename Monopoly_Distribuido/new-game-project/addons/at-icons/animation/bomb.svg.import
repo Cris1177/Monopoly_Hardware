@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://byj00wnlductg"
-path="res://.godot/imported/bomb.svg-9348e3b617d7630b339b5713719da914.ctex"
+path="res://.godot/imported/bomb.svg-dc3376cace1d7ac2cb4ceb6fd50168cf.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/bomb.svg"
-dest_files=["res://.godot/imported/bomb.svg-9348e3b617d7630b339b5713719da914.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/bomb.svg"
+dest_files=["res://.godot/imported/bomb.svg-dc3376cace1d7ac2cb4ceb6fd50168cf.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dbx12iia4hi2e"
-path="res://.godot/imported/apple_eaten.svg-67f5fde7ec88dfcbffbd8bddd1028c74.ctex"
+path="res://.godot/imported/apple_eaten.svg-e042b89dcb8992860d242f132732225a.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/apple_eaten.svg"
-dest_files=["res://.godot/imported/apple_eaten.svg-67f5fde7ec88dfcbffbd8bddd1028c74.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/apple_eaten.svg"
+dest_files=["res://.godot/imported/apple_eaten.svg-e042b89dcb8992860d242f132732225a.ctex"]
 
 [params]
 

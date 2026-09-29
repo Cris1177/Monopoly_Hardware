@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bc3uvo0mgwjub"
-path="res://.godot/imported/ball_and_socket_joint.svg-688b042e2551481b6e02a946d61012cb.ctex"
+path="res://.godot/imported/ball_and_socket_joint.svg-cd05f2a2e19c6e1f8ba196b675ec5623.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/ball_and_socket_joint.svg"
-dest_files=["res://.godot/imported/ball_and_socket_joint.svg-688b042e2551481b6e02a946d61012cb.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/ball_and_socket_joint.svg"
+dest_files=["res://.godot/imported/ball_and_socket_joint.svg-cd05f2a2e19c6e1f8ba196b675ec5623.ctex"]
 
 [params]
 

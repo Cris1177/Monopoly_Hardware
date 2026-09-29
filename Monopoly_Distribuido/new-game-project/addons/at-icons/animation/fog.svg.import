@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cq1irq5j8ng8l"
-path="res://.godot/imported/fog.svg-1c17ed1789dfd8146a608bc33bed899e.ctex"
+path="res://.godot/imported/fog.svg-820eb386f61eaadb6f30454f36d3d2aa.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/fog.svg"
-dest_files=["res://.godot/imported/fog.svg-1c17ed1789dfd8146a608bc33bed899e.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/fog.svg"
+dest_files=["res://.godot/imported/fog.svg-820eb386f61eaadb6f30454f36d3d2aa.ctex"]
 
 [params]
 

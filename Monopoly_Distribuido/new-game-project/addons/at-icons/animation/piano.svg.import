@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dtx6j3gp18q3p"
-path="res://.godot/imported/piano.svg-13f3c060c74cb492c78c5316787ab59f.ctex"
+path="res://.godot/imported/piano.svg-8bdbbffaaad658d96e608f0107ffea06.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/piano.svg"
-dest_files=["res://.godot/imported/piano.svg-13f3c060c74cb492c78c5316787ab59f.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/piano.svg"
+dest_files=["res://.godot/imported/piano.svg-8bdbbffaaad658d96e608f0107ffea06.ctex"]
 
 [params]
 

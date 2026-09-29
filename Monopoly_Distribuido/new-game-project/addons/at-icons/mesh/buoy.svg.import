@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bguw6qktpmf4h"
-path="res://.godot/imported/buoy.svg-5c34e59928e886323eb261115a6efd7b.ctex"
+path="res://.godot/imported/buoy.svg-acf105625de02a071c2fc43cdb761dbb.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/buoy.svg"
-dest_files=["res://.godot/imported/buoy.svg-5c34e59928e886323eb261115a6efd7b.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/buoy.svg"
+dest_files=["res://.godot/imported/buoy.svg-acf105625de02a071c2fc43cdb761dbb.ctex"]
 
 [params]
 

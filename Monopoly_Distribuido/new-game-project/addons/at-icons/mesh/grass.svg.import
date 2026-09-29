@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://depcf0qlyvy8b"
-path="res://.godot/imported/grass.svg-1fa836d39898cf36aba264c15f850c6b.ctex"
+path="res://.godot/imported/grass.svg-06c4c6ff208719c38aaa2b582a4ae80b.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/grass.svg"
-dest_files=["res://.godot/imported/grass.svg-1fa836d39898cf36aba264c15f850c6b.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/grass.svg"
+dest_files=["res://.godot/imported/grass.svg-06c4c6ff208719c38aaa2b582a4ae80b.ctex"]
 
 [params]
 

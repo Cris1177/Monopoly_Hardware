@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cywjj64724oid"
-path="res://.godot/imported/cone.svg-6a89123ab4f6c94ec869e9aacc0943c2.ctex"
+path="res://.godot/imported/cone.svg-961c58695a46878b1d550c0369ced6b3.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/cone.svg"
-dest_files=["res://.godot/imported/cone.svg-6a89123ab4f6c94ec869e9aacc0943c2.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/cone.svg"
+dest_files=["res://.godot/imported/cone.svg-961c58695a46878b1d550c0369ced6b3.ctex"]
 
 [params]
 

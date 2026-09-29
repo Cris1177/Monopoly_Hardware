@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bsf7vh7syrnkh"
-path="res://.godot/imported/rotary_dial.svg-ee501518be413441c031bf74fe71a69f.ctex"
+path="res://.godot/imported/rotary_dial.svg-8ed5641c4ed1235933ad059778095966.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/rotary_dial.svg"
-dest_files=["res://.godot/imported/rotary_dial.svg-ee501518be413441c031bf74fe71a69f.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/rotary_dial.svg"
+dest_files=["res://.godot/imported/rotary_dial.svg-8ed5641c4ed1235933ad059778095966.ctex"]
 
 [params]
 

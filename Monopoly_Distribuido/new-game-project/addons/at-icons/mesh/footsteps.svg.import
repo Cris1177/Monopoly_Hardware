@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bwvssssl8npxu"
-path="res://.godot/imported/footsteps.svg-f42bb352c917eb413f53cdac3775221b.ctex"
+path="res://.godot/imported/footsteps.svg-fe5cca8b6625cfeaabe31fe10ec9995c.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/footsteps.svg"
-dest_files=["res://.godot/imported/footsteps.svg-f42bb352c917eb413f53cdac3775221b.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/footsteps.svg"
+dest_files=["res://.godot/imported/footsteps.svg-fe5cca8b6625cfeaabe31fe10ec9995c.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ce64tlda4a3ds"
-path="res://.godot/imported/swords.svg-7618b4636b9a73a51743d6f127b06312.ctex"
+path="res://.godot/imported/swords.svg-7a0f1c09e3af0af2f02f25b3d87abbb3.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/swords.svg"
-dest_files=["res://.godot/imported/swords.svg-7618b4636b9a73a51743d6f127b06312.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/swords.svg"
+dest_files=["res://.godot/imported/swords.svg-7a0f1c09e3af0af2f02f25b3d87abbb3.ctex"]
 
 [params]
 

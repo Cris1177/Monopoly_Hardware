@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://skcvjift8wqs"
-path="res://.godot/imported/click.svg-f629558ef09436a65ff60b6528a219af.ctex"
+path="res://.godot/imported/click.svg-478fb01cc321cee3b72a2ae0e544e1b9.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/click.svg"
-dest_files=["res://.godot/imported/click.svg-f629558ef09436a65ff60b6528a219af.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/click.svg"
+dest_files=["res://.godot/imported/click.svg-478fb01cc321cee3b72a2ae0e544e1b9.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cft0deokthy8n"
-path="res://.godot/imported/faucet.svg-75425cdb9abfd5bfe9630044fde9285b.ctex"
+path="res://.godot/imported/faucet.svg-1d70dba78a0816b61a6da5736b874a00.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/faucet.svg"
-dest_files=["res://.godot/imported/faucet.svg-75425cdb9abfd5bfe9630044fde9285b.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/faucet.svg"
+dest_files=["res://.godot/imported/faucet.svg-1d70dba78a0816b61a6da5736b874a00.ctex"]
 
 [params]
 

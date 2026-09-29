@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b2mqxcjy5csos"
-path="res://.godot/imported/circle_half_filled.svg-a43ea2402d4587e0f9bad542c72a112c.ctex"
+path="res://.godot/imported/circle_half_filled.svg-28f692e732c904f652a0f2f33dfcb732.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/circle_half_filled.svg"
-dest_files=["res://.godot/imported/circle_half_filled.svg-a43ea2402d4587e0f9bad542c72a112c.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/circle_half_filled.svg"
+dest_files=["res://.godot/imported/circle_half_filled.svg-28f692e732c904f652a0f2f33dfcb732.ctex"]
 
 [params]
 

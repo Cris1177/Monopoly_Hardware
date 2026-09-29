@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://x40sadipuast"
-path="res://.godot/imported/shield.svg-df6c501404b654cd601f8b4f8c71f795.ctex"
+path="res://.godot/imported/shield.svg-d57bbea6911ede1df9cd0eb60ea4a46d.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/shield.svg"
-dest_files=["res://.godot/imported/shield.svg-df6c501404b654cd601f8b4f8c71f795.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/shield.svg"
+dest_files=["res://.godot/imported/shield.svg-d57bbea6911ede1df9cd0eb60ea4a46d.ctex"]
 
 [params]
 

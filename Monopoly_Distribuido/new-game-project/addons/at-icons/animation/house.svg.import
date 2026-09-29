@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://chtj6sa80j0nm"
-path="res://.godot/imported/house.svg-f44b5e30375f9bf083e660d34dc19546.ctex"
+path="res://.godot/imported/house.svg-c5e048822505891edb0d71e83c518459.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/house.svg"
-dest_files=["res://.godot/imported/house.svg-f44b5e30375f9bf083e660d34dc19546.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/house.svg"
+dest_files=["res://.godot/imported/house.svg-c5e048822505891edb0d71e83c518459.ctex"]
 
 [params]
 

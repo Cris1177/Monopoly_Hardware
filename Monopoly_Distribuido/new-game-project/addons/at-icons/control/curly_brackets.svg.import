@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dcinukjwdddsi"
-path="res://.godot/imported/curly_brackets.svg-863eefd03d1f7300cc3c45496a14609f.ctex"
+path="res://.godot/imported/curly_brackets.svg-c85cb34f119c61d264c4db420d45968b.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/curly_brackets.svg"
-dest_files=["res://.godot/imported/curly_brackets.svg-863eefd03d1f7300cc3c45496a14609f.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/curly_brackets.svg"
+dest_files=["res://.godot/imported/curly_brackets.svg-c85cb34f119c61d264c4db420d45968b.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://v6ndm8qnktwr"
-path="res://.godot/imported/slide_switch.svg-bc1212411a0960062dd9a2e610f51af2.ctex"
+path="res://.godot/imported/slide_switch.svg-0f6f8b0ee120f8081b0c3868ab9d5e3c.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/slide_switch.svg"
-dest_files=["res://.godot/imported/slide_switch.svg-bc1212411a0960062dd9a2e610f51af2.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/slide_switch.svg"
+dest_files=["res://.godot/imported/slide_switch.svg-0f6f8b0ee120f8081b0c3868ab9d5e3c.ctex"]
 
 [params]
 

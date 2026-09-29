@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bae5tjb6vmlln"
-path="res://.godot/imported/mountains.svg-7b08491fe1a732426be6f212e7980962.ctex"
+path="res://.godot/imported/mountains.svg-9ce498d0fb5428a9ff41faf93be78eeb.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/mountains.svg"
-dest_files=["res://.godot/imported/mountains.svg-7b08491fe1a732426be6f212e7980962.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/mountains.svg"
+dest_files=["res://.godot/imported/mountains.svg-9ce498d0fb5428a9ff41faf93be78eeb.ctex"]
 
 [params]
 

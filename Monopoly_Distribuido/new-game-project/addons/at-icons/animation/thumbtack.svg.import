@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://du3rnul616dqt"
-path="res://.godot/imported/thumbtack.svg-15a54e5be7c9ef3e2dca631323512d4a.ctex"
+path="res://.godot/imported/thumbtack.svg-b8279272e7adcc69e142cc9d13fa1719.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/thumbtack.svg"
-dest_files=["res://.godot/imported/thumbtack.svg-15a54e5be7c9ef3e2dca631323512d4a.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/thumbtack.svg"
+dest_files=["res://.godot/imported/thumbtack.svg-b8279272e7adcc69e142cc9d13fa1719.ctex"]
 
 [params]
 

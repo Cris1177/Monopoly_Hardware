@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://urc1usqra5if"
-path="res://.godot/imported/golf_club.svg-81a08b6c4cc6c5b861e76560ec72f5c8.ctex"
+path="res://.godot/imported/golf_club.svg-6e21a6a57172eb0bd71934944cf45e14.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/golf_club.svg"
-dest_files=["res://.godot/imported/golf_club.svg-81a08b6c4cc6c5b861e76560ec72f5c8.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/golf_club.svg"
+dest_files=["res://.godot/imported/golf_club.svg-6e21a6a57172eb0bd71934944cf45e14.ctex"]
 
 [params]
 

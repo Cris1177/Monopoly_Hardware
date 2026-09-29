@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cafj1o308gpft"
-path="res://.godot/imported/arrow_double_diagonal_reverse.svg-ddfded1c6e01a090a1ce804aff1b2788.ctex"
+path="res://.godot/imported/arrow_double_diagonal_reverse.svg-859ebf3f0ccf19a895e3a0e5576a7077.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/arrow_double_diagonal_reverse.svg"
-dest_files=["res://.godot/imported/arrow_double_diagonal_reverse.svg-ddfded1c6e01a090a1ce804aff1b2788.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/arrow_double_diagonal_reverse.svg"
+dest_files=["res://.godot/imported/arrow_double_diagonal_reverse.svg-859ebf3f0ccf19a895e3a0e5576a7077.ctex"]
 
 [params]
 

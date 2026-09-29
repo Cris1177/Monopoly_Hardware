@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://uf3vcd4d0wou"
-path="res://.godot/imported/bird.svg-1e24ad33d9f663ecf093544d8be8c6ba.ctex"
+path="res://.godot/imported/bird.svg-707134e7dd5b1d5749ab887da55f069b.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/bird.svg"
-dest_files=["res://.godot/imported/bird.svg-1e24ad33d9f663ecf093544d8be8c6ba.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/bird.svg"
+dest_files=["res://.godot/imported/bird.svg-707134e7dd5b1d5749ab887da55f069b.ctex"]
 
 [params]
 

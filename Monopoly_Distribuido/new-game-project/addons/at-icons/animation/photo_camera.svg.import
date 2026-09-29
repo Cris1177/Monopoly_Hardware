@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dh8850yqwf70e"
-path="res://.godot/imported/photo_camera.svg-b890aa1860c3c3c1024b8a7e8b7d7003.ctex"
+path="res://.godot/imported/photo_camera.svg-5ab83fb1d0ced6c7220f8142fb58c3d6.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/photo_camera.svg"
-dest_files=["res://.godot/imported/photo_camera.svg-b890aa1860c3c3c1024b8a7e8b7d7003.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/photo_camera.svg"
+dest_files=["res://.godot/imported/photo_camera.svg-5ab83fb1d0ced6c7220f8142fb58c3d6.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://u1gj3yc05oxh"
-path="res://.godot/imported/crash_test_dummy.svg-b763c0a14aa31673ded47a0875d5fd97.ctex"
+path="res://.godot/imported/crash_test_dummy.svg-1ef2379e7f4dda2da7abb338b7ebbc86.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/crash_test_dummy.svg"
-dest_files=["res://.godot/imported/crash_test_dummy.svg-b763c0a14aa31673ded47a0875d5fd97.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/crash_test_dummy.svg"
+dest_files=["res://.godot/imported/crash_test_dummy.svg-1ef2379e7f4dda2da7abb338b7ebbc86.ctex"]
 
 [params]
 

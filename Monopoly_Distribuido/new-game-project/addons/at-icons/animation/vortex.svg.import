@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c3cc2m2q4v7ai"
-path="res://.godot/imported/vortex.svg-61de9267748d005e6c47f272f9d26670.ctex"
+path="res://.godot/imported/vortex.svg-e873509b20a30f5e10f21e14484f451e.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/vortex.svg"
-dest_files=["res://.godot/imported/vortex.svg-61de9267748d005e6c47f272f9d26670.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/vortex.svg"
+dest_files=["res://.godot/imported/vortex.svg-e873509b20a30f5e10f21e14484f451e.ctex"]
 
 [params]
 

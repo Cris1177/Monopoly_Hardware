@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6chkqv8f0hg7"
-path="res://.godot/imported/knot.svg-e65fb1fbef723de58dc2ffa24e575eae.ctex"
+path="res://.godot/imported/knot.svg-3476d0d221fac602cb6828fae00efe09.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/knot.svg"
-dest_files=["res://.godot/imported/knot.svg-e65fb1fbef723de58dc2ffa24e575eae.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/knot.svg"
+dest_files=["res://.godot/imported/knot.svg-3476d0d221fac602cb6828fae00efe09.ctex"]
 
 [params]
 

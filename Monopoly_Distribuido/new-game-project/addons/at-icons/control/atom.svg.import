@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://vil1c7t6gemb"
-path="res://.godot/imported/atom.svg-88873f24e06fbd4edd88e1f1cce8881f.ctex"
+path="res://.godot/imported/atom.svg-497f541a5f6b35e1cea21de51596ad0f.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/atom.svg"
-dest_files=["res://.godot/imported/atom.svg-88873f24e06fbd4edd88e1f1cce8881f.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/atom.svg"
+dest_files=["res://.godot/imported/atom.svg-497f541a5f6b35e1cea21de51596ad0f.ctex"]
 
 [params]
 

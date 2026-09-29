@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cx26r5fm5iyk4"
-path="res://.godot/imported/black_hole.svg-393716f760c082e95284793b928bb847.ctex"
+path="res://.godot/imported/black_hole.svg-f9a50b478a81576042b5c769e6220491.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/black_hole.svg"
-dest_files=["res://.godot/imported/black_hole.svg-393716f760c082e95284793b928bb847.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/black_hole.svg"
+dest_files=["res://.godot/imported/black_hole.svg-f9a50b478a81576042b5c769e6220491.ctex"]
 
 [params]
 

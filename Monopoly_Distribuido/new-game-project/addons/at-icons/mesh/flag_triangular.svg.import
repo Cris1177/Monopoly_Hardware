@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://clqohl0dduhvd"
-path="res://.godot/imported/flag_triangular.svg-f04d003376152390b55fdf7649b8ed3c.ctex"
+path="res://.godot/imported/flag_triangular.svg-ff0accc43014727fa611c21c10cb945d.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/flag_triangular.svg"
-dest_files=["res://.godot/imported/flag_triangular.svg-f04d003376152390b55fdf7649b8ed3c.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/flag_triangular.svg"
+dest_files=["res://.godot/imported/flag_triangular.svg-ff0accc43014727fa611c21c10cb945d.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkmc74b8o8v0x"
-path="res://.godot/imported/magic_wand.svg-79a791e09ede3b85323a28788d7c87fd.ctex"
+path="res://.godot/imported/magic_wand.svg-60909f9e0bd878a9183997507e6b1fcc.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/magic_wand.svg"
-dest_files=["res://.godot/imported/magic_wand.svg-79a791e09ede3b85323a28788d7c87fd.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/magic_wand.svg"
+dest_files=["res://.godot/imported/magic_wand.svg-60909f9e0bd878a9183997507e6b1fcc.ctex"]
 
 [params]
 

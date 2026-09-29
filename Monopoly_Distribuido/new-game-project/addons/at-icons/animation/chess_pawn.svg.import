@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b65i2ny1g73gf"
-path="res://.godot/imported/chess_pawn.svg-0e7c90c53e0c941fa5efc032d87e040b.ctex"
+path="res://.godot/imported/chess_pawn.svg-bc9167b4cef98c19a917838cec269d9b.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/chess_pawn.svg"
-dest_files=["res://.godot/imported/chess_pawn.svg-0e7c90c53e0c941fa5efc032d87e040b.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/chess_pawn.svg"
+dest_files=["res://.godot/imported/chess_pawn.svg-bc9167b4cef98c19a917838cec269d9b.ctex"]
 
 [params]
 

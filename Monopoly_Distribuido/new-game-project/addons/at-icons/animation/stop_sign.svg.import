@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://difosaeaa0ptk"
-path="res://.godot/imported/stop_sign.svg-cbbf1e1c2677328f09bc2727b3889f2a.ctex"
+path="res://.godot/imported/stop_sign.svg-a998aa24c25f6ae3cbb96784ec4d6989.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/stop_sign.svg"
-dest_files=["res://.godot/imported/stop_sign.svg-cbbf1e1c2677328f09bc2727b3889f2a.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/stop_sign.svg"
+dest_files=["res://.godot/imported/stop_sign.svg-a998aa24c25f6ae3cbb96784ec4d6989.ctex"]
 
 [params]
 

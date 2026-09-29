@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dvsv2ih14tngr"
-path="res://.godot/imported/bucket_fill.svg-9bdbe8bc2e3139071815e38c4df14de1.ctex"
+path="res://.godot/imported/bucket_fill.svg-fc150d4eafd422fcdb216c1c364ee4dc.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/bucket_fill.svg"
-dest_files=["res://.godot/imported/bucket_fill.svg-9bdbe8bc2e3139071815e38c4df14de1.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/bucket_fill.svg"
+dest_files=["res://.godot/imported/bucket_fill.svg-fc150d4eafd422fcdb216c1c364ee4dc.ctex"]
 
 [params]
 

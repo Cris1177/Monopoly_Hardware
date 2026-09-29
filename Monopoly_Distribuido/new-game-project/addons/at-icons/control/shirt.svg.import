@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bkv1lyjwwm50u"
-path="res://.godot/imported/shirt.svg-27e5c2d361398364fbb04098fb098a90.ctex"
+path="res://.godot/imported/shirt.svg-b4509be0ee5253cb785b0a1b0c5334df.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/shirt.svg"
-dest_files=["res://.godot/imported/shirt.svg-27e5c2d361398364fbb04098fb098a90.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/shirt.svg"
+dest_files=["res://.godot/imported/shirt.svg-b4509be0ee5253cb785b0a1b0c5334df.ctex"]
 
 [params]
 

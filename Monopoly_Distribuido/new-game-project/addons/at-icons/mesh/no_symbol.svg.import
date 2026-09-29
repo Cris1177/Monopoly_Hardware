@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bpim0daymk46v"
-path="res://.godot/imported/no_symbol.svg-c86a1604f11639af71a4b4173a880d08.ctex"
+path="res://.godot/imported/no_symbol.svg-c1882e002807b47936d3e7a59e12cdc4.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/no_symbol.svg"
-dest_files=["res://.godot/imported/no_symbol.svg-c86a1604f11639af71a4b4173a880d08.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/no_symbol.svg"
+dest_files=["res://.godot/imported/no_symbol.svg-c1882e002807b47936d3e7a59e12cdc4.ctex"]
 
 [params]
 

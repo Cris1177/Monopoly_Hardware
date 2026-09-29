@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://byvc1umv7axvh"
-path="res://.godot/imported/vr_headset.svg-f503553303d8410bb838de3041e30953.ctex"
+path="res://.godot/imported/vr_headset.svg-4eb42a053e6bdb96ff9c68711c26a7c2.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/vr_headset.svg"
-dest_files=["res://.godot/imported/vr_headset.svg-f503553303d8410bb838de3041e30953.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/vr_headset.svg"
+dest_files=["res://.godot/imported/vr_headset.svg-4eb42a053e6bdb96ff9c68711c26a7c2.ctex"]
 
 [params]
 

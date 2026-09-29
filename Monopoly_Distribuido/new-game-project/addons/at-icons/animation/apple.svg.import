@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://drwx01t0ptndj"
-path="res://.godot/imported/apple.svg-39d936cc626f2b32272b83c5fff76c2b.ctex"
+path="res://.godot/imported/apple.svg-921d6659e62cb4ab4d5c13bd7156c811.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/apple.svg"
-dest_files=["res://.godot/imported/apple.svg-39d936cc626f2b32272b83c5fff76c2b.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/apple.svg"
+dest_files=["res://.godot/imported/apple.svg-921d6659e62cb4ab4d5c13bd7156c811.ctex"]
 
 [params]
 

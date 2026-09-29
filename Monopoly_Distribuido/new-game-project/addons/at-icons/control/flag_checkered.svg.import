@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://droi8jqbfw4m"
-path="res://.godot/imported/flag_checkered.svg-5cbd488bd9f4f5ebe00dce7f0a2ea63a.ctex"
+path="res://.godot/imported/flag_checkered.svg-99f3b44f1a905a6afe156096464bd348.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/flag_checkered.svg"
-dest_files=["res://.godot/imported/flag_checkered.svg-5cbd488bd9f4f5ebe00dce7f0a2ea63a.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/flag_checkered.svg"
+dest_files=["res://.godot/imported/flag_checkered.svg-99f3b44f1a905a6afe156096464bd348.ctex"]
 
 [params]
 

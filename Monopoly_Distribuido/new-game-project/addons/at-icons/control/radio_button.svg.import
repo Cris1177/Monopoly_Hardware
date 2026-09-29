@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://crihvmutcasp2"
-path="res://.godot/imported/radio_button.svg-7c953e584712a7eec04d658d2b8451dc.ctex"
+path="res://.godot/imported/radio_button.svg-7966a5a0fbd9f512eb507f11bde0729b.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/radio_button.svg"
-dest_files=["res://.godot/imported/radio_button.svg-7c953e584712a7eec04d658d2b8451dc.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/radio_button.svg"
+dest_files=["res://.godot/imported/radio_button.svg-7966a5a0fbd9f512eb507f11bde0729b.ctex"]
 
 [params]
 

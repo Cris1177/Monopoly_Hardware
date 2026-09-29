@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cqd5jikok23o6"
-path="res://.godot/imported/leaf.svg-1b8a90e237c45f54438109761f92f672.ctex"
+path="res://.godot/imported/leaf.svg-da6825fa09c3a8e1b435761ce920136a.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/leaf.svg"
-dest_files=["res://.godot/imported/leaf.svg-1b8a90e237c45f54438109761f92f672.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/leaf.svg"
+dest_files=["res://.godot/imported/leaf.svg-da6825fa09c3a8e1b435761ce920136a.ctex"]
 
 [params]
 

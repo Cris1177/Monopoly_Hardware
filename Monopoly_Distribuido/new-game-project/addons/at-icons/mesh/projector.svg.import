@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://csafr7qb2ge61"
-path="res://.godot/imported/projector.svg-92eaf18af9449d7a566a660c5acae3fa.ctex"
+path="res://.godot/imported/projector.svg-66853705d3e415944a5924ddaa7c8eae.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/projector.svg"
-dest_files=["res://.godot/imported/projector.svg-92eaf18af9449d7a566a660c5acae3fa.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/projector.svg"
+dest_files=["res://.godot/imported/projector.svg-66853705d3e415944a5924ddaa7c8eae.ctex"]
 
 [params]
 

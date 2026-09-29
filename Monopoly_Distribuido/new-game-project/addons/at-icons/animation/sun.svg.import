@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dnnictfgi3fmw"
-path="res://.godot/imported/sun.svg-19b229a38fbc9717e0425c28b421a229.ctex"
+path="res://.godot/imported/sun.svg-b2a90fe40ff7442f7b7e6806379b0e31.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/sun.svg"
-dest_files=["res://.godot/imported/sun.svg-19b229a38fbc9717e0425c28b421a229.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/sun.svg"
+dest_files=["res://.godot/imported/sun.svg-b2a90fe40ff7442f7b7e6806379b0e31.ctex"]
 
 [params]
 

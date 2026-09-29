@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ci47ms264rjg"
-path="res://.godot/imported/mesh_plane.svg-8bd8047e09520a74204c3d39d6601f12.ctex"
+path="res://.godot/imported/mesh_plane.svg-065e14c91995e7c6b0f59b60d2e7d035.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/mesh_plane.svg"
-dest_files=["res://.godot/imported/mesh_plane.svg-8bd8047e09520a74204c3d39d6601f12.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/mesh_plane.svg"
+dest_files=["res://.godot/imported/mesh_plane.svg-065e14c91995e7c6b0f59b60d2e7d035.ctex"]
 
 [params]
 

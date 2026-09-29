@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bpb6bnlvseuv2"
-path="res://.godot/imported/heart.svg-7655d537429c19464d31bb93c0244c73.ctex"
+path="res://.godot/imported/heart.svg-86a543b3c70f2f80fefb708a17b3535b.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/heart.svg"
-dest_files=["res://.godot/imported/heart.svg-7655d537429c19464d31bb93c0244c73.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/heart.svg"
+dest_files=["res://.godot/imported/heart.svg-86a543b3c70f2f80fefb708a17b3535b.ctex"]
 
 [params]
 

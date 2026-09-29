@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://m67sxvh2jci5"
-path="res://.godot/imported/airplane.svg-dab5c46403fcb7d7556d0f78684e03c4.ctex"
+path="res://.godot/imported/airplane.svg-bd0c1e879f5b168406faafd7cceaa6f3.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/airplane.svg"
-dest_files=["res://.godot/imported/airplane.svg-dab5c46403fcb7d7556d0f78684e03c4.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/airplane.svg"
+dest_files=["res://.godot/imported/airplane.svg-bd0c1e879f5b168406faafd7cceaa6f3.ctex"]
 
 [params]
 

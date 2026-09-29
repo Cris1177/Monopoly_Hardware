@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b714muahqjoks"
-path="res://.godot/imported/spade.svg-e0b1f8a015e73beff6e95d5f129507c9.ctex"
+path="res://.godot/imported/spade.svg-ea907f35d1ceaa1c0ac45e372322b305.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/spade.svg"
-dest_files=["res://.godot/imported/spade.svg-e0b1f8a015e73beff6e95d5f129507c9.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/spade.svg"
+dest_files=["res://.godot/imported/spade.svg-ea907f35d1ceaa1c0ac45e372322b305.ctex"]
 
 [params]
 

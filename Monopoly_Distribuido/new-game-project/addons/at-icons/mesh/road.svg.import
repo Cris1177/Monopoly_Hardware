@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://1iw7gp2spplm"
-path="res://.godot/imported/road.svg-a25b219055490292dd2d2011f8d26f1d.ctex"
+path="res://.godot/imported/road.svg-9509dc6d8ed5f7ebe80747c675773916.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/road.svg"
-dest_files=["res://.godot/imported/road.svg-a25b219055490292dd2d2011f8d26f1d.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/road.svg"
+dest_files=["res://.godot/imported/road.svg-9509dc6d8ed5f7ebe80747c675773916.ctex"]
 
 [params]
 

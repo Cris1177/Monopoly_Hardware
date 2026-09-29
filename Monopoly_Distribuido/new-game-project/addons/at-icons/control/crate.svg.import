@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cy7krtcu1abp1"
-path="res://.godot/imported/crate.svg-3b0b13cd59039eacdc6c067300d14dd5.ctex"
+path="res://.godot/imported/crate.svg-7df62e706288f6ef446d30d6a5d14d3c.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/crate.svg"
-dest_files=["res://.godot/imported/crate.svg-3b0b13cd59039eacdc6c067300d14dd5.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/crate.svg"
+dest_files=["res://.godot/imported/crate.svg-7df62e706288f6ef446d30d6a5d14d3c.ctex"]
 
 [params]
 

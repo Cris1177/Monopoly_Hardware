@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cyrsi0ufu32tv"
-path="res://.godot/imported/prism.svg-5f7eab750a9d71b4442386f39911dcb7.ctex"
+path="res://.godot/imported/prism.svg-369ee83c5ee67e3a8f1db8dd538e8ac1.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/prism.svg"
-dest_files=["res://.godot/imported/prism.svg-5f7eab750a9d71b4442386f39911dcb7.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/prism.svg"
+dest_files=["res://.godot/imported/prism.svg-369ee83c5ee67e3a8f1db8dd538e8ac1.ctex"]
 
 [params]
 

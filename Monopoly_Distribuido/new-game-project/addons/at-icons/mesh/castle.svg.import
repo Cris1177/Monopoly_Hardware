@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dnfk2iuhdjbx1"
-path="res://.godot/imported/castle.svg-5c3c28c0720ed4556551599efbe0af57.ctex"
+path="res://.godot/imported/castle.svg-72ebf8545d55fcd48395caa9426cf8be.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/castle.svg"
-dest_files=["res://.godot/imported/castle.svg-5c3c28c0720ed4556551599efbe0af57.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/castle.svg"
+dest_files=["res://.godot/imported/castle.svg-72ebf8545d55fcd48395caa9426cf8be.ctex"]
 
 [params]
 

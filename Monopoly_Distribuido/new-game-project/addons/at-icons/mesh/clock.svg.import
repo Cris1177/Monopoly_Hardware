@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b5ac88kef8un6"
-path="res://.godot/imported/clock.svg-4368764cc64b5b694f5bcab6f72c7764.ctex"
+path="res://.godot/imported/clock.svg-b015f0d718da5b02f4dc42323e4a7a51.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/clock.svg"
-dest_files=["res://.godot/imported/clock.svg-4368764cc64b5b694f5bcab6f72c7764.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/clock.svg"
+dest_files=["res://.godot/imported/clock.svg-b015f0d718da5b02f4dc42323e4a7a51.ctex"]
 
 [params]
 

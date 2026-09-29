@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dv40j6qrycnym"
-path="res://.godot/imported/force_field.svg-de4a2ff0eab1f870a0bf104897992973.ctex"
+path="res://.godot/imported/force_field.svg-61a9af6e7ab501da60e416608388105c.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/force_field.svg"
-dest_files=["res://.godot/imported/force_field.svg-de4a2ff0eab1f870a0bf104897992973.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/force_field.svg"
+dest_files=["res://.godot/imported/force_field.svg-61a9af6e7ab501da60e416608388105c.ctex"]
 
 [params]
 

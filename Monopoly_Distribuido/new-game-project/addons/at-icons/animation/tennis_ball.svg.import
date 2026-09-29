@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://7513041yb8vi"
-path="res://.godot/imported/tennis_ball.svg-d9bf074f8596ec4a2d1bbd2526e19e7f.ctex"
+path="res://.godot/imported/tennis_ball.svg-f3a93fa45c77d960adbd2d07e477519a.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/tennis_ball.svg"
-dest_files=["res://.godot/imported/tennis_ball.svg-d9bf074f8596ec4a2d1bbd2526e19e7f.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/tennis_ball.svg"
+dest_files=["res://.godot/imported/tennis_ball.svg-f3a93fa45c77d960adbd2d07e477519a.ctex"]
 
 [params]
 

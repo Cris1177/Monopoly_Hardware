@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bs87gg7egiub6"
-path="res://.godot/imported/missile.svg-5fc4162cd92da702966e39eee9cb3038.ctex"
+path="res://.godot/imported/missile.svg-bdc31ea7593191c770fce0c245157fbe.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/missile.svg"
-dest_files=["res://.godot/imported/missile.svg-5fc4162cd92da702966e39eee9cb3038.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/missile.svg"
+dest_files=["res://.godot/imported/missile.svg-bdc31ea7593191c770fce0c245157fbe.ctex"]
 
 [params]
 

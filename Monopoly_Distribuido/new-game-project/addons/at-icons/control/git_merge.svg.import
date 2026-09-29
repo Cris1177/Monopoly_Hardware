@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://trjldr1qh3a0"
-path="res://.godot/imported/git_merge.svg-131655b96b4dacce8f17ce4e1293c68d.ctex"
+path="res://.godot/imported/git_merge.svg-1fe52a8dc8b10b35937b4a67021c3eaf.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/git_merge.svg"
-dest_files=["res://.godot/imported/git_merge.svg-131655b96b4dacce8f17ce4e1293c68d.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/git_merge.svg"
+dest_files=["res://.godot/imported/git_merge.svg-1fe52a8dc8b10b35937b4a67021c3eaf.ctex"]
 
 [params]
 

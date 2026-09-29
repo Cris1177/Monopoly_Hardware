@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://pey45t2gx43l"
-path="res://.godot/imported/thunderstorm.svg-82188cd040afc0a79b0e109c9bf75217.ctex"
+path="res://.godot/imported/thunderstorm.svg-7262957080a4b4ca7bdcccedf54a65a1.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/thunderstorm.svg"
-dest_files=["res://.godot/imported/thunderstorm.svg-82188cd040afc0a79b0e109c9bf75217.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/thunderstorm.svg"
+dest_files=["res://.godot/imported/thunderstorm.svg-7262957080a4b4ca7bdcccedf54a65a1.ctex"]
 
 [params]
 

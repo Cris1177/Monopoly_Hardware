@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bafolptk0vpm1"
-path="res://.godot/imported/keyhole.svg-76d13f5160c1321a84b2022de0ffc40b.ctex"
+path="res://.godot/imported/keyhole.svg-515c7af8df9cca878af19ad96bf198ce.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/keyhole.svg"
-dest_files=["res://.godot/imported/keyhole.svg-76d13f5160c1321a84b2022de0ffc40b.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/keyhole.svg"
+dest_files=["res://.godot/imported/keyhole.svg-515c7af8df9cca878af19ad96bf198ce.ctex"]
 
 [params]
 

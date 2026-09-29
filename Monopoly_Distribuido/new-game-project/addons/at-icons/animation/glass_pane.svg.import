@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cpxljcnd48den"
-path="res://.godot/imported/glass_pane.svg-3ec578c1e1aaa1fe79758990b2a6dfd6.ctex"
+path="res://.godot/imported/glass_pane.svg-957d654968a42ddcb28a8e6b043badce.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/glass_pane.svg"
-dest_files=["res://.godot/imported/glass_pane.svg-3ec578c1e1aaa1fe79758990b2a6dfd6.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/glass_pane.svg"
+dest_files=["res://.godot/imported/glass_pane.svg-957d654968a42ddcb28a8e6b043badce.ctex"]
 
 [params]
 

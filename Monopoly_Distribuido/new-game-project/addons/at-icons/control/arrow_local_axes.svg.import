@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://peeqdseta1ig"
-path="res://.godot/imported/arrow_local_axes.svg-e73be7aba238dbfb0b85ee72d0f9911d.ctex"
+path="res://.godot/imported/arrow_local_axes.svg-3cf57a37e44f633c051abc5d8528f597.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/arrow_local_axes.svg"
-dest_files=["res://.godot/imported/arrow_local_axes.svg-e73be7aba238dbfb0b85ee72d0f9911d.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/arrow_local_axes.svg"
+dest_files=["res://.godot/imported/arrow_local_axes.svg-3cf57a37e44f633c051abc5d8528f597.ctex"]
 
 [params]
 

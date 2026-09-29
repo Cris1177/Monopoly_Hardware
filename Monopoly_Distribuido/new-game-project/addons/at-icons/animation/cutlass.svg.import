@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dbaet7gn4tegp"
-path="res://.godot/imported/cutlass.svg-f65108e853a3264d3843dbf69f33d3c9.ctex"
+path="res://.godot/imported/cutlass.svg-33a480165cb8258af875d1e41c7567ce.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/cutlass.svg"
-dest_files=["res://.godot/imported/cutlass.svg-f65108e853a3264d3843dbf69f33d3c9.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/cutlass.svg"
+dest_files=["res://.godot/imported/cutlass.svg-33a480165cb8258af875d1e41c7567ce.ctex"]
 
 [params]
 

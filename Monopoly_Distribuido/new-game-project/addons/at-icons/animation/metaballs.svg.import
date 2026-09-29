@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d3v4h3k28bohv"
-path="res://.godot/imported/metaballs.svg-92c8b0e532d30e8857063408624d29d4.ctex"
+path="res://.godot/imported/metaballs.svg-d6f378f0a0d95d7b41aa0e2c4948f34c.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/metaballs.svg"
-dest_files=["res://.godot/imported/metaballs.svg-92c8b0e532d30e8857063408624d29d4.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/metaballs.svg"
+dest_files=["res://.godot/imported/metaballs.svg-d6f378f0a0d95d7b41aa0e2c4948f34c.ctex"]
 
 [params]
 

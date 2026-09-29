@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://lsxc6o8spe2g"
-path="res://.godot/imported/fire.svg-c5007d0fdf3ae5cbd99b3887f594b416.ctex"
+path="res://.godot/imported/fire.svg-92f3d2da82dbadab55cd2f58851af92a.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/fire.svg"
-dest_files=["res://.godot/imported/fire.svg-c5007d0fdf3ae5cbd99b3887f594b416.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/fire.svg"
+dest_files=["res://.godot/imported/fire.svg-92f3d2da82dbadab55cd2f58851af92a.ctex"]
 
 [params]
 

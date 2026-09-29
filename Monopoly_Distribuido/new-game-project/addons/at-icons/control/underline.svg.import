@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://rqlbn0yedpw4"
-path="res://.godot/imported/underline.svg-49eea9931fc4a6d2ea63e77487cd9aa5.ctex"
+path="res://.godot/imported/underline.svg-26cc271583756ef1af133a85a7ceb8db.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/underline.svg"
-dest_files=["res://.godot/imported/underline.svg-49eea9931fc4a6d2ea63e77487cd9aa5.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/underline.svg"
+dest_files=["res://.godot/imported/underline.svg-26cc271583756ef1af133a85a7ceb8db.ctex"]
 
 [params]
 

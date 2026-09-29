@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dpf06poctibeg"
-path="res://.godot/imported/division_sign_in_square.svg-8011650c5e08f397c029b264e47fa7b6.ctex"
+path="res://.godot/imported/division_sign_in_square.svg-b21a89802f2b1b85e146d22a9d8f26fe.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/division_sign_in_square.svg"
-dest_files=["res://.godot/imported/division_sign_in_square.svg-8011650c5e08f397c029b264e47fa7b6.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/division_sign_in_square.svg"
+dest_files=["res://.godot/imported/division_sign_in_square.svg-b21a89802f2b1b85e146d22a9d8f26fe.ctex"]
 
 [params]
 

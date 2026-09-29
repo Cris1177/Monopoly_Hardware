@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b617wkwtkuoof"
-path="res://.godot/imported/cup.svg-dd8bb8f1db0ee96b07710a86b340a759.ctex"
+path="res://.godot/imported/cup.svg-2aa11042be56d3bd600fce9c00963d4b.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/cup.svg"
-dest_files=["res://.godot/imported/cup.svg-dd8bb8f1db0ee96b07710a86b340a759.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/cup.svg"
+dest_files=["res://.godot/imported/cup.svg-2aa11042be56d3bd600fce9c00963d4b.ctex"]
 
 [params]
 

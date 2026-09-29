@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bbbxojhcosyhh"
-path="res://.godot/imported/hammer.svg-7e94f01d293095eabf5e36ffd78584f2.ctex"
+path="res://.godot/imported/hammer.svg-e79f1dcd6eff2e040084cd4c2a40274e.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/hammer.svg"
-dest_files=["res://.godot/imported/hammer.svg-7e94f01d293095eabf5e36ffd78584f2.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/hammer.svg"
+dest_files=["res://.godot/imported/hammer.svg-e79f1dcd6eff2e040084cd4c2a40274e.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cxv73by8d62e4"
-path="res://.godot/imported/number_float.svg-49f05e04cd17e80970384098adc8662f.ctex"
+path="res://.godot/imported/number_float.svg-d490b2574558db57249cac45a140a4b7.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/number_float.svg"
-dest_files=["res://.godot/imported/number_float.svg-49f05e04cd17e80970384098adc8662f.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/number_float.svg"
+dest_files=["res://.godot/imported/number_float.svg-d490b2574558db57249cac45a140a4b7.ctex"]
 
 [params]
 

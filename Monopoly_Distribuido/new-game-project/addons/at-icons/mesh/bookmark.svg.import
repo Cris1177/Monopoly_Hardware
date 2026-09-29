@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdmo5j0a6cor8"
-path="res://.godot/imported/bookmark.svg-9a4cebe3dad1a45c2b191cc145174b1b.ctex"
+path="res://.godot/imported/bookmark.svg-1e02ec86937c0eb7d226a7b4924dd9fe.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/bookmark.svg"
-dest_files=["res://.godot/imported/bookmark.svg-9a4cebe3dad1a45c2b191cc145174b1b.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/bookmark.svg"
+dest_files=["res://.godot/imported/bookmark.svg-1e02ec86937c0eb7d226a7b4924dd9fe.ctex"]
 
 [params]
 

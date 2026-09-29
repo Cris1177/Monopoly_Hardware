@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cjupugcnpy0gi"
-path="res://.godot/imported/mirror_horizontally.svg-886625494ea028058835c9d9993f7938.ctex"
+path="res://.godot/imported/mirror_horizontally.svg-2d186bab95738ce2fb61e1a3c072993c.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/mirror_horizontally.svg"
-dest_files=["res://.godot/imported/mirror_horizontally.svg-886625494ea028058835c9d9993f7938.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/mirror_horizontally.svg"
+dest_files=["res://.godot/imported/mirror_horizontally.svg-2d186bab95738ce2fb61e1a3c072993c.ctex"]
 
 [params]
 

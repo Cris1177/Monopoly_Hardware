@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dajchrqfyonwl"
-path="res://.godot/imported/fish.svg-083aebd73cdee86614434ec56d16b3db.ctex"
+path="res://.godot/imported/fish.svg-62c169278a098e34400b1d44a41f3f1c.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/fish.svg"
-dest_files=["res://.godot/imported/fish.svg-083aebd73cdee86614434ec56d16b3db.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/fish.svg"
+dest_files=["res://.godot/imported/fish.svg-62c169278a098e34400b1d44a41f3f1c.ctex"]
 
 [params]
 

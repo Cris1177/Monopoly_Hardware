@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dn3g5qtole582"
-path="res://.godot/imported/eight_ball.svg-94f6e79bcfcdf6dc391b812c7ffdc183.ctex"
+path="res://.godot/imported/eight_ball.svg-7e96fe535eb9bc157795107fc6bdba83.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/eight_ball.svg"
-dest_files=["res://.godot/imported/eight_ball.svg-94f6e79bcfcdf6dc391b812c7ffdc183.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/eight_ball.svg"
+dest_files=["res://.godot/imported/eight_ball.svg-7e96fe535eb9bc157795107fc6bdba83.ctex"]
 
 [params]
 

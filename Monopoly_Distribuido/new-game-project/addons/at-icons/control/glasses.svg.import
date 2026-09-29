@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4csjj4h34soe"
-path="res://.godot/imported/glasses.svg-f7eab5a0904a5febfb2152332763ed4f.ctex"
+path="res://.godot/imported/glasses.svg-f628556eefa347cf5e27545aaf7dc3b0.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/glasses.svg"
-dest_files=["res://.godot/imported/glasses.svg-f7eab5a0904a5febfb2152332763ed4f.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/glasses.svg"
+dest_files=["res://.godot/imported/glasses.svg-f628556eefa347cf5e27545aaf7dc3b0.ctex"]
 
 [params]
 

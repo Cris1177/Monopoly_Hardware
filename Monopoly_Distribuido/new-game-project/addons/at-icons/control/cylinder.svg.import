@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dnmm5fhbkco6p"
-path="res://.godot/imported/cylinder.svg-f71a99792df6cc2f13cda0033b72ebfc.ctex"
+path="res://.godot/imported/cylinder.svg-f885b600ee09197eae6e7f6873a868e5.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/cylinder.svg"
-dest_files=["res://.godot/imported/cylinder.svg-f71a99792df6cc2f13cda0033b72ebfc.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/cylinder.svg"
+dest_files=["res://.godot/imported/cylinder.svg-f885b600ee09197eae6e7f6873a868e5.ctex"]
 
 [params]
 

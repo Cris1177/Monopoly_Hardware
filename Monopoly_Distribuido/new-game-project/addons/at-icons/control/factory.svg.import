@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b1vc5rck8ew43"
-path="res://.godot/imported/factory.svg-47a6e507258b857f4aa05387c0b4a2bb.ctex"
+path="res://.godot/imported/factory.svg-d39dd25fb85124efe6cc0d6e6da05328.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/factory.svg"
-dest_files=["res://.godot/imported/factory.svg-47a6e507258b857f4aa05387c0b4a2bb.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/factory.svg"
+dest_files=["res://.godot/imported/factory.svg-d39dd25fb85124efe6cc0d6e6da05328.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b3ts8g6cejqbl"
-path="res://.godot/imported/headphones.svg-a675f77d56f4fc8c4bc0f567b220ccb4.ctex"
+path="res://.godot/imported/headphones.svg-d846fbca524aa354674cf5068d56725f.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/headphones.svg"
-dest_files=["res://.godot/imported/headphones.svg-a675f77d56f4fc8c4bc0f567b220ccb4.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/headphones.svg"
+dest_files=["res://.godot/imported/headphones.svg-d846fbca524aa354674cf5068d56725f.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cr62on468mlgb"
-path="res://.godot/imported/lasso.svg-ad704e7432e454ae80d42722278986b0.ctex"
+path="res://.godot/imported/lasso.svg-470f1894c1977f2a6c8ee30c2631a027.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/lasso.svg"
-dest_files=["res://.godot/imported/lasso.svg-ad704e7432e454ae80d42722278986b0.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/lasso.svg"
+dest_files=["res://.godot/imported/lasso.svg-470f1894c1977f2a6c8ee30c2631a027.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://eerohc6dyq4"
-path="res://.godot/imported/paw_print.svg-f8c66396745c08d3d7dd918565c0c6a1.ctex"
+path="res://.godot/imported/paw_print.svg-8fa9559bc57ac228be91ca6422cec0d7.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/paw_print.svg"
-dest_files=["res://.godot/imported/paw_print.svg-f8c66396745c08d3d7dd918565c0c6a1.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/paw_print.svg"
+dest_files=["res://.godot/imported/paw_print.svg-8fa9559bc57ac228be91ca6422cec0d7.ctex"]
 
 [params]
 

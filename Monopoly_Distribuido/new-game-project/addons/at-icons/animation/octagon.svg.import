@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://be0ltvmaio1qf"
-path="res://.godot/imported/octagon.svg-890d7718d7081f6e02b0a621f46d9e57.ctex"
+path="res://.godot/imported/octagon.svg-15ac9abcd436c2f8c97b30ad2eb353e5.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/octagon.svg"
-dest_files=["res://.godot/imported/octagon.svg-890d7718d7081f6e02b0a621f46d9e57.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/octagon.svg"
+dest_files=["res://.godot/imported/octagon.svg-15ac9abcd436c2f8c97b30ad2eb353e5.ctex"]
 
 [params]
 

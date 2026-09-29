@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bubs36ni587ia"
-path="res://.godot/imported/pig.svg-8034c17c9899af65783dcb53d036f459.ctex"
+path="res://.godot/imported/pig.svg-0ccf9232991922f9bafa4c44e9c85ee3.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/pig.svg"
-dest_files=["res://.godot/imported/pig.svg-8034c17c9899af65783dcb53d036f459.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/pig.svg"
+dest_files=["res://.godot/imported/pig.svg-0ccf9232991922f9bafa4c44e9c85ee3.ctex"]
 
 [params]
 

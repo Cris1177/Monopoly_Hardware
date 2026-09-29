@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b0xe4lx57or2g"
-path="res://.godot/imported/battery_full.svg-27ae05b8bac30e1c1d70fbda3490a069.ctex"
+path="res://.godot/imported/battery_full.svg-e498bdcae94ea17294cfebf99a56ea0f.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/battery_full.svg"
-dest_files=["res://.godot/imported/battery_full.svg-27ae05b8bac30e1c1d70fbda3490a069.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/battery_full.svg"
+dest_files=["res://.godot/imported/battery_full.svg-e498bdcae94ea17294cfebf99a56ea0f.ctex"]
 
 [params]
 

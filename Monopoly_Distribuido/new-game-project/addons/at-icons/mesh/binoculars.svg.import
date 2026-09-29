@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cxpiwbjrk6hvx"
-path="res://.godot/imported/binoculars.svg-d8127e7ba7dcaf80ba6641dc603d77d5.ctex"
+path="res://.godot/imported/binoculars.svg-bbbb7e089306a12d11e31ebe1911d570.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/binoculars.svg"
-dest_files=["res://.godot/imported/binoculars.svg-d8127e7ba7dcaf80ba6641dc603d77d5.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/binoculars.svg"
+dest_files=["res://.godot/imported/binoculars.svg-bbbb7e089306a12d11e31ebe1911d570.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://4hmbsbmeqsi2"
-path="res://.godot/imported/pipette.svg-6e5177163fd6a85a50a6a3e3d573c41c.ctex"
+path="res://.godot/imported/pipette.svg-f4acf4d085c14dc02803fae641b90839.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/pipette.svg"
-dest_files=["res://.godot/imported/pipette.svg-6e5177163fd6a85a50a6a3e3d573c41c.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/pipette.svg"
+dest_files=["res://.godot/imported/pipette.svg-f4acf4d085c14dc02803fae641b90839.ctex"]
 
 [params]
 

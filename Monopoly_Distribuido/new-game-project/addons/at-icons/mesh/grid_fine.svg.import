@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d30ybkivpvny8"
-path="res://.godot/imported/grid_fine.svg-b4c6e690bebe669b3c13292c0437d34b.ctex"
+path="res://.godot/imported/grid_fine.svg-604d479820e266c4e9734dd47240b45b.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/grid_fine.svg"
-dest_files=["res://.godot/imported/grid_fine.svg-b4c6e690bebe669b3c13292c0437d34b.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/grid_fine.svg"
+dest_files=["res://.godot/imported/grid_fine.svg-604d479820e266c4e9734dd47240b45b.ctex"]
 
 [params]
 

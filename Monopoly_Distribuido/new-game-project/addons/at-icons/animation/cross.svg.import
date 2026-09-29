@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cn2lhwj6ybdn3"
-path="res://.godot/imported/cross.svg-2d6c26a4b1c36cbc0ae43d4a0cb63554.ctex"
+path="res://.godot/imported/cross.svg-6cf629101d765b3e9d1b40f7cec91c4e.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/cross.svg"
-dest_files=["res://.godot/imported/cross.svg-2d6c26a4b1c36cbc0ae43d4a0cb63554.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/cross.svg"
+dest_files=["res://.godot/imported/cross.svg-6cf629101d765b3e9d1b40f7cec91c4e.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ywv7cw51orkh"
-path="res://.godot/imported/comet.svg-b1823de83fc668863325d2577a086e01.ctex"
+path="res://.godot/imported/comet.svg-60e69ee5790e8b59be66e9d8612cb0c7.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/comet.svg"
-dest_files=["res://.godot/imported/comet.svg-b1823de83fc668863325d2577a086e01.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/comet.svg"
+dest_files=["res://.godot/imported/comet.svg-60e69ee5790e8b59be66e9d8612cb0c7.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cj01l20yt7qn1"
-path="res://.godot/imported/arrow_cross.svg-409fbb429928a3cc97745ccc9d13ace1.ctex"
+path="res://.godot/imported/arrow_cross.svg-07eadd74a88a81e00aeaadca275a1e5f.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/arrow_cross.svg"
-dest_files=["res://.godot/imported/arrow_cross.svg-409fbb429928a3cc97745ccc9d13ace1.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/arrow_cross.svg"
+dest_files=["res://.godot/imported/arrow_cross.svg-07eadd74a88a81e00aeaadca275a1e5f.ctex"]
 
 [params]
 

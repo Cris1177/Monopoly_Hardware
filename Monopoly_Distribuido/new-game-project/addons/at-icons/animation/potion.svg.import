@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cn6fp0bq5dk2b"
-path="res://.godot/imported/potion.svg-cf72db279f2f107ab48e98e553000ba0.ctex"
+path="res://.godot/imported/potion.svg-d7c70273b8e0a266b1a8afcf9f7626c3.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/potion.svg"
-dest_files=["res://.godot/imported/potion.svg-cf72db279f2f107ab48e98e553000ba0.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/potion.svg"
+dest_files=["res://.godot/imported/potion.svg-d7c70273b8e0a266b1a8afcf9f7626c3.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://duc22lp5tmkq"
-path="res://.godot/imported/speech_bubble_question.svg-f699866ab64714152063f52bd610c680.ctex"
+path="res://.godot/imported/speech_bubble_question.svg-314356eeec68263a6cbb87e6e782bd74.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/speech_bubble_question.svg"
-dest_files=["res://.godot/imported/speech_bubble_question.svg-f699866ab64714152063f52bd610c680.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/speech_bubble_question.svg"
+dest_files=["res://.godot/imported/speech_bubble_question.svg-314356eeec68263a6cbb87e6e782bd74.ctex"]
 
 [params]
 

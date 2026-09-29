@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dhifspgw4rhvt"
-path="res://.godot/imported/video_camera.svg-3717b6be1a5fd2df6c31ca7f036799a2.ctex"
+path="res://.godot/imported/video_camera.svg-4872da027345e3954883ca241af99847.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/control/video_camera.svg"
-dest_files=["res://.godot/imported/video_camera.svg-3717b6be1a5fd2df6c31ca7f036799a2.ctex"]
+source_file="res://new-game-project/addons/at-icons/control/video_camera.svg"
+dest_files=["res://.godot/imported/video_camera.svg-4872da027345e3954883ca241af99847.ctex"]
 
 [params]
 

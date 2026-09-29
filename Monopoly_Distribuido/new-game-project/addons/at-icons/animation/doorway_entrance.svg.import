@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://co467s1p3bbdn"
-path="res://.godot/imported/doorway_entrance.svg-871dd13534c54213af3036a82cc42127.ctex"
+path="res://.godot/imported/doorway_entrance.svg-1d7c43afe6bb572956eb18cd34ca4bbc.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/doorway_entrance.svg"
-dest_files=["res://.godot/imported/doorway_entrance.svg-871dd13534c54213af3036a82cc42127.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/doorway_entrance.svg"
+dest_files=["res://.godot/imported/doorway_entrance.svg-1d7c43afe6bb572956eb18cd34ca4bbc.ctex"]
 
 [params]
 

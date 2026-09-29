@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ci4yjwmvnddau"
-path="res://.godot/imported/bone.svg-37b97fdf8e2c0da03615e0ecdf8b69c6.ctex"
+path="res://.godot/imported/bone.svg-06126eaacf7459df8f5de476f48a9bc6.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/bone.svg"
-dest_files=["res://.godot/imported/bone.svg-37b97fdf8e2c0da03615e0ecdf8b69c6.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/bone.svg"
+dest_files=["res://.godot/imported/bone.svg-06126eaacf7459df8f5de476f48a9bc6.ctex"]
 
 [params]
 

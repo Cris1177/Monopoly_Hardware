@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cprjo2at5ddkc"
-path="res://.godot/imported/square_root.svg-7079f54234b6f5e3fe5a7bf46a7d8b79.ctex"
+path="res://.godot/imported/square_root.svg-a885215d961986bfc1711f97d5d8b1b7.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/square_root.svg"
-dest_files=["res://.godot/imported/square_root.svg-7079f54234b6f5e3fe5a7bf46a7d8b79.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/square_root.svg"
+dest_files=["res://.godot/imported/square_root.svg-a885215d961986bfc1711f97d5d8b1b7.ctex"]
 
 [params]
 

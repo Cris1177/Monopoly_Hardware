@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dv2qmvxm7qj3h"
-path="res://.godot/imported/moon.svg-06dab99bbc841faa5757eb366e8bf271.ctex"
+path="res://.godot/imported/moon.svg-78b5c41939c4a3e944fb2da48c1595d5.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/animation/moon.svg"
-dest_files=["res://.godot/imported/moon.svg-06dab99bbc841faa5757eb366e8bf271.ctex"]
+source_file="res://new-game-project/addons/at-icons/animation/moon.svg"
+dest_files=["res://.godot/imported/moon.svg-78b5c41939c4a3e944fb2da48c1595d5.ctex"]
 
 [params]
 

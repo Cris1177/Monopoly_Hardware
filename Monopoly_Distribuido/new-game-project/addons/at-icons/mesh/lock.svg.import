@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://4uyu1nms08pn"
-path="res://.godot/imported/lock.svg-05f187e1b1c1efd37dfc869b55630232.ctex"
+path="res://.godot/imported/lock.svg-b4fb5b2f83277255099c7c09af7473f5.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/lock.svg"
-dest_files=["res://.godot/imported/lock.svg-05f187e1b1c1efd37dfc869b55630232.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/lock.svg"
+dest_files=["res://.godot/imported/lock.svg-b4fb5b2f83277255099c7c09af7473f5.ctex"]
 
 [params]
 

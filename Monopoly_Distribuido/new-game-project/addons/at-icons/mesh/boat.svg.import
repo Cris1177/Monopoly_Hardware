@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dr7ch5fugtiog"
-path="res://.godot/imported/boat.svg-309d7f19234e16c781933854dc60ff37.ctex"
+path="res://.godot/imported/boat.svg-c9c4f36c1a77882235bcb75208787fb8.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/boat.svg"
-dest_files=["res://.godot/imported/boat.svg-309d7f19234e16c781933854dc60ff37.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/boat.svg"
+dest_files=["res://.godot/imported/boat.svg-c9c4f36c1a77882235bcb75208787fb8.ctex"]
 
 [params]
 

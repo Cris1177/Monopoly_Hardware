@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6tsatip714f"
-path="res://.godot/imported/arrow_down_to_bracket.svg-645f46679e029cec40968e3fe02003b6.ctex"
+path="res://.godot/imported/arrow_down_to_bracket.svg-684ba3982f7fc5050503eca38ab44670.ctex"
 metadata={
 "has_editor_variant": true,
 "vram_texture": false
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/at-icons/mesh/arrow_down_to_bracket.svg"
-dest_files=["res://.godot/imported/arrow_down_to_bracket.svg-645f46679e029cec40968e3fe02003b6.ctex"]
+source_file="res://new-game-project/addons/at-icons/mesh/arrow_down_to_bracket.svg"
+dest_files=["res://.godot/imported/arrow_down_to_bracket.svg-684ba3982f7fc5050503eca38ab44670.ctex"]
 
 [params]
 
