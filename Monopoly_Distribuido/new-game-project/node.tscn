@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://bhss2rc30pepk"]
+
+[node name="Node" type="Node" unique_id=911385632]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1060656471]
+
+[node name="Node2D" type="Node2D" parent="AnimationPlayer" unique_id=92277964]

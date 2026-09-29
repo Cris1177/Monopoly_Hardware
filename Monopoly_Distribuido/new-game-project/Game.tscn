@@ -1,0 +1,129 @@
+[gd_scene load_steps=2 format=3 uid="uid://b4p7ia4u5t8af"]
+
+[ext_resource type="script" path="res://Game.gd" id="1_lq0i0"]
+
+[node name="Game" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_lq0i0")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.09, 0.13, 0.14, 1)
+
+[node name="MainLayout" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = -20.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 20
+
+[node name="BoardPanel" type="Panel" parent="MainLayout"]
+custom_minimum_size = Vector2(760, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="BoardGrid" type="GridContainer" parent="BoardPanel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 12.0
+offset_top = 12.0
+offset_right = -12.0
+offset_bottom = -12.0
+grow_horizontal = 2
+grow_vertical = 2
+columns = 10
+theme_override_constants/h_separation = 8
+theme_override_constants/v_separation = 8
+
+[node name="RightPanel" type="Panel" parent="MainLayout"]
+custom_minimum_size = Vector2(350, 0)
+layout_mode = 2
+
+[node name="RightContent" type="VBoxContainer" parent="RightPanel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 16.0
+offset_top = 16.0
+offset_right = -16.0
+offset_bottom = -16.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 16
+
+[node name="TurnLabel" type="Label" parent="RightPanel/RightContent"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "Turno: Cristian"
+horizontal_alignment = 1
+
+[node name="DiceLabel" type="Label" parent="RightPanel/RightContent"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "Dados: --"
+horizontal_alignment = 1
+
+[node name="StatusLabel" type="Label" parent="RightPanel/RightContent"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 15
+text = "La partida está lista para comenzar."
+autowrap_mode = 3
+
+[node name="PlayersTitle" type="Label" parent="RightPanel/RightContent"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "Jugadores"
+
+[node name="PlayerList" type="VBoxContainer" parent="RightPanel/RightContent"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/separation = 8
+
+[node name="Actions" type="VBoxContainer" parent="RightPanel/RightContent"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="RollButton" type="Button" parent="RightPanel/RightContent/Actions"]
+custom_minimum_size = Vector2(0, 42)
+layout_mode = 2
+text = "Lanzar dados"
+
+[node name="BuyButton" type="Button" parent="RightPanel/RightContent/Actions"]
+custom_minimum_size = Vector2(0, 42)
+layout_mode = 2
+disabled = true
+text = "Comprar propiedad"
+
+[node name="EndTurnButton" type="Button" parent="RightPanel/RightContent/Actions"]
+custom_minimum_size = Vector2(0, 42)
+layout_mode = 2
+text = "Terminar turno"
+
+[node name="BackButton" type="Button" parent="RightPanel/RightContent/Actions"]
+custom_minimum_size = Vector2(0, 42)
+layout_mode = 2
+text = "Volver al menú"
+
+[connection signal="pressed" from="RightPanel/RightContent/Actions/RollButton" to="." method="_on_roll_pressed"]
+[connection signal="pressed" from="RightPanel/RightContent/Actions/BuyButton" to="." method="_on_buy_pressed"]
+[connection signal="pressed" from="RightPanel/RightContent/Actions/EndTurnButton" to="." method="_on_end_turn_pressed"]
+[connection signal="pressed" from="RightPanel/RightContent/Actions/BackButton" to="." method="_on_back_pressed"]
