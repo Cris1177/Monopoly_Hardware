@@ -83,12 +83,12 @@ alignment = 1
 [node name="StartButton" type="Button" parent="Panel/Buttons" unique_id=587571964]
 custom_minimum_size = Vector2(320, 52)
 layout_mode = 2
-text = "Iniciar partida"
+text = "Iniciar partida local"
 
 [node name="OptionsButton" type="Button" parent="Panel/Buttons" unique_id=1025598335]
 custom_minimum_size = Vector2(320, 52)
 layout_mode = 2
-text = "Opciones"
+text = "Partida Multijugador"
 
 [node name="ExitButton" type="Button" parent="Panel/Buttons" unique_id=459104412]
 custom_minimum_size = Vector2(320, 52)

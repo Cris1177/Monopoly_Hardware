@@ -6,7 +6,7 @@ func _on_start_pressed() -> void:
 
 
 func _on_options_pressed() -> void:
-	_show_message("Opciones", "No hay opciones disponibles todavía.")
+	_show_message("Partida Multijugador", "No hay opciones disponibles todavía.")
 
 
 func _on_exit_pressed() -> void:
