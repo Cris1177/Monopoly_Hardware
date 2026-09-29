@@ -2,9 +2,12 @@ namespace Monopoly.Modelos
 {
     public enum TipoCasillaEspecial
     {
+        Salida,
         Inicio,
-        Impuesto,
         Carcel,
-        ParqueoGratis
+        IrCarcel,
+        ParadaLibre,
+        ParqueoGratis,
+        Impuesto
     }
 }
