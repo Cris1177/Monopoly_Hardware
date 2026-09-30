@@ -181,13 +181,30 @@ namespace Monopoly.Comunicacion
         private Mensaje ProcesarConsultarEstado(Mensaje solicitud)
         {
             Jugador? actual = _juego.ObtenerJugadorActual();
+            // Los 4 jugadores en un arreglo, solo para poder recorrerlos al armar el estado
+            var todos = new[] { _juego.Jugador1, _juego.Jugador2, _juego.Jugador3, _juego.Jugador4 };
+
             var estado = new
             {
                 Turno = _juego.NumeroTurno,
                 JugadorActualId = actual?.Id,
                 JugadorActualNombre = actual?.Nombre,
                 JugadoresActivos = _juego.CantidadJugadoresActivos(),
-                JuegoTerminado = _juego.JuegoTerminado()
+                JuegoTerminado = _juego.JuegoTerminado(),
+
+                // Lo que la pantalla necesita para dibujar: el cliente solo lee esto,
+                // nunca lo modifica (el estado oficial vive en el servidor)
+                Jugadores = System.Linq.Enumerable.ToArray(
+                    System.Linq.Enumerable.Select(todos, j => new
+                    {
+                        Id = j.Id,
+                        Nombre = j.Nombre,
+                        Saldo = j.Saldo,
+                        Activo = j.Activo,
+                        EnCarcel = j.EnCarcel,
+                        // Posicion es un nodo de la lista circular: mandamos el Id de su casilla
+                        Posicion = j.Posicion != null ? j.Posicion.Dato.Id : 0
+                    }))
             };
 
             return new Mensaje

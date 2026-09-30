@@ -101,7 +101,7 @@ namespace Monopoly
                     var cliente = new Cliente(ip, 5000, idJugador);
                     cliente.MensajeRecibido += mensaje =>
                     {
-                        Console.WriteLine($"[Cliente {idJugador}] Recibido: {mensaje.Accion} - Exito: {mensaje.Exito} - {mensaje.Descripcion}");
+                        Console.WriteLine($"[Cliente {idJugador}] Recibido: {mensaje.Accion} - Exito: {mensaje.Exito} - {mensaje.Descripcion} | Datos: {mensaje.Datos}");
                     };
 
                     cliente.Conectar();
