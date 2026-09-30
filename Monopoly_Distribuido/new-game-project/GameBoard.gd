@@ -59,6 +59,10 @@ func _ready() -> void:
 		owners.append(-1)
 	_build_interface()
 	_refresh_interface()
+	
+	var dado_serial: Node = load("res://new-game-project/DadoSerialNode.cs").new()
+	add_child(dado_serial)
+	dado_serial.connect("DadoRecibido", _on_dado_fisico)
 
 
 func _build_interface() -> void:
@@ -296,16 +300,25 @@ func _space_subtitle(space: Dictionary) -> String:
 	return ""
 
 
+# Botón "Tirar": genera los dos dados virtuales y delega todo en roll_with_value
 func _on_roll_pressed() -> void:
+	if has_rolled or game_over:
+		return
+	var die_one := randi_range(1, 6)
+	var die_two := randi_range(1, 6)
+	roll_with_value(die_one + die_two, "DADOS   %d  +  %d" % [die_one, die_two])
+
+
+
+func roll_with_value(movement: int, dice_text: String = "") -> void:
+
 	if has_rolled or game_over:
 		return
 	var player: Dictionary = players[current_player]
 	if not player["active"]:
 		return
-	var die_one := randi_range(1, 6)
-	var die_two := randi_range(1, 6)
-	var movement: int = die_one + die_two
-	dice_label.text = "DADOS   %d  +  %d" % [die_one, die_two]
+	
+	dice_label.text = dice_text if dice_text != "" else "DADO   %d" % movement
 	var old_position: int = player["position"]
 	player["position"] = (old_position + movement) % SPACES.size()
 	if old_position + movement >= SPACES.size():
@@ -316,6 +329,9 @@ func _on_roll_pressed() -> void:
 	has_rolled = true
 	_resolve_space(player)
 	_refresh_interface()
+	
+func _on_dado_fisico(valor: int) -> void:
+	roll_with_value(valor)
 
 
 func _resolve_space(player: Dictionary) -> void:
