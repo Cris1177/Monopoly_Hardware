@@ -12,6 +12,7 @@ namespace Monopoly.Juego
         public Jugador Jugador3 { get; private set; }
         public Jugador Jugador4 { get; private set; }
         public int NumeroTurno { get; private set; }
+        public bool DadosLanzados => dadosLanzados;
         public int MaximoTurnos { get; private set; }
         public Banco Banco { get; private set; }
         

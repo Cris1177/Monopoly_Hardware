@@ -191,6 +191,7 @@ namespace Monopoly.Comunicacion
                 JugadorActualNombre = actual?.Nombre,
                 JugadoresActivos = _juego.CantidadJugadoresActivos(),
                 JuegoTerminado = _juego.JuegoTerminado(),
+                DadosLanzados = _juego.DadosLanzados,
 
                 // Lo que la pantalla necesita para dibujar: el cliente solo lee esto,
                 // nunca lo modifica (el estado oficial vive en el servidor)

@@ -27,6 +27,9 @@ const SPACES: Array[Dictionary] = [
 	{"name": "Avenida Desamparados", "kind": "property", "price": 220, "rent": 45, "group": 4}
 ]
 
+const SERVER_IP := "127.0.0.1"  # IP de la compu que corre el servidor
+const MY_ID := 1                # id de este jugador (1 a 4)
+
 const PLAYER_NAMES := ["Christian", "Isaac", "Ulfran", "Fabricio"]
 const PLAYER_COLORS := [Color("#e36b51"), Color("#55a6d8"), Color("#e5bd55"), Color("#8e76c5")]
 const GROUP_COLORS := [
@@ -50,6 +53,9 @@ var log_label: Label
 var roll_button: Button
 var buy_button: Button
 var end_turn_button: Button
+var net: Node  # nodo C# que habla con el servidor
+var my_id := MY_ID            # se puede cambiar con --id=N al abrir el juego
+var server_ip := SERVER_IP     # se puede cambiar con --ip=X.X.X.X
 
 
 func _ready() -> void:
@@ -60,9 +66,20 @@ func _ready() -> void:
 	_build_interface()
 	_refresh_interface()
 	
-	var dado_serial: Node = load("res://new-game-project/DadoSerialNode.cs").new()
-	add_child(dado_serial)
-	dado_serial.connect("DadoRecibido", _on_dado_fisico)
+	# Argumentos al abrir el juego: --id=2 --ip=192.168.0.10
+	for arg in OS.get_cmdline_user_args() + OS.get_cmdline_args():
+		if arg.begins_with("--id="):
+			my_id = int(arg.substr(5))
+		if arg.begins_with("--ip="):
+			server_ip = arg.substr(5)
+	get_window().title = "Monopoly - Jugador %d" % my_id
+	# Cliente de red: la pantalla solo pide acciones y dibuja lo que manda el servidor
+	net = load("res://new-game-project/ClienteRedNode.cs").new()
+	add_child(net)
+	net.connect("EstadoRecibido", _on_estado)
+	net.connect("MensajeServidor", _on_mensaje)
+	if not net.Conectar(server_ip, my_id):
+		log_label.text = "Sin conexión con el servidor en %s" % server_ip
 
 
 func _build_interface() -> void:
@@ -302,12 +319,8 @@ func _space_subtitle(space: Dictionary) -> String:
 
 # Botón "Tirar": genera los dos dados virtuales y delega todo en roll_with_value
 func _on_roll_pressed() -> void:
-	if has_rolled or game_over:
-		return
-	var die_one := randi_range(1, 6)
-	var die_two := randi_range(1, 6)
-	roll_with_value(die_one + die_two, "DADOS   %d  +  %d" % [die_one, die_two])
-
+	# El servidor decide el resultado: aquí solo se pide la acción
+	net.Enviar("TIRAR_DADOS")
 
 
 func roll_with_value(movement: int, dice_text: String = "") -> void:
@@ -394,31 +407,11 @@ func _apply_event(player: Dictionary) -> void:
 
 
 func _on_buy_pressed() -> void:
-	if not has_rolled or game_over:
-		return
-	var player: Dictionary = players[current_player]
-	var space_index: int = player["position"]
-	var space: Dictionary = SPACES[space_index]
-	if space["kind"] != "property" or owners[space_index] != -1 or player["balance"] < space["price"]:
-		return
-	player["balance"] -= space["price"]
-	owners[space_index] = current_player
-	log_label.text = "%s compró %s por $%d." % [player["name"], space["name"], space["price"]]
-	_refresh_interface()
+	net.Enviar("COMPRAR_PROPIEDAD")
 
 
 func _on_end_turn_pressed() -> void:
-	if not has_rolled or game_over:
-		return
-	for _attempt in players.size():
-		current_player = (current_player + 1) % players.size()
-		if players[current_player]["active"]:
-			break
-	turn_number += 1
-	has_rolled = false
-	dice_label.text = "DADOS   -  -"
-	log_label.text = "Turno de %s." % players[current_player]["name"]
-	_refresh_interface()
+	net.Enviar("TERMINAR_TURNO")
 
 
 func _eliminate_player(player_index: int) -> void:
@@ -504,3 +497,38 @@ func _panel_style(background: Color, border: Color, radius: int) -> StyleBoxFlat
 	style.content_margin_right = 10
 	style.content_margin_bottom = 8
 	return style
+
+
+# Llega el estado oficial del servidor: la pantalla solo lo copia y lo dibuja
+func _on_estado(json: String) -> void:
+	var data: Variant = JSON.parse_string(json)
+	if typeof(data) != TYPE_DICTIONARY:
+		return
+	for info in data["Jugadores"]:
+		var index: int = int(info["Id"]) - 1
+		if index < 0 or index >= players.size():
+			continue
+		players[index]["balance"] = int(info["Saldo"])
+		# Módulo por si el tablero del servidor tuviera más casillas que la pantalla
+		players[index]["position"] = int(info["Posicion"]) % SPACES.size()
+		players[index]["active"] = bool(info["Activo"])
+	if data["JugadorActualId"] != null:
+		current_player = int(data["JugadorActualId"]) - 1
+	turn_number = int(data["Turno"])
+	has_rolled = bool(data.get("DadosLanzados", false))
+	game_over = bool(data["JuegoTerminado"])
+	_refresh_interface()
+	dice_label.text = "DADOS   lanzados" if has_rolled else "DADOS   -  -"
+	# Solo el jugador en turno puede usar los botones (el servidor también lo valida)
+	var mi_turno := (current_player + 1) == my_id
+	roll_button.disabled = roll_button.disabled or not mi_turno
+	buy_button.disabled = buy_button.disabled or not mi_turno
+	end_turn_button.disabled = end_turn_button.disabled or not mi_turno
+
+
+# Respuestas y avisos del servidor (compras, errores, turnos...)
+func _on_mensaje(accion: String, exito: bool, descripcion: String) -> void:
+	if accion == "CONECTAR":
+		log_label.text = "Conectado al servidor."
+	else:
+		log_label.text = descripcion
