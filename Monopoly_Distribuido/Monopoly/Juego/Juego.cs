@@ -419,16 +419,14 @@ namespace Monopoly.Juego
             }
         }
 
-        public void TirarDados()
+        public void TirarDados(int? totalDado = null)
         {
             if (JuegoTerminado())
             {
-                Console.WriteLine(
-                    "La partida ya terminó."
-                );
-
+                Console.WriteLine("La partida ya terminó.");
                 return;
             }
+
             if (dadosLanzados)
             {
                 Console.WriteLine("Ya se lanzaron los dados en este turno.");
@@ -442,27 +440,17 @@ namespace Monopoly.Juego
                 Console.WriteLine("No hay un jugador actual.");
                 return;
             }
+
             if (!jugadorActual.Activo)
             {
-                Console.WriteLine(
-                    jugadorActual.Nombre +
-                    " está eliminado y no puede lanzar los dados."
-                );
-
+                Console.WriteLine($"{jugadorActual.Nombre} está eliminado y no puede lanzar los dados.");
                 return;
             }
 
-            int resultado1 = dado1.Lanzar();
-            int resultado2 = dado2.Lanzar();
+            int avance = totalDado ?? (dado1.Lanzar() + dado2.Lanzar());
 
-            int total = resultado1 + resultado2;
-
-            Console.WriteLine("Dado 1: " + resultado1);
-            Console.WriteLine("Dado 2: " + resultado2);
-            Console.WriteLine("Total: " + total);
-
-            MoverJugador(jugadorActual, total);
-
+            
+            MoverJugador(jugadorActual, avance);
             ProcesarCasilla(jugadorActual);
 
             dadosLanzados = true;
@@ -569,7 +557,6 @@ namespace Monopoly.Juego
                     );
 
                     turnos.AvanzarTurno();
-                    NumeroTurno++;
                     revisados++;
 
                     continue;
@@ -586,7 +573,6 @@ namespace Monopoly.Juego
                     siguiente.PierdeTurno = false;
 
                     turnos.AvanzarTurno();
-                    NumeroTurno++;
                     revisados++;
 
                     continue;
