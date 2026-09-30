@@ -89,7 +89,8 @@ namespace Monopoly
                     break;
 
                 case "servidor":
-                    var servidor = new Servidor(5000, new ProcesadorDePrueba());
+                    var juegoReal = new Monopoly.Juego.Juego();
+                    var servidor = new Servidor(5000, new ProcesadorJuego(juegoReal));
                     servidor.Iniciar();
                     break;
 
