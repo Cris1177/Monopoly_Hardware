@@ -90,8 +90,27 @@ namespace Monopoly
 
                 case "servidor":
                     var juegoReal = new Monopoly.Juego.Juego();
-                    var servidor = new Servidor(5000, new ProcesadorJuego(juegoReal));
-                    servidor.Iniciar();
+                    var procesador = new ProcesadorJuego(juegoReal);
+                    var servidor = new Servidor(5000, procesador);
+
+                    // Hardware: puertos por argumento (servidor <dado> <rfid>) o autodeteccion
+                    string? puertoDado = args.Length > 1 ? args[1]
+                        : System.Linq.Enumerable.FirstOrDefault(System.IO.Directory.GetFiles("/dev", "cu.usbmodem*"));
+                    string? puertoRfid = args.Length > 2 ? args[2]
+                        : System.Linq.Enumerable.FirstOrDefault(System.IO.Directory.GetFiles("/dev", "cu.usbserial*"));
+
+                    if (puertoDado == null && puertoRfid == null)
+                    {
+                        Console.WriteLine("[Hardware] No encontre Pico ni lector RFID. El servidor corre sin hardware.");
+                    }
+                    else
+                    {
+                        // La Pico y el lector le hablan directo al procesador: el estado oficial vive aqui
+                        var serial = new LocalSerialService(procesador, new LectorRfidService(procesador));
+                        serial.Iniciar(puertoDado ?? "", puertoRfid ?? "");
+                    }
+
+                    servidor.Iniciar(); // bloquea: atiende a los clientes para siempre
                     break;
 
                 case "cliente":

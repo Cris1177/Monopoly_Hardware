@@ -176,8 +176,8 @@ namespace Monopoly
                         }
 
                         
-                        Console.Write("\n¿Deseas comprar la propiedad? (S/N) y presiona Enter: ");
-                        string respuestaDecision = Console.ReadLine()?.Trim().ToUpper() ?? "N";
+                        Console.WriteLine("\n[INFO] Casilla comprable: compra con el boton de la pantalla o acerca la tarjeta RFID.");
+                        string respuestaDecision = "S"; // no bloquea el servidor: decide la pantalla o la tarjeta
 
                         // Limpiar la consola de caracteres sobrantes o saltos
                         while (Console.KeyAvailable)
