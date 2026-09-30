@@ -125,9 +125,8 @@ namespace Monopoly
                     string valorDadoStr = linea.Replace("DADO:", "").Trim();
                     if (int.TryParse(valorDadoStr, out int valorDado))
                     {
-                        Console.WriteLine($"\n[USB Dado] Número del Dado: {valorDado}");
+                        Console.WriteLine($"\n[USB Dado] Número recibido de la Pico: {valorDado}");
 
-                        // Obtener al jugador en turno dinámicamente si el procesador es de tipo ProcesadorJuego
                         int idJugadorActual = 1;
                         string nombreJugadorActual = "Jugador";
 
@@ -148,33 +147,63 @@ namespace Monopoly
                             Descripcion = valorDado.ToString()
                         };
 
-                        // Procesar la tirada
+                        // Procesar la tirada (esto mueve al jugador y ejecuta la casilla en el motor)
                         var respuesta = _procesador.Procesar(mensaje);
 
-                        if (respuesta != null && respuesta.Exito == true)
+                        // Verificar si el jugador actual cayó en una propiedad que SÍ se puede comprar
+                        bool casillaEsComprable = false;
+                        if (_procesador is ProcesadorJuego procesadorVerificacion)
                         {
-                        Console.Write("\n ¿Deseas comprar la propiedad? (S/N) y presiona Enter: ");
-                        string respuestaDecision = Console.ReadLine()?.Trim().ToUpper()?? "N";
+                            var jugadorPostTiro = procesadorVerificacion.ObtenerJugadorActual();
+                            if (jugadorPostTiro?.Posicion?.Dato is Monopoly.Modelos.Propiedad propiedad && propiedad.EstaDisponible())
+                            {
+                                casillaEsComprable = true;
+                            }
+                        }
+
+                        // SI NO ES COMPRABLE (Casillas especiales, Suerte, eventos, o propiedades con dueño)
+                        if (!casillaEsComprable)
+                        {
+                            Console.WriteLine("\n[INFO] Casilla no comprable. Avanzando al siguiente turno...");
+                            var mensajeFin = new Mensaje
+                            {
+                                Accion = TipoAccion.TERMINAR_TURNO,
+                                IdJugador = idJugadorActual
+                            };
+                            var respFin = _procesador.Procesar(mensajeFin);
+                            Console.WriteLine($"[TURNO] {respFin?.Descripcion}\n");
+                            return;
+                        }
+
+                        
+                        Console.Write("\n¿Deseas comprar la propiedad? (S/N) y presiona Enter: ");
+                        string respuestaDecision = Console.ReadLine()?.Trim().ToUpper() ?? "N";
+
+                        // Limpiar la consola de caracteres sobrantes o saltos
+                        while (Console.KeyAvailable)
+                        {
+                            Console.ReadKey(true);
+                        }
 
                         if (respuestaDecision == "S")
-                            {
-                                Console.WriteLine("\n --> OPCION 'S' SELECCIONADA <-- ");
-                                Console.WriteLine(" --> ACERCA TU LLAVERO RFID AL LECTOR PARA FINALIZAR LA COMPRA <-- \n");
-                            }
-                            else
-                            {
-                                Console.WriteLine($"\n[INFO] {nombreJugadorActual} decidió no comprar. ");
+                        {
+                            Console.WriteLine("\n --> OPCIÓN 'S' SELECCIONADA <--");
+                            Console.WriteLine(" --> ACERCA TU TARJETA/LLAVERO RFID AL LECTOR PARA FINALIZAR LA COMPRA <-- \n");
+                            // El cambio de turno ocurrirá de forma limpia cuando pases la tarjeta por el lector RFID
 
-                                //Cambio de turno
-                                var mensajeFin = new Mensaje
-                                {
-                                    Accion = TipoAccion.TERMINAR_TURNO,
-                                    IdJugador = idJugadorActual
-                                };
+                            return;
+                        }
+                        else
+                        {
+                            Console.WriteLine($"\n[INFO] {nombreJugadorActual} decidió no comprar.");
 
-                                var respFin = _procesador.Procesar(mensajeFin);
-                                Console.WriteLine($"[TURNO] {respFin?.Descripcion}\n");
-                            }
+                            var mensajeFin = new Mensaje
+                            {
+                                Accion = TipoAccion.TERMINAR_TURNO,
+                                IdJugador = idJugadorActual
+                            };
+                            var respFin = _procesador.Procesar(mensajeFin);
+                            Console.WriteLine($"[TURNO] {respFin?.Descripcion}\n");
                         }
                     }
                 }
