@@ -29,7 +29,7 @@ namespace Monopoly
     // ===================================================================
     // 2. SERVICIO / LECTOR RFID 
     // ===================================================================
-    public class LectorRfidService
+    public class LectorRfidPrueba
     {
         private SerialPort? _serialPort;
 
@@ -122,7 +122,7 @@ namespace Monopoly
 
                 case "rfid":
                     Console.WriteLine("Iniciando prueba de Lector RFID...");
-                    var rfid = new LectorRfidService();
+                    var rfid = new LectorRfidPrueba();
                     rfid.IniciarLector();
                     Console.WriteLine("Presiona ENTER para detener...");
                     Console.ReadLine();

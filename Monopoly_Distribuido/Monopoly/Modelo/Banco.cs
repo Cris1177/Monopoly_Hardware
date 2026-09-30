@@ -1,4 +1,5 @@
 using Monopoly.Estructuras;
+using System;
 using System.IO;
 
 namespace Monopoly.Modelos
@@ -38,20 +39,14 @@ namespace Monopoly.Modelos
 
         public void MostrarHistorial()
         {
-            Nodo<Transaccion>? actual =
-                Historial.Cabeza();
+            Nodo<Transaccion>? actual = Historial.Cabeza;
 
             Console.WriteLine();
-            Console.WriteLine(
-                "=== HISTORIAL DE TRANSACCIONES ==="
-            );
+            Console.WriteLine("=== HISTORIAL DE TRANSACCIONES ===");
 
             if (actual == null)
             {
-                Console.WriteLine(
-                    "No hay transacciones registradas."
-                );
-
+                Console.WriteLine("No hay transacciones registradas.");
                 return;
             }
 
@@ -65,58 +60,32 @@ namespace Monopoly.Modelos
         private void MostrarTransaccion(Transaccion t)
         {
             Console.WriteLine();
-
             Console.WriteLine("ID: " + t.Id);
             Console.WriteLine("Fecha: " + t.FechaHora);
             Console.WriteLine("Turno: " + t.NumeroTurno);
             Console.WriteLine("Tipo: " + t.Tipo);
-
-            Console.WriteLine(
-                "Origen: " +
-                (t.Origen?.Nombre ?? "Banco")
-            );
-
-            Console.WriteLine(
-                "Destino: " +
-                (t.Destino?.Nombre ?? "Banco")
-            );
-
+            Console.WriteLine("Origen: " + (t.Origen?.Nombre ?? "Banco"));
+            Console.WriteLine("Destino: " + (t.Destino?.Nombre ?? "Banco"));
             Console.WriteLine("Monto: " + t.Monto);
-
-            Console.WriteLine(
-                "Descripción: " +
-                t.Descripcion
-            );
+            Console.WriteLine("Descripción: " + t.Descripcion);
         }
 
         public void BuscarPorJugador(Jugador jugador)
         {
-            Nodo<Transaccion>? actual =
-                Historial.Cabeza();
+            Nodo<Transaccion>? actual = Historial.Cabeza;
 
             Console.WriteLine();
-            Console.WriteLine(
-                "=== TRANSACCIONES DE " +
-                jugador.Nombre.ToUpper() +
-                " ==="
-            );
+            Console.WriteLine("=== TRANSACCIONES DE " + jugador.Nombre.ToUpper() + " ===");
 
             bool encontrado = false;
 
             while (actual != null)
             {
-                Transaccion transaccion =
-                    actual.Dato;
+                Transaccion transaccion = actual.Dato;
 
-                if (
-                    transaccion.Origen == jugador ||
-                    transaccion.Destino == jugador
-                )
+                if (transaccion.Origen == jugador || transaccion.Destino == jugador)
                 {
-                    MostrarTransaccion(
-                        transaccion
-                    );
-
+                    MostrarTransaccion(transaccion);
                     encontrado = true;
                 }
 
@@ -125,42 +94,26 @@ namespace Monopoly.Modelos
 
             if (!encontrado)
             {
-                Console.WriteLine(
-                    "No se encontraron transacciones."
-                );
+                Console.WriteLine("No se encontraron transacciones.");
             }
         }
 
         public void BuscarPorTipo(string tipo)
         {
-            Nodo<Transaccion>? actual =
-                Historial.ObtenerCabeza();
+            Nodo<Transaccion>? actual = Historial.Cabeza;
 
             Console.WriteLine();
-            Console.WriteLine(
-                "=== TRANSACCIONES: " +
-                tipo.ToUpper() +
-                " ==="
-            );
+            Console.WriteLine("=== TRANSACCIONES: " + tipo.ToUpper() + " ===");
 
             bool encontrado = false;
 
             while (actual != null)
             {
-                Transaccion transaccion =
-                    actual.Dato;
+                Transaccion transaccion = actual.Dato;
 
-                if (
-                    transaccion.Tipo.Equals(
-                        tipo,
-                        StringComparison.OrdinalIgnoreCase
-                    )
-                )
+                if (transaccion.Tipo.Equals(tipo, StringComparison.OrdinalIgnoreCase))
                 {
-                    MostrarTransaccion(
-                        transaccion
-                    );
-
+                    MostrarTransaccion(transaccion);
                     encontrado = true;
                 }
 
@@ -169,28 +122,20 @@ namespace Monopoly.Modelos
 
             if (!encontrado)
             {
-                Console.WriteLine(
-                    "No se encontraron transacciones."
-                );
+                Console.WriteLine("No se encontraron transacciones.");
             }
         }
 
         public void MostrarHistorialReciente()
         {
             Console.WriteLine();
-            Console.WriteLine(
-                "=== HISTORIAL MÁS RECIENTE → MÁS ANTIGUO ==="
-            );
+            Console.WriteLine("=== HISTORIAL MÁS RECIENTE → MÁS ANTIGUO ===");
 
-            Nodo<Transaccion>? actual =
-                Historial.Cola();
+            Nodo<Transaccion>? actual = Historial.Cola;
 
             if (actual == null)
             {
-                Console.WriteLine(
-                    "No hay transacciones registradas."
-                );
-
+                Console.WriteLine("No hay transacciones registradas.");
                 return;
             }
 
@@ -199,75 +144,35 @@ namespace Monopoly.Modelos
                 MostrarTransaccion(actual.Dato);
                 actual = actual.Anterior;
             }
-
-            MostrarInverso(cabeza);
         }
 
-        public void ExportarHistorial(
-            string nombreArchivo)
+        public void ExportarHistorial(string nombreArchivo)
         {
-            using StreamWriter archivo =
-                new StreamWriter(nombreArchivo);
+            using StreamWriter archivo = new StreamWriter(nombreArchivo);
 
-            Nodo<Transaccion>? actual =
-                Historial.Cabeza();
+            Nodo<Transaccion>? actual = Historial.Cabeza;
 
-            archivo.WriteLine(
-                "=== HISTORIAL DE TRANSACCIONES ==="
-            );
-
+            archivo.WriteLine("=== HISTORIAL DE TRANSACCIONES ===");
             archivo.WriteLine();
 
             while (actual != null)
             {
                 Transaccion t = actual.Dato;
 
-                archivo.WriteLine(
-                    "ID: " + t.Id
-                );
-
-                archivo.WriteLine(
-                    "Fecha: " + t.FechaHora
-                );
-
-                archivo.WriteLine(
-                    "Turno: " + t.NumeroTurno
-                );
-
-                archivo.WriteLine(
-                    "Tipo: " + t.Tipo
-                );
-
-                archivo.WriteLine(
-                    "Origen: " +
-                    (t.Origen?.Nombre ?? "Banco")
-                );
-
-                archivo.WriteLine(
-                    "Destino: " +
-                    (t.Destino?.Nombre ?? "Banco")
-                );
-
-                archivo.WriteLine(
-                    "Monto: " + t.Monto
-                );
-
-                archivo.WriteLine(
-                    "Descripción: " +
-                    t.Descripcion
-                );
-
-                archivo.WriteLine(
-                    "--------------------------------"
-                );
+                archivo.WriteLine("ID: " + t.Id);
+                archivo.WriteLine("Fecha: " + t.FechaHora);
+                archivo.WriteLine("Turno: " + t.NumeroTurno);
+                archivo.WriteLine("Tipo: " + t.Tipo);
+                archivo.WriteLine("Origen: " + (t.Origen?.Nombre ?? "Banco"));
+                archivo.WriteLine("Destino: " + (t.Destino?.Nombre ?? "Banco"));
+                archivo.WriteLine("Monto: " + t.Monto);
+                archivo.WriteLine("Descripción: " + t.Descripcion);
+                archivo.WriteLine("--------------------------------");
 
                 actual = actual.Siguiente;
             }
 
-            Console.WriteLine(
-                "Historial exportado en: " +
-                Path.GetFullPath(nombreArchivo)
-            );
+            Console.WriteLine("Historial exportado en: " + Path.GetFullPath(nombreArchivo));
         }
     }
 }
