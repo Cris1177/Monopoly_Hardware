@@ -149,6 +149,11 @@ namespace Monopoly
 
                         // Procesar la tirada (esto mueve al jugador y ejecuta la casilla en el motor)
                         var respuesta = _procesador.Procesar(mensaje);
+                        if (respuesta?.Exito != true)
+                        {
+                            Console.WriteLine($"[Dado] Rechazado: {respuesta?.Descripcion}");
+                            return;
+                        }
 
                         // Verificar si el jugador actual cayó en una propiedad que SÍ se puede comprar
                         bool casillaEsComprable = false;

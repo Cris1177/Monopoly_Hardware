@@ -67,6 +67,12 @@ namespace Monopoly.Comunicacion
                 return CrearRespuesta(solicitud, false, "No hay un jugador activo para este turno.");
             }
 
+            // Regla del enunciado: un solo lanzamiento de dados por turno
+            if (_juego.DadosLanzados)
+            {
+                return CrearRespuesta(solicitud, false, "Ya se lanzaron los dados en este turno.");
+            }
+
             int valorDado = 0;
 
             // 1. Obtener el valor del dado desde la Pico
@@ -82,7 +88,7 @@ namespace Monopoly.Comunicacion
             if (valorDado > 0)
             {
                 // Movemos al jugador y procesamos la casilla
-                _juego.MoverYProcesar(jugador, valorDado);
+                _juego.TirarDados(valorDado);
 
                 // PASO 3: Evaluar si cayó en una propiedad comprable para pedir confirmación por RFID
                 if (jugador.Posicion?.Dato is Propiedad propiedad && propiedad.EstaDisponible())
