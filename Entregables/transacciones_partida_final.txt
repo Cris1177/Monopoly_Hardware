@@ -1,0 +1,326 @@
+=== HISTORIAL DE TRANSACCIONES ===
+
+ID: 1
+Fecha: 10/1/2026 7:59:22 AM
+Turno: 1
+Tipo: Compra
+Origen: Christian
+Destino: Banco
+Monto: 140
+Descripción: Compra de Plaza St. Charles
+--------------------------------
+ID: 2
+Fecha: 10/1/2026 7:59:29 AM
+Turno: 2
+Tipo: Ganancia por evento
+Origen: Banco
+Destino: Isaac
+Monto: 500
+Descripción: Recibes 500 del banco.
+--------------------------------
+ID: 3
+Fecha: 10/1/2026 7:59:40 AM
+Turno: 3
+Tipo: Compra
+Origen: Ulfran
+Destino: Banco
+Monto: 60
+Descripción: Compra de Avenida Coto Brus
+--------------------------------
+ID: 4
+Fecha: 10/1/2026 7:59:46 AM
+Turno: 4
+Tipo: Alquiler
+Origen: Fabricio
+Destino: Ulfran
+Monto: 10
+Descripción: Alquiler de Avenida Coto Brus
+--------------------------------
+ID: 5
+Fecha: 10/1/2026 8:00:05 AM
+Turno: 5
+Tipo: Compra
+Origen: Christian
+Destino: Banco
+Monto: 150
+Descripción: Compra de Compañía ICE
+--------------------------------
+ID: 6
+Fecha: 10/1/2026 8:00:22 AM
+Turno: 6
+Tipo: Compra
+Origen: Isaac
+Destino: Banco
+Monto: 100
+Descripción: Compra de Avenida Vermont
+--------------------------------
+ID: 7
+Fecha: 10/1/2026 8:00:46 AM
+Turno: 8
+Tipo: Alquiler
+Origen: Fabricio
+Destino: Christian
+Monto: 25
+Descripción: Alquiler de Plaza St. Charles
+--------------------------------
+ID: 8
+Fecha: 10/1/2026 8:01:03 AM
+Turno: 9
+Tipo: Compra
+Origen: Christian
+Destino: Banco
+Monto: 200
+Descripción: Compra de Ferrocarril de Pacífico
+--------------------------------
+ID: 9
+Fecha: 10/1/2026 8:01:16 AM
+Turno: 10
+Tipo: Compra
+Origen: Isaac
+Destino: Banco
+Monto: 120
+Descripción: Compra de Avenida Manuel de Jesús
+--------------------------------
+ID: 10
+Fecha: 10/1/2026 8:01:20 AM
+Turno: 11
+Tipo: Alquiler
+Origen: Ulfran
+Destino: Christian
+Monto: 25
+Descripción: Alquiler de Plaza St. Charles
+--------------------------------
+ID: 11
+Fecha: 10/1/2026 8:01:31 AM
+Turno: 12
+Tipo: Compra
+Origen: Fabricio
+Destino: Banco
+Monto: 200
+Descripción: Compra de Avenida San Pedro
+--------------------------------
+ID: 12
+Fecha: 10/1/2026 8:01:38 AM
+Turno: 13
+Tipo: Compra
+Origen: Christian
+Destino: Banco
+Monto: 220
+Descripción: Compra de Avenida Cartago City
+--------------------------------
+ID: 13
+Fecha: 10/1/2026 8:01:52 AM
+Turno: 14
+Tipo: Compra
+Origen: Isaac
+Destino: Banco
+Monto: 140
+Descripción: Compra de Avenida Aurora
+--------------------------------
+ID: 14
+Fecha: 10/1/2026 8:02:01 AM
+Turno: 15
+Tipo: Compra
+Origen: Ulfran
+Destino: Banco
+Monto: 160
+Descripción: Compra de Avenida Purral
+--------------------------------
+ID: 15
+Fecha: 10/1/2026 8:02:04 AM
+Turno: 16
+Tipo: Recompensa por pasar Inicio
+Origen: Banco
+Destino: Fabricio
+Monto: 200
+Descripción: Recompensa por pasar por Inicio
+--------------------------------
+ID: 16
+Fecha: 10/1/2026 8:02:10 AM
+Turno: 17
+Tipo: Recompensa por pasar Inicio
+Origen: Banco
+Destino: Christian
+Monto: 200
+Descripción: Recompensa por pasar por Inicio
+--------------------------------
+ID: 17
+Fecha: 10/1/2026 8:02:10 AM
+Turno: 17
+Tipo: Alquiler
+Origen: Christian
+Destino: Isaac
+Monto: 20
+Descripción: Alquiler de Avenida Manuel de Jesús
+--------------------------------
+ID: 18
+Fecha: 10/1/2026 8:02:19 AM
+Turno: 18
+Tipo: Compra
+Origen: Isaac
+Destino: Banco
+Monto: 180
+Descripción: Compra de Plaza Guápiles de Limón
+--------------------------------
+ID: 19
+Fecha: 10/1/2026 8:02:26 AM
+Turno: 19
+Tipo: Pago por evento
+Origen: Ulfran
+Destino: Banco
+Monto: 300
+Descripción: Debes pagar 300 al banco.
+--------------------------------
+ID: 20
+Fecha: 10/1/2026 8:02:35 AM
+Turno: 20
+Tipo: Compra
+Origen: Fabricio
+Destino: Banco
+Monto: 200
+Descripción: Compra de Ferrocarril de Reading
+--------------------------------
+ID: 21
+Fecha: 10/1/2026 8:02:40 AM
+Turno: 21
+Tipo: Alquiler
+Origen: Christian
+Destino: Ulfran
+Monto: 30
+Descripción: Alquiler de Avenida Purral
+--------------------------------
+ID: 22
+Fecha: 10/1/2026 8:02:47 AM
+Turno: 22
+Tipo: Alquiler
+Origen: Isaac
+Destino: Fabricio
+Monto: 40
+Descripción: Alquiler de Avenida San Pedro
+--------------------------------
+ID: 23
+Fecha: 10/1/2026 8:02:52 AM
+Turno: 23
+Tipo: Recompensa por pasar Inicio
+Origen: Banco
+Destino: Ulfran
+Monto: 200
+Descripción: Recompensa por pasar por Inicio
+--------------------------------
+ID: 24
+Fecha: 10/1/2026 8:02:58 AM
+Turno: 24
+Tipo: Alquiler
+Origen: Fabricio
+Destino: Christian
+Monto: 25
+Descripción: Alquiler de Plaza St. Charles
+--------------------------------
+ID: 25
+Fecha: 10/1/2026 8:03:07 AM
+Turno: 26
+Tipo: Recompensa por pasar Inicio
+Origen: Banco
+Destino: Isaac
+Monto: 200
+Descripción: Recompensa por pasar por Inicio
+--------------------------------
+ID: 26
+Fecha: 10/1/2026 8:03:16 AM
+Turno: 28
+Tipo: Alquiler
+Origen: Fabricio
+Destino: Ulfran
+Monto: 30
+Descripción: Alquiler de Avenida Purral
+--------------------------------
+ID: 27
+Fecha: 10/1/2026 8:03:23 AM
+Turno: 29
+Tipo: Compra
+Origen: Christian
+Destino: Banco
+Monto: 180
+Descripción: Compra de Avenida Alajuelita
+--------------------------------
+ID: 28
+Fecha: 10/1/2026 8:03:27 AM
+Turno: 30
+Tipo: Pago al banco
+Origen: Isaac
+Destino: Banco
+Monto: 200
+Descripción: Pago de Impuesto sobre la Renta
+--------------------------------
+ID: 29
+Fecha: 10/1/2026 8:03:37 AM
+Turno: 32
+Tipo: Recompensa por pasar Inicio
+Origen: Banco
+Destino: Christian
+Monto: 200
+Descripción: Recompensa por pasar por Inicio
+--------------------------------
+ID: 30
+Fecha: 10/1/2026 8:03:49 AM
+Turno: 34
+Tipo: Compra
+Origen: Ulfran
+Destino: Banco
+Monto: 220
+Descripción: Compra de Avenida Desamparados
+--------------------------------
+ID: 31
+Fecha: 10/1/2026 8:03:52 AM
+Turno: 35
+Tipo: Recompensa por pasar Inicio
+Origen: Banco
+Destino: Fabricio
+Monto: 200
+Descripción: Recompensa por pasar por Inicio
+--------------------------------
+ID: 32
+Fecha: 10/1/2026 8:03:57 AM
+Turno: 36
+Tipo: Alquiler
+Origen: Christian
+Destino: Isaac
+Monto: 20
+Descripción: Alquiler de Avenida Manuel de Jesús
+--------------------------------
+ID: 33
+Fecha: 10/1/2026 8:04:02 AM
+Turno: 37
+Tipo: Alquiler
+Origen: Isaac
+Destino: Christian
+Monto: 35
+Descripción: Alquiler de Ferrocarril de Pacífico
+--------------------------------
+ID: 34
+Fecha: 10/1/2026 8:04:05 AM
+Turno: 38
+Tipo: Recompensa por pasar Inicio
+Origen: Banco
+Destino: Ulfran
+Monto: 200
+Descripción: Recompensa por pasar por Inicio
+--------------------------------
+ID: 35
+Fecha: 10/1/2026 8:04:08 AM
+Turno: 39
+Tipo: Alquiler
+Origen: Fabricio
+Destino: Ulfran
+Monto: 10
+Descripción: Alquiler de Avenida Coto Brus
+--------------------------------
+ID: 36
+Fecha: 10/1/2026 8:04:11 AM
+Turno: 40
+Tipo: Alquiler
+Origen: Christian
+Destino: Ulfran
+Monto: 30
+Descripción: Alquiler de Avenida Purral
+--------------------------------
