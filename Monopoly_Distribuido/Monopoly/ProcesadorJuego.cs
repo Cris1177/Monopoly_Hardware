@@ -44,6 +44,7 @@ namespace Monopoly.Comunicacion
                 TipoAccion.PAGAR => ProcesarPagar(solicitud),
                 TipoAccion.TERMINAR_TURNO => ProcesarTerminarTurno(solicitud),
                 TipoAccion.CONSULTAR_ESTADO => ProcesarConsultarEstado(solicitud),
+                TipoAccion.CONSULTAR_TRANSACCIONES => ProcesarConsultarTransacciones(solicitud),
                 _ => CrearRespuesta(solicitud, false, "Acción no reconocida o no soportada.")
             };
         }
@@ -244,6 +245,55 @@ namespace Monopoly.Comunicacion
                 Exito = true,
                 Descripcion = "Estado actual del juego.",
                 Datos = JsonSerializer.SerializeToElement(estado)
+            };
+        }
+
+        // Devuelve el historial de transacciones (de la más antigua a la más reciente)
+        // y además regenera el archivo transacciones.txt en la carpeta del servidor.
+        private Mensaje ProcesarConsultarTransacciones(Mensaje solicitud)
+        {
+            var banco = _juego.Banco;
+
+            // Primero se cuenta cuántas hay, para usar un arreglo simple (sin List)
+            int total = 0;
+            var nodo = banco.Historial.Cabeza;
+            while (nodo != null)
+            {
+                total++;
+                nodo = nodo.Siguiente;
+            }
+
+            // Se recorre la lista doble desde la cabeza (más antigua) hasta la cola
+            var items = new object[total];
+            nodo = banco.Historial.Cabeza;
+            int i = 0;
+            while (nodo != null)
+            {
+                var t = nodo.Dato;
+                items[i++] = new
+                {
+                    Id = t.Id,
+                    Fecha = t.FechaHora.ToString(),
+                    Turno = t.NumeroTurno,
+                    Tipo = t.Tipo,
+                    Origen = t.Origen?.Nombre ?? "Banco",
+                    Destino = t.Destino?.Nombre ?? "Banco",
+                    Monto = t.Monto,
+                    Descripcion = t.Descripcion
+                };
+                nodo = nodo.Siguiente;
+            }
+
+            // Genera el TXT que pide el enunciado
+            banco.ExportarHistorial("transacciones.txt");
+
+            return new Mensaje
+            {
+                Accion = solicitud.Accion,
+                IdJugador = solicitud.IdJugador,
+                Exito = true,
+                Descripcion = $"Historial: {total} transacciones. Archivo transacciones.txt generado.",
+                Datos = JsonSerializer.SerializeToElement(items)
             };
         }
 
