@@ -187,6 +187,28 @@ namespace Monopoly.Comunicacion
         private Mensaje ProcesarConsultarEstado(Mensaje solicitud)
         {
             Jugador? actual = _juego.ObtenerJugadorActual();
+            // Dueño de cada casilla: -1 = libre o no es propiedad. Se indexa por Id de casilla.
+            // Se usa un arreglo simple (no List) y se recorre la lista circular del tablero.
+            var cabeza = _juego.Tablero.Casillas.Cabeza;
+            int totalCasillas = 0;
+            if (cabeza != null)
+            {
+                var nodoConteo = cabeza;
+                do { totalCasillas++; nodoConteo = nodoConteo.Siguiente; } while (nodoConteo != cabeza);
+            }
+            int[] duenos = new int[totalCasillas];
+            for (int i = 0; i < totalCasillas; i++) duenos[i] = -1;
+            if (cabeza != null && totalCasillas > 0)
+            {
+                var nodo = cabeza;
+                do
+                {
+                    if (nodo.Dato is Propiedad prop && prop.Dueno != null)
+                        duenos[nodo.Dato.Id % totalCasillas] = prop.Dueno.Id;
+                    nodo = nodo.Siguiente;
+                } while (nodo != cabeza);
+            }
+
             // Los 4 jugadores en un arreglo, solo para poder recorrerlos al armar el estado
             var todos = new[] { _juego.Jugador1, _juego.Jugador2, _juego.Jugador3, _juego.Jugador4 };
 
@@ -198,6 +220,7 @@ namespace Monopoly.Comunicacion
                 JugadoresActivos = _juego.CantidadJugadoresActivos(),
                 JuegoTerminado = _juego.JuegoTerminado(),
                 DadosLanzados = _juego.DadosLanzados,
+                Duenos = duenos,
 
                 // Lo que la pantalla necesita para dibujar: el cliente solo lee esto,
                 // nunca lo modifica (el estado oficial vive en el servidor)

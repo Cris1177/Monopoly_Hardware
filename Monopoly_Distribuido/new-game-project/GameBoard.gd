@@ -512,6 +512,13 @@ func _on_estado(json: String) -> void:
 		# Módulo por si el tablero del servidor tuviera más casillas que la pantalla
 		players[index]["position"] = int(info["Posicion"]) % SPACES.size()
 		players[index]["active"] = bool(info["Activo"])
+	# Dueños de propiedades: indice = casilla, valor = id del jugador (-1 = libre)
+	var duenos: Array = data.get("Duenos", [])
+	for space_index in owners.size():
+		owners[space_index] = -1
+	for space_index in duenos.size():
+		if space_index < owners.size() and int(duenos[space_index]) > 0:
+			owners[space_index] = int(duenos[space_index]) - 1
 	if data["JugadorActualId"] != null:
 		current_player = int(data["JugadorActualId"]) - 1
 	turn_number = int(data["Turno"])
