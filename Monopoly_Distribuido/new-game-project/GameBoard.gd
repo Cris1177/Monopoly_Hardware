@@ -526,6 +526,18 @@ func _on_estado(json: String) -> void:
 	game_over = bool(data["JuegoTerminado"])
 	_refresh_interface()
 	dice_label.text = "DADOS   lanzados" if has_rolled else "DADOS   -  -"
+	# Fin de partida: el servidor decide el ganador (mayor patrimonio = saldo + propiedades)
+	if game_over:
+		var ganador: Variant = data.get("Ganador", null)
+		if ganador != null:
+			log_label.text = "PARTIDA TERMINADA. Gana %s" % str(ganador)
+		else:
+			log_label.text = "PARTIDA TERMINADA."
+		dice_label.text = "FIN DE LA PARTIDA"
+		var resumen := "Patrimonio final\n"
+		for info in data["Jugadores"]:
+			resumen += "%s  $%d\n" % [info["Nombre"], int(info.get("Patrimonio", info["Saldo"]))]
+		detail_label.text = resumen
 	# Solo el jugador en turno puede usar los botones (el servidor también lo valida)
 	var mi_turno := (current_player + 1) == my_id
 	roll_button.disabled = roll_button.disabled or not mi_turno

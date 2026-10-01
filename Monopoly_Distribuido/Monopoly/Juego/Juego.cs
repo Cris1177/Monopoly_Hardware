@@ -35,7 +35,7 @@ namespace Monopoly.Juego
 
             turnos = new ColaCircular<Jugador>();
             cartasEvento = new ColaCircular<CartaEvento>();
-            MaximoTurnos = 50;
+            MaximoTurnos = 40; // 10 turnos por jugador (4 jugadores)
 
             dadosLanzados = false;
             Banco = new Banco();

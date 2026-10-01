@@ -222,6 +222,8 @@ namespace Monopoly.Comunicacion
                 JuegoTerminado = _juego.JuegoTerminado(),
                 DadosLanzados = _juego.DadosLanzados,
                 Duenos = duenos,
+                // Solo hay ganador cuando la partida terminó (mayor patrimonio entre los activos)
+                Ganador = _juego.JuegoTerminado() ? _juego.ObtenerGanador()?.Nombre : null,
 
                 // Lo que la pantalla necesita para dibujar: el cliente solo lee esto,
                 // nunca lo modifica (el estado oficial vive en el servidor)
@@ -231,6 +233,7 @@ namespace Monopoly.Comunicacion
                         Id = j.Id,
                         Nombre = j.Nombre,
                         Saldo = j.Saldo,
+                        Patrimonio = j.CalcularPatrimonio(), // saldo + valor de propiedades
                         Activo = j.Activo,
                         EnCarcel = j.EnCarcel,
                         // Posicion es un nodo de la lista circular: mandamos el Id de su casilla
