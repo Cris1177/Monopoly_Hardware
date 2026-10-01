@@ -15,6 +15,10 @@ public partial class ClienteRedNode : Node
 	[Signal]
 	public delegate void MensajeServidorEventHandler(string accion, bool exito, string descripcion);
 
+	// Llega la lista de transacciones (JSON) cuando el servidor responde CONSULTAR_TRANSACCIONES
+	[Signal]
+	public delegate void HistorialRecibidoEventHandler(string json);
+
 	private Cliente? _cliente;
 	private bool _conectado;
 	private double _tiempo; // acumula segundos para pedir el estado cada 1 s
@@ -64,6 +68,14 @@ public partial class ClienteRedNode : Node
 	// Corre en el hilo de red: pasa todo al hilo principal con CallDeferred
 	private void AlRecibir(Mensaje msg)
 	{
+		// El historial le llega solo a quien lo pidió: se lo pasamos a la pantalla como JSON
+		if (msg.Accion == TipoAccion.CONSULTAR_TRANSACCIONES && msg.Datos.HasValue)
+		{
+			string jsonHistorial = msg.Datos.Value.GetRawText();
+			Callable.From(() => EmitSignal(SignalName.HistorialRecibido, jsonHistorial)).CallDeferred();
+			return;
+		}
+
 		if (msg.Accion == TipoAccion.CONSULTAR_ESTADO && msg.Datos.HasValue)
 		{
 			string json = msg.Datos.Value.GetRawText();

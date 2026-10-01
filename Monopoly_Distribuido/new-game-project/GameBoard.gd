@@ -54,6 +54,9 @@ var roll_button: Button
 var buy_button: Button
 var end_turn_button: Button
 var net: Node  # nodo C# que habla con el servidor
+var history_button: Button
+var history_panel: PanelContainer
+var history_text: RichTextLabel
 var my_id := MY_ID            # se puede cambiar con --id=N al abrir el juego
 var server_ip := SERVER_IP     # se puede cambiar con --ip=X.X.X.X
 
@@ -78,6 +81,8 @@ func _ready() -> void:
 	add_child(net)
 	net.connect("EstadoRecibido", _on_estado)
 	net.connect("MensajeServidor", _on_mensaje)
+	net.connect("HistorialRecibido", _on_historial)
+	_build_history_ui()
 	if not net.Conectar(server_ip, my_id):
 		log_label.text = "Sin conexión con el servidor en %s" % server_ip
 
@@ -551,3 +556,69 @@ func _on_mensaje(accion: String, exito: bool, descripcion: String) -> void:
 		log_label.text = "Conectado al servidor."
 	else:
 		log_label.text = descripcion
+
+
+# ---------- Historial de transacciones: se pide al servidor y solo se muestra ----------
+
+# Crea el botón "Historial" (esquina inferior derecha) y la ventana con la lista
+func _build_history_ui() -> void:
+	history_button = _make_button("Historial", Color("#3d7a5c"), Color("#ffffff"))
+	history_button.custom_minimum_size = Vector2(140, 42)
+	history_button.pressed.connect(_on_history_pressed)
+	add_child(history_button)
+	# Anclas explícitas a la esquina inferior derecha: el botón crece hacia adentro
+	# y no se corta aunque cambie el tamaño de la ventana
+	history_button.anchor_left = 1.0
+	history_button.anchor_right = 1.0
+	history_button.anchor_top = 1.0
+	history_button.anchor_bottom = 1.0
+	history_button.offset_left = -160.0
+	history_button.offset_right = -16.0
+	history_button.offset_top = -58.0
+	history_button.offset_bottom = -16.0
+	history_button.grow_horizontal = Control.GROW_DIRECTION_BEGIN
+	history_button.grow_vertical = Control.GROW_DIRECTION_BEGIN
+
+	history_panel = PanelContainer.new()
+	history_panel.visible = false
+	history_panel.custom_minimum_size = Vector2(640, 480)
+	history_panel.add_theme_stylebox_override("panel", _panel_style(Color("#142923"), Color("#4a7a63"), 10))
+	add_child(history_panel)
+	history_panel.set_anchors_and_offsets_preset(Control.PRESET_CENTER, Control.PRESET_MODE_MINSIZE)
+
+	var box := VBoxContainer.new()
+	box.add_theme_constant_override("separation", 10)
+	history_panel.add_child(box)
+	box.add_child(_make_label("HISTORIAL DE TRANSACCIONES", 16, Color("#f0d15c")))
+
+	history_text = RichTextLabel.new()
+	history_text.size_flags_vertical = Control.SIZE_EXPAND_FILL
+	history_text.custom_minimum_size = Vector2(600, 360)
+	history_text.scroll_active = true
+	history_text.add_theme_color_override("default_color", Color("#e8efe9"))
+	box.add_child(history_text)
+
+	var close := _make_button("Cerrar", Color("#34483d"), Color("#ffffff"))
+	close.pressed.connect(func(): history_panel.visible = false)
+	box.add_child(close)
+
+
+# Al apretar el botón: pide el historial (el servidor además regenera transacciones.txt)
+func _on_history_pressed() -> void:
+	history_text.text = "Pidiendo el historial al servidor..."
+	history_panel.visible = true
+	net.Enviar("CONSULTAR_TRANSACCIONES")
+
+
+# Llega la lista del servidor (de la más antigua a la más reciente): solo se muestra
+func _on_historial(json: String) -> void:
+	var items: Variant = JSON.parse_string(json)
+	if typeof(items) != TYPE_ARRAY:
+		return
+	var lista: Array = items
+	var texto := "Total: %d transacciones\n\n" % lista.size()
+	for t in lista:
+		texto += "#%d  Turno %d  ·  %s\n" % [int(t["Id"]), int(t["Turno"]), str(t["Tipo"])]
+		texto += "    %s  →  %s   $%d\n" % [str(t["Origen"]), str(t["Destino"]), int(t["Monto"])]
+		texto += "    %s\n\n" % str(t["Descripcion"])
+	history_text.text = texto
